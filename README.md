@@ -7,13 +7,13 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ## Contents
 |  Name  |  Description  |  URL  |
 | :-----:| :------------:| :----:|
-| **Introduction**| Placeholder   | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
-| **Basic Prompting**| Placeholder    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
-| **Intermediate Prompting**| Placeholder    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
-| **Advanced Prompting**| Placeholder    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
-| **Image Prompting**| Placeholder    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
-| **AI Tools**| Placeholder    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
-| **Talks/Slides**| Placeholder    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **Introduction**|  An Introduction to designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.  | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **Basic Prompting**|   Beginner-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models. | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **Intermediate Prompting**| Intermediate-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.     | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **Advanced Prompting**| Advanced-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **Image Prompting**| Material about a technique in which a machine learning model is used to generate images based on a given textual prompt.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **AI Tools**| A collection of software, applications, frameworks, and libraries designed to support the development and implementation of Artificial Intelligence algorithms and applications.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
+| **Talks/Slides**| Presentations, speeches, or discussions that revolve around topics related to Artificial Intelligence.     | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
 | **Articles**| AI articles are written pieces of content that explore topics related to Artificial Intelligence. These articles cover various subjects such as AI technologies, applications, research, trends, challenges, and ethical considerations.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
 | **Resources**| A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
 | **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering)|
