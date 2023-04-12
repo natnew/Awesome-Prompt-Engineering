@@ -21,10 +21,12 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 
 
-
 ---
 ## Announcements :eyes: 
 ##### Watch this repository to keep up-to-date with the latest updates and announcements. 
+
+---
+## Prompt Engineering Ebook, Guides and Cheat Sheets
 ---
 ## Contributions
 ##### Many thanks to our contributors. Want to contribute? Get in touch [here](https://www.linkedin.com/in/natasha-newbold/). 
