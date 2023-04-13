@@ -1,4 +1,4 @@
-## Intermediate prompting
+## Intermediate Prompting
 Intermediate prompting is an advanced technique in prompt engineering that enables AI models to generate more nuanced and complex outputs. 
 There are several methods of intermediate prompting, including chain-of-thought, zero-shot, self-consistency, and least-to-most prompting. 
 Chain-of-thought prompting involves breaking down a complex task into a sequence of smaller tasks and prompting the AI model with each task in succession. 
