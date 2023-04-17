@@ -27,6 +27,9 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 ---
 ## Prompt Engineering Ebooks, Guides and Cheat Sheets
+
+##### [EBook: The Creative Side of AI: Mastering the Art of Prompt Engineering](https://natashanewbold.gumroad.com/l/zctxdh)
+
 ---
 ## Contributions
 ##### Many thanks to our contributors. Want to contribute? Get in touch [here](https://www.linkedin.com/in/natasha-newbold/). 
