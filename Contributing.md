@@ -9,7 +9,7 @@ Ensure your pull request adheres to the following guidelines:
 - **The submitted project should be more than 30 days old and the repo should have at least 60 stars.**
 - The intent of this list is to gather awesome packages *that most users would need*. This is not the place for niche things, except in the “Mad science” category.
 - Don't open a Draft / WIP pull request while you work on the guidelines. A pull request should be 100% ready and should adhere to all the guidelines when you open it.
-- Keep in mind that the list is very mature by now, so the bar of getting something accepted is high. Only submit something unique and generally useful. 
+- Keep in mind that the list is very mature by now, so the bar of getting something accepted is high. Only submit something unique and generally useful.
 - Boilerplates are not accepted as most boilerplates are too opinionated and low-quality and I don't have time to comment on everything they need to improve.
 - If you submit a project that is similar to an existing project in the list, argue how it's better.
 - Search previous suggestions before making a new one, as yours may be a duplicate.
@@ -30,6 +30,10 @@ Ensure your pull request adheres to the following guidelines:
 - New categories or improvements to the existing categorization are welcome, but should be done in a separate pull request.
 
 Thank you for your suggestion!
+
+### Workflow of a PR
+
+Please visit the [Workflow](Workflow.md) page to learn about our PR workflow.
 
 ### Updating your PR
 
