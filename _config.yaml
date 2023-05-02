@@ -1,0 +1,13 @@
+markdown: GFM
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - AI Glossary.csv
+  - AI_Tools.md
+  - Advanced_Prompting.md
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+- jemoji
