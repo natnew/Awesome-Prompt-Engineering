@@ -7,6 +7,19 @@ A collection of resources that provide information, guidance, and tools related 
 ### Books and publications: 
 
 ### Research papers and articles: 
+|  Name  |  Description  |  URL  | Year 
+| :-----:| :------------:| :----:| :----:   
+| Attention Is All You Need |  Introduction to the Transformer model. |  [URL](https://arxiv.org/abs/1706.03762)  | 2017
+| ImageNet Classification with Deep Convolutional Neural Networks | Introduction to the concept of deep learning and convolutional neural networks| [URL](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | 2012
+| Generative Adversarial Networks | Introduction to the concept of generative adversarial networks  | [URL](https://arxiv.org/abs/1406.2661)  | 2014
+| Playing Atari with Deep Reinforcement Learning | Demonstrates that deep reinforcement learning can be used to learn to play Atari games                                    | [URL](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) | 2013
+|  BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Introduction to the BERT model | [URL](https://arxiv.org/abs/1810.04805)| 2018
+|  Deep Residual Learning for Image Recognition | Introduction to ResNet | [URL](https://arxiv.org/abs/1512.03385)  | 2016
+| AlphaGo: Mastering the game of Go with deep neural networks and tree search  | Introduction to the AlphaGo system | {UURL](https://www.nature.com/articles/nature16961) | 2016
+| Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks| Introduction to the attention mechanism for neural machine translation                                   |  [UURL](https://arxiv.org/abs/1511.06434)   | 2016
+| DeepFace: Closing the Gap to Human-Level Performance in Face Verification | Introduction to the DeepFace model|  [UURL](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)   | 2014
+|  Neural Ordinary Differential Equations | Introduction to the concept of neural ordinary differential equations |  [UURL](https://arxiv.org/abs/1806.07366)   | 2018
+|  The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks |  Introduction to the idea that large neural networks contain smaller "winning tickets"  |  [UURL](https://arxiv.org/abs/1803.03635)   |2019
 
 ### AI communities and forums: 
 * [Kaggle:](https://www.kaggle.com/)
