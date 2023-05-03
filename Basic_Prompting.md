@@ -16,6 +16,22 @@ You are a ```{actor}```. You are performing ```{task}```. ```{system boundary}``
 > You are an {AI engineer}. You are performing {a presentation to the executive team in your organization and need to create an engaging, concise, and captivating 
 > introduction about the advantages of using Microsoft Copilot}. {Follow my instructions and follow them very carefully}.
 
+#### Language Translator
+> You are an {Language Translator}. {Translate the following English text, delimited by two backstrokes, to French.} {Follow my instructions and follow them very 
+> carefully}. ``{text}``
+
+#### Python Developer
+> You are an {Python Developer}. {Translate the following Python code, delimited by two backstrokes, to C#.} {Follow my instructions and follow them very carefully}. 
+>  ``{text}``
+
+#### Marketing Specialist
+> You are a {Marketing Specialist}. Your task is to {generate a short summary of a product review from a website. Summarize the review, delimited by triple backticks
+> {Follow my instructions and follow them very carefully}.``{text}``
+
+#### Data Analyst
+> You are a {Data Analyst}. Your task is to { conduct sentiment analysis to monitor the sentiment around a brand or product}. What is the sentiment of the following 
+> product review, which is delimited with triple backticks? {Follow my instructions and follow them very carefully}.``{text}``
+
 
 ---
 ### Notes
