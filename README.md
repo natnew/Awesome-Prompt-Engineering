@@ -7,16 +7,16 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ## Contents
 |  Name  |  Description  |  URL  |
 | :-----:| :------------:| :----:|
-| **Introduction**|  An Introduction to designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.  | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Introduction.md)|
-| **Basic Prompting**|   Beginner-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models. | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Basic_Prompting.md)|
-| **Intermediate Prompting**| Intermediate-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.     | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Intermediate_Prompting.md)|
-| **Advanced Prompting**| Advanced-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Advanced_Prompting.md)|
-| **Image Prompting**| Material about a technique in which a machine learning model is used to generate images based on a given textual prompt.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Image_Prompting.md)|
+| **Introduction**|  An Introduction to designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.  | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Introduction.html)|
+| **Basic Prompting**|   Beginner-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models. | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Basic_Prompting.html)|
+| **Intermediate Prompting**| Intermediate-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.     | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Intermediate_Prompting.html)|
+| **Advanced Prompting**| Advanced-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.    | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Advanced_Prompting.html)|
+| **Image Prompting**| Material about a technique in which a machine learning model is used to generate images based on a given textual prompt.    | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Image_Prompting.html)|
 | **AI Tools**| A collection of software, applications, frameworks, and libraries designed to support the development and implementation of Artificial Intelligence algorithms and applications.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Tools.html)|
-| **Talks/Slides**| Presentations, speeches, or discussions that revolve around topics related to Artificial Intelligence.     | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Talks_Slides.md)|
-| **Articles**| AI articles are written pieces of content that explore topics related to Artificial Intelligence. These articles cover various subjects such as AI technologies, applications, research, trends, challenges, and ethical considerations.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Articles.md)|
-| **Resources**| A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Resources.md)|
-| **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/AI%20Glossary.csv)|
+| **Talks/Slides**| Presentations, speeches, or discussions that revolve around topics related to Artificial Intelligence.     | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Talks_Slides.html)|
+| **Articles**| AI articles are written pieces of content that explore topics related to Artificial Intelligence. These articles cover various subjects such as AI technologies, applications, research, trends, challenges, and ethical considerations.    | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Articles.html)|
+| **Resources**| A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/Resources.html)|
+| **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/natnew/Awesome-Prompt-Engineering/blob/main/AI%20Glossary.csv)|
 
 
 
