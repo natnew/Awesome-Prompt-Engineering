@@ -16,7 +16,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 | **Talks/Slides**| Presentations, speeches, or discussions that revolve around topics related to Artificial Intelligence.     | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Talks_Slides.html)|
 | **Articles**| AI articles are written pieces of content that explore topics related to Artificial Intelligence. These articles cover various subjects such as AI technologies, applications, research, trends, challenges, and ethical considerations.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Articles.html)|
 | **Resources**| A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Resources.html)|
-| **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_20Glossary.html)|
+| **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Glossary.html)|
 
 
 
