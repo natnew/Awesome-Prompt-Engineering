@@ -1,3 +1,4 @@
+[Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 ## Basic Prompting
 Basic Prompting is a crucial component of AI Prompt Engineering, which involves designing prompts for AI models to generate natural language text. 
 It's essential to understand the different ways in which prompt engineering can be used. Instruction Prompts provide models with clear instructions 
