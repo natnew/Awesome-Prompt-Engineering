@@ -36,7 +36,7 @@
 **Data Lake** |** |	A storage repository that allows organizations to store large amounts of structured, semi-structured, and unstructured data at scale.<br>
 **Data mining** |	The process of discovering patterns and insights from large amounts of data, typically using statistical and computational methods.<br>
 **Data pipeline** |	A series of automated processes that extract, transform, and load data from various sources into a target system.<br>
-**Data profiling** |** |	The process of analyzing and assessing the quality, completeness, and consistency of a dataset.<br>
+**Data profiling** |	The process of analyzing and assessing the quality, completeness, and consistency of a dataset.<br>
 **Data quality** |	The accuracy, completeness, consistency, and timeliness of data. Data Stewardship - The ongoing management and maintenance of data to ensure its accuracy, completeness, and consistency.<br>
 **Data stewardship** |	The ongoing management and maintenance of data to ensure its accuracy, completeness, and consistency.<br>
 **Data wrangling** |	The process of cleaning, transforming, and preparing raw data for analysis or modeling.<br>
@@ -108,3 +108,5 @@
 **Unsupervised** | learning	A type of machine learning in which the model is trained on unlabeled data and must identify patterns and structures on its own.<br>
 **Variable** |	A named container that holds a value or reference to a value in computer programming.<br>
 **Variational Autoencoder (VAE)** |	An extension of the autoencoder architecture that learns a probability distribution over the compressed representations of input data, allowing for the generation of new, similar data points.<br>
+
+[CSV](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/AI%20Glossary.csv)
