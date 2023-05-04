@@ -12,4 +12,5 @@ learn more about this exciting field and to contribute to its continued growth a
 
 ---
 ### Notes
-Feedback and suggestions are welcome! 
+Feedback and suggestions are welcome! <br>
+For more information about prompt engineering, including frequently asked questions about DALL-E and CHATGPT, please visit our [FAQ](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/FAQ.html) section.
