@@ -1,3 +1,5 @@
+[Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
+
 ## Advanced Prompting
 Advanced prompting techniques are essential for building state-of-the-art AI models that can perform complex tasks requiring reasoning and decision-making. 
 Two popular methods of advanced prompting are ReAct and HotpotQA. ReAct is a technique that combines reasoning and acting in language models, 
