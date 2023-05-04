@@ -3,6 +3,35 @@
 A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.
 
 ### Online courses and tutorials: 
+"Machine Learning" by Andrew Ng - This course is one of the most popular and highly recommended online courses on machine learning, offered by Coursera. It covers a wide range of topics, including supervised learning, unsupervised learning, and neural networks.<br>
+Link: https://www.coursera.org/learn/machine-learning 
+
+"Deep Learning" by Andrew Ng - This is another highly regarded course offered by Coursera, covering the principles and applications of deep learning. It includes topics such as convolutional neural networks, recurrent neural networks, and sequence models.<br>
+Link: https://www.coursera.org/specializations/deep-learning
+
+"CS231n: Convolutional Neural Networks for Visual Recognition" - This is a popular course on deep learning for computer vision, offered by Stanford University. It covers topics such as image classification, object detection, and visualizing and understanding convolutional neural networks.<br>
+Link: http://cs231n.stanford.edu/
+
+"CS224n: Natural Language Processing with Deep Learning" - This course, also offered by Stanford University, focuses on natural language processing (NLP) using deep learning. It covers topics such as word vectors, sequence models, and attention models.<br>
+Link: http://web.stanford.edu/class/cs224n/
+
+"Elements of AI" - This is a free online course on AI and machine learning, offered by the University of Helsinki and Reaktor. It provides an accessible introduction to key concepts in AI, including supervised learning, unsupervised learning, and ethics.<br>
+Link: https://www.elementsofai.com/
+
+"Introduction to Artificial Intelligence with Python" - This is a free course offered by IBM on Coursera that covers the basics of AI, machine learning, and natural language processing using Python. It's a great introduction to AI for beginners and requires no prior experience.<br>
+Link: https://www.coursera.org/learn/introduction-to-ai
+
+"Applied Data Science with Python" - This is a series of free courses offered by the University of Michigan on Coursera that covers the basics of data science, including machine learning and deep learning with Python. It includes five courses in total, and you can take them individually or as a series.<br>
+Link: https://www.coursera.org/specializations/data-science-python
+
+"Fast.ai" - This is a series of free courses offered by fast.ai that cover the basics of deep learning, including computer vision, natural language processing, and tabular data analysis. The courses use practical examples and hands-on coding exercises to help you learn.<br>
+Link: https://www.fast.ai/
+
+"AI For Everyone" - This is a free course offered by deeplearning.ai that provides a non-technical introduction to AI. It covers topics such as machine learning, deep learning, and neural networks, and is designed for managers, executives, and anyone else interested in learning about AI.<br>
+Link: https://www.coursera.org/learn/ai-for-everyone
+
+"Deep Reinforcement Learning" - This is a free course offered by the University of Alberta on Coursera that covers the basics of reinforcement learning, including Q-learning, policy gradients, and actor-critic methods. It includes practical examples and coding assignments.<br>
+Link: https://www.coursera.org/specializations/deep-reinforcement-learning
 
 ### Books and publications: 
 * [Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (2016) ](https://www.deeplearningbook.org/) This book is a comprehensive introduction to deep learning, covering both theoretical foundations and practical applications. It is widely regarded as one of the most authoritative and accessible texts on the subject.
@@ -72,8 +101,82 @@ A collection of resources that provide information, guidance, and tools related 
 > Stay updated on the latest trends and techniques in AI, machine learning, and data science
 
 ### AI conferences and workshops: 
+>Conference on Neural Information Processing Systems (NeurIPS) - This is one of the largest and most prestigious AI conferences in the world, covering a wide range of topics in machine learning, deep learning, and artificial intelligence.
+Link: https://neurips.cc/
+
+>International Conference on Machine Learning (ICML) - This is another major AI conference that covers topics in machine learning and deep learning, as well as related fields such as computer vision, natural language processing, and robotics.
+Link: https://icml.cc/
+
+>International Conference on Learning Representations (ICLR) - This is a conference focused on representation learning, a key area of research in machine learning and deep learning. It covers topics such as unsupervised learning, generative models, and reinforcement learning.
+Link: https://iclr.cc/
+
+>AAAI Conference on Artificial Intelligence (AAAI) - This is a conference that covers a wide range of topics in artificial intelligence, including natural language processing, computer vision, robotics, and decision making.
+Link: https://aaai.org/
+
+>Conference on Computer Vision and Pattern Recognition (CVPR) - This is a conference focused on computer vision and image processing, covering topics such as object recognition, image segmentation, and deep learning for visual recognition.
+Link: http://cvpr2022.thecvf.com/
+Conference on Neural Information Processing Systems (NeurIPS) - This is one of the largest and most prestigious AI conferences in the world, covering a wide range of topics in machine learning, deep learning, and artificial intelligence.
+Link: https://neurips.cc/
+
+International Conference on Machine Learning (ICML) - This is another major AI conference that covers topics in machine learning and deep learning, as well as related fields such as computer vision, natural language processing, and robotics.
+Link: https://icml.cc/
+
+International Conference on Learning Representations (ICLR) - This is a conference focused on representation learning, a key area of research in machine learning and deep learning. It covers topics such as unsupervised learning, generative models, and reinforcement learning.
+Link: https://iclr.cc/
+
+AAAI Conference on Artificial Intelligence (AAAI) - This is a conference that covers a wide range of topics in artificial intelligence, including natural language processing, computer vision, robotics, and decision making.
+Link: https://aaai.org/
+
+Conference on Computer Vision and Pattern Recognition (CVPR) - This is a conference focused on computer vision and image processing, covering topics such as object recognition, image segmentation, and deep learning for visual recognition.
+Link: http://cvpr2022.thecvf.com/
+
+International Joint Conference on Artificial Intelligence (IJCAI) - This is one of the oldest and most prestigious AI conferences in the world, covering topics such as knowledge representation, reasoning, planning, and natural language processing.
+Link: https://www.ijcai.org/
+
+Association for Computational Linguistics (ACL) - This is a conference focused on natural language processing and computational linguistics, covering topics such as machine translation, text classification, sentiment analysis, and dialogue systems.
+Link: https://aclweb.org/aclwiki/Conference_portal
 
 ### Open-source software and tools: 
+>[TensorFlow](https://www.tensorflow.org/) - This is an open source machine learning library developed by Google, which allows developers to create and deploy machine learning models at scale.
+
+
+>[PyTorch](https://pytorch.org/) - This is another open source machine learning library that is growing in popularity, due to its ease of use and flexibility.
+
+
+>[Keras](https://keras.io/) - This is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, Theano, or CNTK.
+
+
+>[OpenCV](https://opencv.org/) - This is an open source computer vision library that is widely used in the industry and academia for image and video processing.
+
+
+>[scikit-learn](https://scikit-learn.org/) - This is a popular machine learning library in Python that provides a range of supervised and unsupervised learning algorithms.
+
+
+>[Hugging Face](https://huggingface.co/) - This is a popular open source library for natural language processing, which provides state-of-the-art pre-trained models for a variety of NLP tasks.
+
+
+>[Jupyter Notebook](https://jupyter.org/) - This is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
+
+
+>[Apache MXNet](https://mxnet.apache.org/) - This is an open source deep learning framework that supports multiple programming languages, including Python, R, and C++. It is known for its scalability and efficiency.
+
+
+>[Microsoft Cognitive Toolkit (CNTK)](https://github.com/Microsoft/CNTK) - This is a deep learning framework developed by Microsoft, which allows developers to train and deploy machine learning models on a variety of platforms.
+
+
+>[NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) - This is a software development kit that allows developers to utilize the power of NVIDIA GPUs for parallel computing, including deep learning applications.
+
+
+>[Google Cloud AI Platform](https://developer.nvidia.com/cuda-toolkit) - This is a cloud-based platform that allows developers to build and deploy machine learning models at scale, using TensorFlow or PyTorch.
+
+
+>[FastAPI](https://fastapi.tiangolo.com/) - This is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.
+
+
+>[Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) - This is an open source toolkit developed by Unity Technologies, which allows developers to train and test intelligent agents in the Unity environment.
+
+
+Caffe - This is a deep learning framework that is particularly well-suited for image and video processing tasks.
 ---
 ### Notes
 Feedback and suggestions are welcome! <br>
