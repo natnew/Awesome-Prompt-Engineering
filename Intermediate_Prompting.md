@@ -1,3 +1,4 @@
+[Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 ## Intermediate Prompting
 Intermediate prompting is an advanced technique in prompt engineering that enables AI models to generate more nuanced and complex outputs. 
 There are several methods of intermediate prompting, including chain-of-thought, zero-shot, self-consistency, and least-to-most prompting. 
