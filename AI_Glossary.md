@@ -9,7 +9,7 @@
 **Array** |	A collection of values or elements of the same data type that are stored in a contiguous memory location in computer programming. <br>
 **Artificial intelligence (AI)** |	The ability of machines to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and natural language processing. <br>
 **Attention Mechanism** |	A technique used in neural networks to selectively focus on different parts of the input data based on their relevance to the task at hand. <br>
-****Augmented Intelligence** |	A human-centric approach to AI that focuses on using machine intelligence to augment human capabilities, rather than replace them. <br>
+**Augmented Intelligence** |	A human-centric approach to AI that focuses on using machine intelligence to augment human capabilities, rather than replace them. <br>
 **Autoencoder** |	A type of neural network used for unsupervised learning, which learns to compress and decompress data, enabling feature extraction and dimensionality reduction. <br>
 **AutoML** |	Automated Machine Learning refers to the use of automated tools and techniques to streamline the process of building and training machine learning models. <br>
 **Autonomous systems** |	Systems that can operate independently without human intervention, such as self-driving cars and unmanned aerial vehicles. <br>
@@ -33,7 +33,7 @@
 **Data Governance** |	A set of processes and policies that ensure the proper management, protection, and utilization of an organization's data assets.<br>
 **Data Imputation** |	The process of filling in missing or incomplete data with estimated values or imputed data.<br>
 **Data Integration** |	The process of combining data from multiple sources into a single, unified view.<br>
-**Data Lake** |** |	A storage repository that allows organizations to store large amounts of structured, semi-structured, and unstructured data at scale.<br>
+**Data Lake** |	A storage repository that allows organizations to store large amounts of structured, semi-structured, and unstructured data at scale.<br>
 **Data mining** |	The process of discovering patterns and insights from large amounts of data, typically using statistical and computational methods.<br>
 **Data pipeline** |	A series of automated processes that extract, transform, and load data from various sources into a target system.<br>
 **Data profiling** |	The process of analyzing and assessing the quality, completeness, and consistency of a dataset.<br>
