@@ -12,7 +12,7 @@
 ****Augmented Intelligence** |	A human-centric approach to AI that focuses on using machine intelligence to augment human capabilities, rather than replace them. <br>
 **Autoencoder** |	A type of neural network used for unsupervised learning, which learns to compress and decompress data, enabling feature extraction and dimensionality reduction. <br>
 **AutoML** |	Automated Machine Learning refers to the use of automated tools and techniques to streamline the process of building and training machine learning models. <br>
-****Autonomous systems** |	Systems that can operate independently without human intervention, such as self-driving cars and unmanned aerial vehicles. <br>
+**Autonomous systems** |	Systems that can operate independently without human intervention, such as self-driving cars and unmanned aerial vehicles. <br>
 **Backpropagation** |	A method for training neural networks by calculating the error between predicted and actual output and adjusting the weights of the network backwards through the layers. <br>
 **Bagging** |	A technique used to improve the stability and accuracy of a machine learning model by training multiple models on randomly sampled subsets of the training data and combining their predictions. <br>
 **Batch Normalization** |	A technique used to improve the training of deep neural networks by normalizing the inputs of each layer to have zero mean and unit variance over each mini-batch. <br>
@@ -60,7 +60,7 @@
 **Generative Adversarial Networks (GANs)** |	A type of deep learning model that involves two neural networks working together to generate new data, such as images or audio, that is similar to a given dataset.<br>
 **GPT-3** |	Generative Pre-trained Transformer 3 is a powerful language model created by OpenAI, capable of generating natural language text, translating languages, and answering questions.<br>
 **Gradient boosting** |	A machine learning technique that involves combining multiple weak models (usually decision trees) into a strong ensemble model, often used for regression and classification tasks.<br>
-****Gradient descent** |	A popular optimization algorithm used in machine learning to adjust the weights and biases of neural networks and other models.<br>
+**Gradient descent** |	A popular optimization algorithm used in machine learning to adjust the weights and biases of neural networks and other models.<br>
 **Human-in-the-loop (HITL)** |	An approach to AI that involves human oversight and intervention to ensure that machine learning models are accurate, ethical, and aligned with human values.<br>
 **Hyperautomation** |	A digital transformation strategy that combines AI, machine learning, and other technologies to automate and optimize business processes.<br>
 **Hyperparameter Tuning** |	The process of adjusting the settings or parameters of a machine learning algorithm to optimize its performance on a given task or dataset.<br>
