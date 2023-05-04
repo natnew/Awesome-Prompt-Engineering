@@ -118,22 +118,22 @@ Link: http://cvpr2022.thecvf.com/
 Conference on Neural Information Processing Systems (NeurIPS) - This is one of the largest and most prestigious AI conferences in the world, covering a wide range of topics in machine learning, deep learning, and artificial intelligence.
 Link: https://neurips.cc/
 
-International Conference on Machine Learning (ICML) - This is another major AI conference that covers topics in machine learning and deep learning, as well as related fields such as computer vision, natural language processing, and robotics.
+>International Conference on Machine Learning (ICML) - This is another major AI conference that covers topics in machine learning and deep learning, as well as related fields such as computer vision, natural language processing, and robotics.
 Link: https://icml.cc/
 
-International Conference on Learning Representations (ICLR) - This is a conference focused on representation learning, a key area of research in machine learning and deep learning. It covers topics such as unsupervised learning, generative models, and reinforcement learning.
+>International Conference on Learning Representations (ICLR) - This is a conference focused on representation learning, a key area of research in machine learning and deep learning. It covers topics such as unsupervised learning, generative models, and reinforcement learning.
 Link: https://iclr.cc/
 
-AAAI Conference on Artificial Intelligence (AAAI) - This is a conference that covers a wide range of topics in artificial intelligence, including natural language processing, computer vision, robotics, and decision making.
+>AAAI Conference on Artificial Intelligence (AAAI) - This is a conference that covers a wide range of topics in artificial intelligence, including natural language processing, computer vision, robotics, and decision making.
 Link: https://aaai.org/
 
-Conference on Computer Vision and Pattern Recognition (CVPR) - This is a conference focused on computer vision and image processing, covering topics such as object recognition, image segmentation, and deep learning for visual recognition.
+>Conference on Computer Vision and Pattern Recognition (CVPR) - This is a conference focused on computer vision and image processing, covering topics such as object recognition, image segmentation, and deep learning for visual recognition.
 Link: http://cvpr2022.thecvf.com/
 
-International Joint Conference on Artificial Intelligence (IJCAI) - This is one of the oldest and most prestigious AI conferences in the world, covering topics such as knowledge representation, reasoning, planning, and natural language processing.
+>International Joint Conference on Artificial Intelligence (IJCAI) - This is one of the oldest and most prestigious AI conferences in the world, covering topics such as knowledge representation, reasoning, planning, and natural language processing.
 Link: https://www.ijcai.org/
 
-Association for Computational Linguistics (ACL) - This is a conference focused on natural language processing and computational linguistics, covering topics such as machine translation, text classification, sentiment analysis, and dialogue systems.
+>Association for Computational Linguistics (ACL) - This is a conference focused on natural language processing and computational linguistics, covering topics such as machine translation, text classification, sentiment analysis, and dialogue systems.
 Link: https://aclweb.org/aclwiki/Conference_portal
 
 ### Open-source software and tools: 
