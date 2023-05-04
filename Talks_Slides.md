@@ -44,7 +44,7 @@ Link: https://www.youtube.com/watch?v=gn4nRCC9TwQ
 Link: https://www.youtube.com/watch?v=BJOvXgLF8mo
 
 "The Future of Deep Learning" by Yoshua Bengio - In this talk, Yoshua Bengio, a professor at the University of Montreal and co-founder of Element AI, discusses the future of deep learning, and how this technology can be used to build more intelligent and human-like AI systems.
-Link: https://www.youtube.com/watch?v=r5_xRhrZUig
+Link: https://www.youtube.com/watch?v=r5_xRhrZUig <br>
 
 ---
 ### Notes
