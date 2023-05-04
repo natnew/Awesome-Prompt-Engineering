@@ -33,4 +33,4 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 ---
 ## Contributions
-##### Many thanks to our contributors. Want to contribute? Get in touch [here](https://www.linkedin.com/in/natasha-newbold/).
+##### Many thanks to our contributors. Want to contribute? Visit the Workflow documentation.  [here](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Workflow.md).
