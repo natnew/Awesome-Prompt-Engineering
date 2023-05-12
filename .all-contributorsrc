@@ -1,27 +1,32 @@
 {
-  "projectName": "Awesome-Prompt-Engineering",
-  "projectOwner": "natnew",
-  "repoType": "github",
-  "repoHost": "https://github.com",
   "files": [
     "README.md"
   ],
   "imageSize": 100,
   "commit": false,
+  "contributors": [
+    {
+      "login": "natnew",
+      "name": "Natasha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37782009?v=4",
+      "profile": "https://github.com/natnew",
+      "contributions": [
+        "design",
+        "bug",
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "projectManagement",
+        "question",
+        "review",
+        "security",
+        "tool"
+    ],
   "contributorsPerLine": 7,
-  "contributorsSortAlphabetically": false,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/github/all-contributors/<%= natnew %>/<%= Awesome-Prompt-Engineering %>?color=ee8449&style=flat-square)](#contributors)",
-  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
-  "types": {
-    "custom": {
-      "symbol": "🔭",
-      "description": "A custom contribution type.",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
-    }
-  },
-  "linkToUsage": true,
-  "skipCi": true,
-  "contributors": []
+  "projectName": "Awesome-Prompt-Engineering",
+  "projectOwner": "natnew",
+  "repoType": "github",
+  "repoHost": "https://github.com"
 }
-    
 
