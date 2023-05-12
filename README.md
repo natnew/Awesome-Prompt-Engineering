@@ -1,4 +1,4 @@
-# Awesome-Prompt-Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome-Prompt-Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors)
 Prompt engineering is a critical component of AI development that has become increasingly important in recent years. It involves the creation of effective prompts to help AI models understand user input, enabling them to generate more accurate and useful responses. As the capabilities of AI systems continue to expand, prompt engineering has emerged as a key area of focus for developers and researchers alike.
 
 Effective, prompt engineering requires a deep understanding of natural language processing, machine learning, and user behaviour. By developing intelligent algorithms and techniques for generating relevant and informative prompts, AI developers can enhance the accuracy and usefulness of their systems. As AI continues to play an increasingly important role in our lives, the importance of prompt engineering is only set to grow, making it an area of significant interest for AI enthusiasts and professionals alike. So, if you're an AI enthusiast looking to stay at the forefront of this rapidly-evolving field, be sure to like, watch, and share this repository to stay up-to-date with the latest developments in prompt engineering and beyond.
@@ -40,6 +40,17 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 
 ---
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Contributions ⭐
 We believe that feedback and suggestions are crucial to improving our content and making it more useful for our readers. That's why we encourage you to share your thoughts with us and let us know what you think about our content.
 
@@ -49,3 +60,5 @@ By sharing your thoughts and ideas with us, you can help shape the direction of 
 
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
 ##### Many thanks to our contributors. Want to contribute? Visit the Workflow documentation.  [here](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Workflow.md).
+
+

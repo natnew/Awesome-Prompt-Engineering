@@ -1,21 +1,33 @@
-{
-  "projectName": "Awesome-Prompt-Engineering",
-  "projectOwner": "natnew",
+
   "files": [
     "README.md"
   ],
   "imageSize": 100,
+  "commit": false,
   "contributors": [
     {
       "login": "natnew",
-      "name": "Natasha Newbold",
+      "name": "Natasha",
       "avatar_url": "https://avatars.githubusercontent.com/u/37782009?v=4",
       "profile": "https://github.com/natnew",
       "contributions": [
-        "Articles",
-        "README",
-        "AI_Glossary",
-        "AI_Tools"
-      ]
-    }
-    
+        "design",
+        "bug",
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "projectManagement",
+        "question",
+        "review",
+        "security",
+        "tool"
+    ],
+  "contributorsPerLine": 7,
+  "projectName": "Awesome-Prompt-Engineering",
+  "projectOwner": "natnew",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
+
+
