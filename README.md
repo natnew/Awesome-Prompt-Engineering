@@ -40,6 +40,17 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 
 ---
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Contributions ⭐
 We believe that feedback and suggestions are crucial to improving our content and making it more useful for our readers. That's why we encourage you to share your thoughts with us and let us know what you think about our content.
 
@@ -49,3 +60,5 @@ By sharing your thoughts and ideas with us, you can help shape the direction of 
 
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
 ##### Many thanks to our contributors. Want to contribute? Visit the Workflow documentation.  [here](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Workflow.md).
+
+
