@@ -47,12 +47,10 @@ Effective, prompt engineering requires a deep understanding of natural language 
 <!-- markdownlint-disable -->
 <table>
   <tr>
-
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/natnew"><img src="https://avatars.githubusercontent.com/u/37782009?v=4?s=100" width="100px;" alt="Natasha"/><br /><sub><b>Natasha</b></sub></a><br /><a href="#design-natnew" title="Design">🎨</a> <a href="https://github.com/natnew/Awesome-Prompt-Engineering/issues?q=author%3Anatnew" title="Bug reports">🐛</a> <a href="https://github.com/natnew/Awesome-Prompt-Engineering/commits?author=natnew" title="Code">💻</a> <a href="#content-natnew" title="Content">🖋</a> <a href="https://github.com/natnew/Awesome-Prompt-Engineering/commits?author=natnew" title="Documentation">📖</a> <a href="#ideas-natnew" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-natnew" title="Project Management">📆</a> <a href="#question-natnew" title="Answering Questions">💬</a> <a href="https://github.com/natnew/Awesome-Prompt-Engineering/pulls?q=is%3Apr+reviewed-by%3Anatnew" title="Reviewed Pull Requests">👀</a> <a href="#security-natnew" title="Security">🛡️</a> <a href="#tool-natnew" title="Tools">🔧</a> <a href="#research-natnew" title="Research">🔬</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.deamarialeon.com/"><img src="https://avatars.githubusercontent.com/u/11835246?v=4?s=100" width="100px;" alt="Dea María Léon"/><br /><sub><b>Dea María Léon</b></sub></a><br /><a href="https://github.com/natnew/Awesome-Prompt-Engineering/commits?author=DeaMariaLeon" title="Documentation">📖</a> <a href="#research-DeaMariaLeon" title="Research">🔬</a></td>
-
-    </tr>
-  </table>
+  </tr>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
