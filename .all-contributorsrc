@@ -25,25 +25,21 @@
         "research"
       ]
     },
+     
     {
-      "login": "vinz51",
-      "name": "Vincent",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/10948086?v=4",
-      "profile": "http://vincentbenoit.com/",
+      "login": "DeaMariaLeon",
+      "name": "Dea María Léon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11835246?v=4",
+      "profile": "https://www.deamarialeon.com/",
       "contributions": [
-        "review",
-        "test",
-        "security",
-        "userTesting"
-      ]
-    },
-    {
-      "login": "lafondoc",
-      "name": "lafondoc",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/49404129?v=4",
-      "profile": "https://github.com/lafondoc",
-      "contributions": [
-        "userTesting"
+        "doc",
+        "research"
+        "question",
+        "ideas",
+       "research",
+        "content",
+        "ideas"
+
       ]
     }
   ],
