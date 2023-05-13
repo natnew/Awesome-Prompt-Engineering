@@ -21,8 +21,9 @@
         "question",
         "review",
         "security",
-        "tool"
-    ]      
+        "tool",
+        "research"
+      ]
     },
     {
       "login": "vinz51",
@@ -45,11 +46,11 @@
         "userTesting"
       ]
     }
-    ],
+  ],
   "contributorsPerLine": 7,
   "projectName": "Awesome-Prompt-Engineering",
   "projectOwner": "natnew",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "angular"
 }
-
