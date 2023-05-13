@@ -22,7 +22,7 @@
         "review",
         "security",
         "tool"
-    ]      
+      ]
     },
     {
       "login": "vinz51",
@@ -44,13 +44,21 @@
       "contributions": [
         "userTesting"
       ]
+    },
+    {
+      "login": "DeaMariaLeon",
+      "name": "Dea María Léon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11835246?v=4",
+      "profile": "https://www.deamarialeon.com/",
+      "contributions": [
+        "doc"
+      ]
     }
-    ],
+  ],
   "contributorsPerLine": 7,
   "projectName": "Awesome-Prompt-Engineering",
   "projectOwner": "natnew",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "angular"
 }
-
-
