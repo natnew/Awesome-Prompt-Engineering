@@ -24,7 +24,7 @@
         "tool",
         "research"
       ]
-    },   
+    },
     {
       "login": "DeaMariaLeon",
       "name": "Dea María Léon",
@@ -35,9 +35,19 @@
         "research",
         "question",
         "ideas",
-       "research",
+        "research",
         "content",
         "ideas"
+      ]
+    },
+    {
+      "login": "Bartmr",
+      "name": "Bartolomeu Rodrigues",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13721983?v=4",
+      "profile": "https://bartolomeu-rodrigues.com/",
+      "contributions": [
+        "ideas",
+        "doc"
       ]
     }
   ],
