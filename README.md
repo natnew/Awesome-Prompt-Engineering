@@ -17,6 +17,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 | **Talks/Slides**| Presentations, speeches, or discussions that revolve around topics related to Artificial Intelligence.     | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Talks_Slides.html)|
 | **Articles**| AI articles are written pieces of content that explore topics related to Artificial Intelligence. These articles cover various subjects such as AI technologies, applications, research, trends, challenges, and ethical considerations.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Articles.html)|
 | **Resources**| A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Resources.html)|
+| **Ethical Charter**| Ethical Charter   | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)|
 | **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Glossary.html)|
 
 
@@ -30,6 +31,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 |eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh)
 |eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
 |Website| Website is live | 2nd May 2013| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
+|New Page| Ethical Charter | 14th May 2023 | [URL](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/ethical_charter.html)
 
 ---
 ## Prompt Engineering Ebooks, Guides and Cheat Sheets
