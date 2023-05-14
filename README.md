@@ -31,7 +31,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 |eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh)
 |eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
 |Website| Website is live | 2nd May 2013| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
-|New Page| Ethical Charter | 14th May 2023 | [URL](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/ethical_charter.html)
+|New Page| Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)
 
 ---
 ## Prompt Engineering Ebooks, Guides and Cheat Sheets
