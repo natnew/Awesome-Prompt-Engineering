@@ -16,7 +16,7 @@ A collection of resources on creating a chatbot.
 |  Open Assistant  |  Conversational AI Demo   | [URL]()
 |  OpenChatKit  |  Specialized and general purpose chatbots   | [URL]()
 | GPT4All  | Open-source assistant-style LLM |[URL](https://github.com/nomic-ai/gpt4all)
-| ChatRWKV | powered by my RWKV (100% RNN) language model |[URL](https://github.com/BlinkDL/ChatRWKV)
+| ChatRWKV | Powered by RWKV |[URL](https://github.com/BlinkDL/ChatRWKV)
 |  OPT  | lm-watermarking  Demo |[URL](https://github.com/facebookresearch/metaseq)
 |  Flan-T5-XXL | Fine-tuned T5 models |[URL](https://github.com/google-research/t5x)
 |  Vicuna | Finetuned from the LLaMA model on user-shared conversations |[URL](https://github.com/lm-sys/FastChat#fine-tuning)
