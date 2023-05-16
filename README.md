@@ -33,13 +33,16 @@ Effective, prompt engineering requires a deep understanding of natural language 
 |eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
 |Website| Website is live | 2nd May 2013| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
 |New Page| Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)
+|Guide|A - Z Machine Learning Guide | 15th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)|
+|Cheat Sheet |ML CheatSheet | 16th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)|
 
 ---
 ## Prompt Engineering Ebooks, Guides and Cheat Sheets
 
 ##### [EBook: The Creative Side of AI: Mastering the Art of Prompt Engineering](https://natashanewbold.gumroad.com/l/zctxdh)
 ##### [Mastering Prompt Engineering: A Free eBook](https://natashanewbold.gumroad.com/l/kjxpip)
-#### [A - Z Machine Learning Guide](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)
+##### [A - Z Machine Learning Guide](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)
+##### [ML CheatSheet](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)
 
 ---
 ## More Awesome Lists
