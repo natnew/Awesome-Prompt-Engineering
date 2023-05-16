@@ -302,98 +302,93 @@ For example, clustering algorithms can be used to group similar data points toge
 ## Model evaluation metrics
 * Mean squared error (MSE): A measure of the average squared difference between the predicted values and the actual values in a regression problem.
 
-```math
-MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+>MSE = (1/n) * Σi=1:n (yi - ŷi)^2
 
-```
+where n is the number of observations, yi is the actual value of the i-th observation, and ŷi is the predicted value of the i-th observation. MSE is calculated as the average of the squared differences between the actual and predicted values.
 <br>
 <br>
 
 * Root mean squared error (RMSE): The square root of MSE, giving a measure of the average difference between the predicted values and actual values in a regression problem.
 
-```math
-RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
-```
+>RMSE = sqrt(MSE)
+
+where MSE is the mean squared error. RMSE is the square root of MSE, giving a measure of the average difference between the predicted values and actual values in a regression problem.
 <br>
 <br>
 
 * R-squared (R2): A measure of how well the predicted values match the actual values in a regression problem, ranging from 0 (no correlation) to 1 (perfect correlation).
 
-```math
-R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}i)^2}{\sum{i=1}^{n} (y_i - \bar{y})^2}
-```
+>R2 = 1 - (SSres / SStot)
+
+where SSres is the sum of squared residuals (i.e., the sum of squared differences between the actual and predicted values), and SStot is the total sum of squares (i.e., the sum of squared differences between the actual values and the mean of the actual values). R2 ranges from 0 (no correlation) to 1 (perfect correlation), and indicates how well the predicted values match the actual values in a regression problem.
 <br>
 <br>
 
 * Accuracy: The number of correct predictions divided by the total number of predictions in a classification problem.
 
-```math
-Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-```
+>Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
+where TP is the number of true positive predictions, TN is the number of true negative predictions, FP is the number of false positive predictions, and FN is the number of false negative predictions. Accuracy is the proportion of correct predictions out of all predictions made in a classification problem.
 <br>
 <br>
 
 * Precision: The proportion of true positive predictions out of all the positive predictions made in a classification problem.
 
-```math
-Precision = \frac{TP}{TP + FP}
-```
+Precision = TP / (TP + FP)
+
+where TP is the number of true positive predictions, and FP is the number of false positive predictions. Precision is the proportion of true positive predictions out of all the positive predictions made in a classification problem.
 <br>
 <br>
 
 * Recall: The proportion of true positive predictions out of all the actual positive cases in a classification problem.
 
-```math
-Recall = \frac{TP}{TP + FN}
-```
+>Recall = TP / (TP + FN)
+
+where TP is the number of true positive predictions, and FN is the number of false negative predictions. Recall is the proportion of true positive predictions out of all the actual positive cases in a classification problem.
 <br>
 <br>
 
 * F1-score: A measure that combines precision and recall in a classification problem.
 
-```math
-F1\text{-}score = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-```
+>F1-score = 2 * ((precision * recall) / (precision + recall))
+
+where precision is the precision of the classifier, and recall is the recall of the classifier. The F1-score is a measure that combines precision and recall in a classification problem.
 <br>
 <br>
 
 * ROC curve: A graphical representation of the trade-off between true positive rate and false positive rate for different classification thresholds.
 
-```
-No specific mathematical expression, but it plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various classification thresholds.
-```
+>A ROC curve is a plot of true positive rate (TPR) versus false positive rate (FPR) for different classification thresholds. TPR is the proportion of true positive predictions out of all the actual positive cases, and FPR is the proportion of false positive predictions out of all the actual negative cases.
 <br>
 <br>
 
 * AUC (Area Under the ROC Curve): A measure of the overall performance of a classification model based on the ROC curve.
 
-```
-No specific mathematical expression, but it calculates the area under the ROC curve, which represents the probability that a classifier will rank a randomly chosen positive sample higher than a randomly chosen negative sample.
-```
+
+>AUC is the area under the ROC curve. AUC ranges from 0.5 (random classifier) to 1 (perfect classifier), and measures the overall performance of a classification model based on the ROC curve.
 <br>
 <br>
 
 * Silhouette score: A measure of how well-defined the clusters are in a clustering problem.
+>Silhouette score = (b - a) / max(a, b)
 
-```
-No specific mathematical expression, but it calculates the average silhouette coefficient for evaluating clustering quality, which measures how close each sample in one cluster is to the samples in the neighboring clusters.
-```
+where a is the mean distance between a sample and all other points in the same cluster, and b is the mean distance between a sample and all other points in the next nearest cluster. The silhouette score ranges from -1 to 1, and measures how well-defined the clusters are in a clustering problem.
 <br>
 <br>
 
 * Inertia: The sum of squared distances of samples to their closest cluster center in a clustering problem.
 
-```math
-Inertia = \sum_{i=0}^{n} \min_{\mu_j \in C}(||x_i - \mu_j||^2)
-```
+>Inertia is the sum of squared distances of samples to their closest cluster center. Inertia measures the compactness of the clusters in a clustering problem.
 <br>
 <br>
 
 * Dunn index: A measure of cluster separation and compactness in a clustering problem.
 
-```math
-Dunn\text{ }index = \frac{\min(\text{inter-cluster distance})}{\max(\text{intra-cluster distance})}
-```
+
+>Dunn Index = min (diameter of cluster i + diameter of cluster j) / distance between the centroids of cluster i and j, for all i ≠ j
+
+where the diameter of a cluster is the maximum distance between any two points within the cluster, and the distance between the centroids of two clusters is the Euclidean distance between them.
+
 
 
 
