@@ -14,7 +14,7 @@ It determines whether the neuron should be activated or not based on its input. 
 
 <details>
 
-<summary>Adversarial Examples</summary>
+<summary> ▶️ Adversarial Examples</summary>
 
 ### Adversarial Examples
 
@@ -26,7 +26,7 @@ These perturbations can be imperceptible to humans but can cause the model to mi
 
 <details>
 
-<summary>Attention Mechanism</summary>
+<summary> ▶️ Attention Mechanism</summary>
 
 ### Attention Mechanism
 
@@ -38,7 +38,7 @@ Attention mechanisms help LLMs capture long-range dependencies and improve their
 
 <details>
 
-<summary>Autoencoder</summary>
+<summary> ▶️ Autoencoder</summary>
 
 ### Autoencoder
 
@@ -50,7 +50,7 @@ Autoencoders can be used for dimensionality reduction, denoising, and anomaly de
 
 <details>
 
-<summary>Backpropagation</summary>
+<summary> ▶️ Backpropagation</summary>
 
 ### Backpropagation
 
@@ -62,7 +62,7 @@ allowing the model to adjust its parameters in the direction that minimizes the 
 
 <details>
 
-<summary>Bias-Variance Tradeoff</summary>
+<summary> ▶️ Bias-Variance Tradeoff</summary>
 
 ### Bias-Variance Tradeoff
 
@@ -74,7 +74,7 @@ LLMs need to strike a balance between bias and variance to avoid underfitting or
 
 <details>
 
-<summary>BLEU Score (Bilingual Evaluation Understudy Score)</summary>
+<summary> ▶️ BLEU Score (Bilingual Evaluation Understudy Score)</summary>
 
 ### BLEU Score (Bilingual Evaluation Understudy Score)
 
@@ -86,7 +86,7 @@ It compares the generated translation to one or more reference translations and 
 
 <details>
 
-<summary>Bootstrapping</summary>
+<summary> ▶️ Bootstrapping</summary>
 
 ### Bootstrapping
 
@@ -97,7 +97,7 @@ It allows LLMs to train on different variations of the data, leading to improved
 
 <details>
 
-<summary>Batch Normalization</summary>
+<summary> ▶️ Batch Normalization</summary>
 
 ### Batch Normalization
 
@@ -109,7 +109,7 @@ It helps stabilize and speed up the training process by reducing the internal co
 
 <details>
 
-<summary>Bagging</summary>
+<summary> ▶️ Bagging</summary>
 
 ### Bagging
 
@@ -120,7 +120,7 @@ The individual models' predictions are then combined to make a final prediction,
 
 <details>
 
-<summary>Bayesian Optimization</summary>
+<summary> ▶️ Bayesian Optimization</summary>
 
 ### Bayesian Optimization
 
@@ -131,7 +131,7 @@ It combines Bayesian inference with a surrogate model to efficiently explore the
 
 <details>
 
-<summary>Beam search</summary>
+<summary> ▶️ Beam search</summary>
 
 ### Beam search
 
@@ -142,7 +142,7 @@ It explores the most promising paths by keeping a fixed number of top-scoring ca
 
 <details>
 
-<summary>Bias</summary>
+<summary> ▶️ Bias</summary>
 
 ### Bias
 
@@ -153,7 +153,7 @@ It can arise from various sources, such as the model's architecture, assumptions
 
 <details>
 
-<summary>Bigram</summary>
+<summary> ▶️ Bigram</summary>
 
 ### Bigram
 
@@ -164,7 +164,7 @@ LLMs can utilize bigrams to improve their understanding of language.
 
 <details>
 
-<summary>Binary Classification</summary>
+<summary> ▶️ Binary Classification</summary>
 
 ### Binary Classification
 
@@ -175,7 +175,7 @@ For example, determining whether an email is spam or not spam. LLMs can be train
 
 <details>
 
-<summary>Boosting </summary>
+<summary> ▶️ Boosting </summary>
 
 ### Boosting
 
@@ -186,7 +186,7 @@ Each weak learner is trained on a subset of the data, with subsequent learners f
 
 <details>
 
-<summary>Clustering</summary>
+<summary> ▶️ Clustering</summary>
 
 ### Clustering
 
@@ -197,7 +197,7 @@ LLMs can be used for clustering tasks by learning representations of instances a
 
 <details>
 
-<summary>Convolutional Neural Network (CNN)</summary>
+<summary> ▶️ Convolutional Neural Network (CNN)</summary>
 
 ### Convolutional Neural Network (CNN)
 
@@ -208,7 +208,7 @@ It consists of convolutional layers that apply filters to input data, allowing t
 
 <details>
 
-<summary>Cross-Entropy Loss</summary>
+<summary> ▶️ Cross-Entropy Loss</summary>
 
 ### Cross-Entropy Loss
 
@@ -219,7 +219,7 @@ LLMs are often trained using cross-entropy loss to optimize their classification
 
 <details>
 
-<summary>Data Augmentation</summary>
+<summary> ▶️ Data Augmentation</summary>
 
 ### Data Augmentation
 
@@ -230,7 +230,7 @@ It helps LLMs generalize better by exposing them to diverse variations of the in
 
 <details>
 
-<summary>Deep Learning</summary>
+<summary> ▶️ Deep Learning</summary>
 
 ### Deep Learning
 
@@ -241,7 +241,7 @@ LLMs are examples of deep learning models, capable of learning complex patterns 
 
 <details>
 
-<summary>Dropout</summary>
+<summary> ▶️ Dropout</summary>
 
 ### Dropout
 
@@ -252,7 +252,7 @@ It randomly disables a fraction of the neurons during training, forcing the netw
 
 <details>
 
-<summary>Data Leakage</summary>
+<summary> ▶️ Data Leakage</summary>
 
 ### Data Leakage
 
@@ -263,7 +263,7 @@ It can lead to overestimated performance during training and poor generalization
 
 <details>
 
-<summary>Decision Tree</summary>
+<summary> ▶️ Decision Tree</summary>
 
 ### Decision Tree
 
@@ -274,7 +274,7 @@ each branch represents a decision rule, and each leaf node represents a class la
 
 <details>
 
-<summary>Dimensionality reduction</summary>
+<summary> ▶️ Dimensionality reduction</summary>
 
 ### Dimensionality reduction
 
@@ -285,7 +285,7 @@ LLMs can learn effective representations that capture essential aspects of the d
 
 <details>
 
-<summary>Dynamic Programming</summary>
+<summary> ▶️ Dynamic Programming</summary>
 
 ### Dynamic Programming
 
@@ -296,7 +296,7 @@ It is often used in reinforcement learning algorithms to solve Markov decision p
 
 <details>
 
-<summary>Data Preprocessing</summary>
+<summary> ▶️ Data Preprocessing</summary>
 
 ### Data Preprocessing
 
@@ -307,7 +307,7 @@ It includes tasks such as data cleaning, normalization, feature scaling, handlin
 
 <details>
 
-<summary>Early Stopping</summary>
+<summary> ▶️ Early Stopping</summary>
 
 ### Early Stopping
 
@@ -318,7 +318,7 @@ It involves monitoring the model's performance on a validation set and stopping 
 
 <details>
 
-<summary>Encoder-Decoder</summary>
+<summary> ▶️ Encoder-Decoder</summary>
 
 ### Encoder-Decoder
 
@@ -329,7 +329,7 @@ The encoder processes the input sequence and learns a representation, which is t
 
 <details>
 
-<summary>Ensemble Learning</summary>
+<summary> ▶️ Ensemble Learning</summary>
 
 ### Ensemble Learning
 
@@ -340,7 +340,7 @@ Ensemble learning can enhance the robustness and accuracy of LLMs.
 
 <details>
 
-<summary>Error Analysis</summary>
+<summary> ▶️ Error Analysis</summary>
 
 ### Error Analysis
 
@@ -351,7 +351,7 @@ It involves analyzing misclassified instances, identifying patterns or systemati
 
 <details>
 
-<summary>Exploratory Data Analysis (EDA)</summary>
+<summary> ▶️ Exploratory Data Analysis (EDA)</summary>
 
 ### Exploratory Data Analysis (EDA)
 
@@ -363,7 +363,7 @@ It involves visualizations, statistical summaries, and data transformations to g
 
 <details>
 
-<summary>Elastic Net</summary>
+<summary> ▶️ Elastic Net</summary>
 
 ### Elastic Net
 
@@ -374,7 +374,7 @@ Elastic Net can be applied to LLMs for regression tasks.
 
 <details>
 
-<summary>Feature Engineering</summary>
+<summary> ▶️ Feature Engineering</summary>
 
 ### Feature Engineering
 
@@ -385,7 +385,7 @@ It involves selecting, combining, and creating new features to enhance the model
 
 <details>
 
-<summary>Fine-Tuning</summary>
+<summary> ▶️ Fine-Tuning</summary>
 
 ### Fine-Tuning
 
@@ -396,7 +396,7 @@ By fine-tuning, the model adapts its learned representations to better suit the 
 
 <details>
 
-<summary>F1 Score</summary>
+<summary> ▶️ F1 Score</summary>
 
 ### F1 Score
 
@@ -407,7 +407,7 @@ providing a balanced measure of accuracy.
 
 <details>
 
-<summary>Feature Importance</summary>
+<summary> ▶️ Feature Importance</summary>
 
 ### Feature Importance
 
@@ -418,7 +418,7 @@ It helps identify the most influential features and can guide feature selection,
 
 <details>
 
-<summary>Feature Extraction</summary>
+<summary> ▶️ Feature Extraction</summary>
 
 ### Feature Extraction
 
@@ -429,7 +429,7 @@ LLMs can perform feature extraction by learning high-level representations from 
 
 <details>
 
-<summary>Generative Adversarial Networks (GANs)</summary>
+<summary> ▶️ Generative Adversarial Networks (GANs)</summary>
 
 ### Generative Adversarial Networks (GANs)
 
@@ -440,7 +440,7 @@ LLMs can be used in the generator or discriminator network of GANs.
 
 <details>
 
-<summary>Gradient Descent</summary>
+<summary> ▶️ Gradient Descent</summary>
 
 ### Gradient Descent
 
@@ -451,7 +451,7 @@ It iteratively updates the model's parameters by moving in the direction of stee
 
 <details>
 
-<summary>Generalization</summary>
+<summary> ▶️ Generalization</summary>
 
 ### Generalization
 
@@ -462,7 +462,7 @@ A model with good generalization can effectively capture underlying patterns in 
 
 <details>
 
-<summary>Grid Search</summary>
+<summary> ▶️ Grid Search</summary>
 
 ### Grid Search
 
@@ -473,7 +473,7 @@ Grid search helps in finding the optimal hyperparameters for LLMs.
 
 <details>
 
-<summary>Gradient Exploding/Vanishing</summary>
+<summary> ▶️ Gradient Exploding/Vanishing</summary>
 
 ### Gradient Exploding/Vanishing
 
@@ -484,7 +484,7 @@ This can hinder the training process of LLMs, affecting their ability to learn e
 
 <details>
 
-<summary>Graph Neural Networks (GNNs)</summary>
+<summary> ▶️ Graph Neural Networks (GNNs)</summary>
 
 ### Graph Neural Networks (GNNs)
 
@@ -495,7 +495,7 @@ They can capture complex relationships between entities in a graph and are well-
 
 <details>
 
-<summary>GPU (Graphics Processing Unit)</summary>
+<summary> ▶️ GPU (Graphics Processing Unit)</summary>
 
 ### GPU (Graphics Processing Unit)
 
@@ -506,7 +506,7 @@ They are highly parallel processors that can perform matrix operations efficient
 
 <details>
 
-<summary>Hyperparameter</summary>
+<summary> ▶️ Hyperparameter</summary>
 
 ### Hyperparameter
 
@@ -517,7 +517,7 @@ Choosing appropriate hyperparameter values is crucial for achieving optimal mode
 
 <details>
 
-<summary>Hierarchical Clustering</summary>
+<summary> ▶️ Hierarchical Clustering</summary>
 
 ### Hierarchical Clustering
 
@@ -528,7 +528,7 @@ It creates a hierarchical structure of clusters, often represented as a dendrogr
 
 <details>
 
-<summary>Hidden Layer</summary>
+<summary> ▶️ Hidden Layer</summary>
 
 ### Hidden Layer
 
@@ -539,7 +539,7 @@ The hidden layer performs transformations and computations on the input data, en
 
 <details>
 
-<summary>High-Dimensional Data</summary>
+<summary> ▶️ High-Dimensional Data</summary>
 
 ### High-Dimensional Data
 
@@ -550,7 +550,7 @@ LLMs are effective in handling high-dimensional data by learning meaningful repr
 
 <details>
 
-<summary>Hypothesis Testing</summary>
+<summary> ▶️ Hypothesis Testing</summary>
 
 ### Hypothesis Testing
 
@@ -561,7 +561,7 @@ Hypothesis testing is commonly used in evaluating the performance of LLMs.
 
 <details>
 
-<summary>Human-in-the-Loop</summary>
+<summary> ▶️ Human-in-the-Loop</summary>
 
 ### Human-in-the-Loop
 
@@ -572,7 +572,7 @@ In the context of LLMs, human-in-the-loop approaches involve combining the capab
 
 <details>
 
-<summary>Imbalanced Data</summary>
+<summary> ▶️ Imbalanced Data</summary>
 
 ### Imbalanced Data
 
@@ -583,7 +583,7 @@ Handling imbalanced data is important in LLMs to prevent biased or inaccurate pr
 
 <details>
 
-<summary>Inference</summary>
+<summary> ▶️ Inference</summary>
 
 ### Inference
 
@@ -594,7 +594,7 @@ During inference, the model utilizes the learned patterns and parameters to gene
 
 <details>
 
-<summary>Information Retrieval</summary>
+<summary> ▶️ Information Retrieval</summary>
 
 ### Information Retrieval
 
@@ -605,7 +605,7 @@ LLMs can be used in information retrieval tasks, such as document search or ques
 
 <details>
 
-<summary>Inductive Bias</summary>
+<summary> ▶️ Inductive Bias</summary>
 
 ### Inductive Bias
 
@@ -616,7 +616,7 @@ Inductive bias helps the model generalize from the training data to unseen examp
 
 <details>
 
-<summary>Image Classification</summary>
+<summary> ▶️ Image Classification</summary>
 
 ### Image Classification
 
@@ -627,7 +627,7 @@ LLMs, such as convolutional neural networks (CNNs), have demonstrated remarkable
 
 <details>
 
-<summary>Joint Probability</summary>
+<summary> ▶️ Joint Probability</summary>
 
 ### Joint Probability
 
@@ -638,7 +638,7 @@ In LLMs, joint probability can be used to model the probability distribution of 
 
 <details>
 
-<summary>Jupyter Notebook</summary>
+<summary> ▶️ Jupyter Notebook</summary>
 
 ### Jupyter Notebook
 
@@ -649,7 +649,7 @@ It provides an environment where LLM practitioners can write and execute code, v
 
 <details>
 
-<summary>K-Means Clustering</summary>
+<summary> ▶️ K-Means Clustering</summary>
 
 ### K-Means Clustering
 
@@ -662,7 +662,7 @@ It aims to minimize the within-cluster sum of squares by iteratively assigning d
  
 <details>
 
-<summary>Knowledge Graphs</summary>
+<summary> ▶️ Knowledge Graphs</summary>
 
 ### Knowledge Graphs
 
@@ -673,7 +673,7 @@ LLMs can be applied to knowledge graphs for tasks such as knowledge graph comple
   
  <details>
 
-<summary>k-Nearest Neighbors (k-NN)</summary>
+<summary> ▶️ k-Nearest Neighbors (k-NN)</summary>
 
 ### k-Nearest Neighbors (k-NN)
 
@@ -685,7 +685,7 @@ LLMs can employ k-NN as a baseline or as part of more complex ensemble models.
  
  <details>
 
-<summary>Knowledge Transfer</summary>
+<summary> ▶️ Knowledge Transfer</summary>
 
 ### Knowledge Transfer
 
@@ -697,7 +697,7 @@ In the context of LLMs, it involves leveraging pre-trained models or representat
    
  <details>
 
-<summary>Long Short-Term Memory (LSTM)</summary>
+<summary> ▶️ Long Short-Term Memory (LSTM)</summary>
 
 ### Long Short-Term Memory (LSTM)
 
@@ -708,7 +708,7 @@ LSTMs are capable of capturing long-term dependencies and have been widely used 
    
  <details>
 
-<summary>Learning Rate</summary>
+<summary> ▶️ Learning Rate</summary>
 
 ### Learning Rate
 
@@ -720,7 +720,7 @@ Choosing an appropriate learning rate is essential for effective training of LLM
    
  <details>
 
-<summary>Loss Function</summary>
+<summary> ▶️ Loss Function</summary>
 
 ### Loss Function
 
@@ -732,7 +732,7 @@ LLMs aim to minimize the loss function to improve their performance. Common loss
    
  <details>
 
-<summary>Jupyter Notebook</summary>
+<summary> ▶️ Jupyter Notebook</summary>
 
 ### header
 
@@ -744,7 +744,7 @@ It helps analyze how model performance improves or plateaus with increasing data
    
  <details>
 
-<summary>Model evaluation</summary>
+<summary> ▶️ Model evaluation</summary>
 
 ### Model evaluation
 
@@ -756,7 +756,7 @@ LLMs are evaluated using various metrics, such as accuracy, precision, recall, F
    
  <details>
 
-<summary>Model Selection</summary>
+<summary> ▶️ Model Selection</summary>
 
 ### Model Selection
 
@@ -768,7 +768,7 @@ In the context of LLMs, model selection involves comparing different architectur
    
  <details>
 
-<summary>Missing Data</summary>
+<summary> ▶️ Missing Data</summary>
 
 ### Missing Data
 
@@ -780,7 +780,7 @@ Techniques such as imputation or dropout can be used to address missing data in 
    
 <details>
 
-<summary>Markov Chain</summary>
+<summary> ▶️ Markov Chain</summary>
 
 ### Markov Chain
 
@@ -791,7 +791,7 @@ LLMs can be used to model and predict the future states in a Markov chain, enabl
 
 <details>
 
-<summary>Matrix Factorization</summary>
+<summary> ▶️ Matrix Factorization</summary>
 
 ### Matrix Factorization
 
@@ -802,7 +802,7 @@ In the context of LLMs, matrix factorization methods are commonly employed for c
 
 <details>
 
-<summary>Natural Language Processing (NLP)</summary>
+<summary> ▶️ Natural Language Processing (NLP)</summary>
 
 ### Natural Language Processing (NLP)
 
@@ -812,7 +812,7 @@ Natural Language Processing is a subfield of artificial intelligence that focuse
 
 <details>
 
-<summary>Normalization</summary>
+<summary> ▶️ Normalization</summary>
 
 ### Normalization
 
@@ -822,7 +822,7 @@ Normalization is a preprocessing step that scales input data to a standard range
 
 <details>
 
-<summary>Nonlinear Activation Function</summary>
+<summary> ▶️ Nonlinear Activation Function</summary>
 
 ### Nonlinear Activation Function
 
@@ -832,7 +832,7 @@ A nonlinear activation function is applied to the output of a neuron in a neural
 
 <details>
 
-<summary>Normal Distribution</summary>
+<summary> ▶️ Normal Distribution</summary>
 
 ### Normal Distribution
 
@@ -842,7 +842,7 @@ The normal distribution, also known as the Gaussian distribution, is a continuou
 
 <details>
 
-<summary>Nearest Neighbor Search</summary>
+<summary> ▶️ Nearest Neighbor Search</summary>
 
 ### Nearest Neighbor Search
 
@@ -852,7 +852,7 @@ Nearest Neighbor Search is a technique used to find the most similar or nearest 
 
 <details>
 
-<summary>One-Hot Encoding</summary>
+<summary> ▶️ One-Hot Encoding</summary>
 
 ### One-Hot Encoding
 
@@ -862,7 +862,7 @@ One-Hot Encoding is a technique used to represent categorical variables as binar
 
 <details>
 
-<summary>Overfitting</summary>
+<summary> ▶️ Overfitting</summary>
 
 ### Overfitting
 
@@ -872,7 +872,7 @@ Overfitting occurs when a machine learning model performs well on the training d
 
 <details>
 
-<summary>Optimization</summary>
+<summary> ▶️ Optimization</summary>
 
 ### Optimization
 
@@ -882,7 +882,7 @@ Optimization refers to the process of finding the optimal set of parameters or h
 
 <details>
 
-<summary>Outlier</summary>
+<summary> ▶️ Outlier</summary>
 
 ### Outlier
 
@@ -892,7 +892,7 @@ An outlier is an observation that significantly deviates from the normal or expe
 
 <details>
 
-<summary>Over-Sampling</summary>
+<summary> ▶️ Over-Sampling</summary>
 
 ### Over-Sampling
 
@@ -902,7 +902,7 @@ Over-sampling is a technique used to address class imbalance in a dataset by art
 
 <details>
 
-<summary>Object Detection</summary>
+<summary> ▶️ Object Detection</summary>
 
 ### Object Detection
 
@@ -912,7 +912,7 @@ Object detection is a computer vision task that involves identifying and localiz
 
 <details>
 
-<summary>Pre-training</summary>
+<summary> ▶️ Pre-training</summary>
 
 ### Pre-training
 
@@ -922,7 +922,7 @@ Pre-training is a technique where a model is initially trained on a large datase
 
 <details>
 
-<summary>Precision</summary>
+<summary> ▶️ Precision</summary>
 
 ### Precision
 
@@ -932,7 +932,7 @@ Precision is a metric used to evaluate the performance of a classification model
 
 <details>
 
-<summary>Principal Component Analysis (PCA)</summary>
+<summary> ▶️ Principal Component Analysis (PCA)</summary>
 
 ### Principal Component Analysis (PCA)
 
@@ -942,7 +942,7 @@ Principal Component Analysis (PCA): Principal Component Analysis is a dimensiona
 
 <details>
 
-<summary>Pruning</summary>
+<summary> ▶️ Pruning</summary>
 
 ### Pruning
 
@@ -952,7 +952,7 @@ Pruning is a technique used to reduce the size and complexity of a machine learn
 
 <details>
 
-<summary>Precision-Recall Curve</summary>
+<summary> ▶️ Precision-Recall Curve</summary>
 
 ### Precision-Recall Curve
 
@@ -962,7 +962,7 @@ The Precision-Recall curve is a graphical representation that shows the trade-of
 
 <details>
 
-<summary>Pooling</summary>
+<summary> ▶️ Pooling</summary>
 
 ### Pooling
 
@@ -972,7 +972,7 @@ Pooling is an operation commonly used in convolutional neural networks (CNNs) to
 
 <details>
 
-<summary>Quantum Machine Learning</summary>
+<summary> ▶️ Quantum Machine Learning</summary>
 
 ### Quantum Machine Learning
 
@@ -982,7 +982,7 @@ Quantum Machine Learning is an emerging field that explores the intersection of 
 
 <details>
 
-<summary>Recurrent Neural Network (RNN)</summary>
+<summary> ▶️ Recurrent Neural Network (RNN)</summary>
 
 ### Recurrent Neural Network (RNN)
 
@@ -992,7 +992,7 @@ A Recurrent Neural Network is a type of neural network architecture designed to 
 
 <details>
 
-<summary>Reinforcement Learning</summary>
+<summary> ▶️ Reinforcement Learning</summary>
 
 ### Reinforcement Learning
 
@@ -1003,7 +1003,7 @@ Reinforcement Learning is a branch of machine learning concerned with training a
 
 <details>
 
-<summary>Regularization</summary>
+<summary> ▶️ Regularization</summary>
 
 ### Regularization
 
@@ -1013,7 +1013,7 @@ Regularization is a technique used to prevent overfitting by adding a penalty te
 
 <details>
 
-<summary>Regression</summary>
+<summary> ▶️ Regression</summary>
 
 ### Regression
 
@@ -1023,7 +1023,7 @@ Regression is a type of supervised learning task that aims to predict continuous
 
 <details>
 
-<summary>Random Forest</summary>
+<summary> ▶️ Random Forest</summary>
 
 ### Random Forest
 
@@ -1033,7 +1033,7 @@ Random Forest is an ensemble learning method that combines multiple decision tre
 
 <details>
 
-<summary>Robotic Process Automation (RPA)</summary>
+<summary> ▶️ Robotic Process Automation (RPA)</summary>
 
 ### Robotic Process Automation (RPA)
 
@@ -1043,7 +1043,7 @@ Robotic Process Automation involves the use of software robots or artificial int
 
 <details>
 
-<summary>Sentiment Analysis</summary>
+<summary> ▶️ Sentiment Analysis</summary>
 
 ### Sentiment Analysis
 
@@ -1053,7 +1053,7 @@ Sentiment Analysis, also known as opinion mining, is the task of determining the
 
 <details>
 
-<summary>Stochastic Gradient Descent (SGD)</summary>
+<summary> ▶️ Stochastic Gradient Descent (SGD)</summary>
 
 ### Stochastic Gradient Descent (SGD)
 
@@ -1063,7 +1063,7 @@ Stochastic Gradient Descent is an optimization algorithm commonly used to train 
 
 <details>
 
-<summary>Supervised Learning</summary>
+<summary> ▶️ Supervised Learning</summary>
 
 ### Supervised Learning
 
@@ -1073,7 +1073,7 @@ Supervised Learning is a machine learning approach where the model learns from l
 
 <details>
 
-<summary>Support Vector Machine (SVM)</summary>
+<summary> ▶️ Support Vector Machine (SVM)</summary>
 
 ### Support Vector Machine (SVM)
 
@@ -1083,7 +1083,7 @@ Support Vector Machines are supervised learning models used for classification a
 
 <details>
 
-<summary>Transfer Learning</summary>
+<summary> ▶️ Transfer Learning</summary>
 
 ### Transfer Learning
 
@@ -1093,7 +1093,7 @@ Transfer Learning is a technique that allows knowledge gained from one task or d
 
 <details>
 
-<summary>Time Series Analysis</summary>
+<summary> ▶️ Time Series Analysis</summary>
 
 ### Time Series Analysis
 
@@ -1103,7 +1103,7 @@ Time Series Analysis is a statistical method for analyzing and forecasting data 
 
 <details>
 
-<summary>Transformer</summary>
+<summary> ▶️ Transformer</summary>
 
 ### Transformer
 
@@ -1113,7 +1113,7 @@ Transformer is a neural network architecture that utilizes self-attention mechan
 
 <details>
 
-<summary>Tokenization</summary>
+<summary> ▶️ Tokenization</summary>
 
 ### Tokenization
 
@@ -1123,7 +1123,7 @@ Tokenization: Tokenization is the process of breaking down text into smaller uni
 
 <details>
 
-<summary>Tree-Based Models</summary>
+<summary> ▶️ Tree-Based Models</summary>
 
 ### Tree-Based Models
 
@@ -1133,7 +1133,7 @@ Tree-Based Models, such as decision trees or random forests, are machine learnin
 
 <details>
 
-<summary>Unsupervised Learning</summary>
+<summary> ▶️ Unsupervised Learning</summary>
 
 ### Unsupervised Learning
 
@@ -1143,7 +1143,7 @@ Unsupervised Learning is a type of machine learning where the model learns from 
 
 <details>
 
-<summary>Validation Set</summary>
+<summary> ▶️ Validation Set</summary>
 
 ### Validation Set
 
@@ -1153,7 +1153,7 @@ The Validation Set is a subset of data that is used to evaluate the performance 
 
 <details>
 
-<summary>Vectorization</summary>
+<summary> ▶️ Vectorization</summary>
 
 ### Vectorization
 
@@ -1163,7 +1163,7 @@ Vectorization is the process of converting non-numeric data or operations into n
 
 <details>
 
-<summary>Variance</summary>
+<summary> ▶️ Variance</summary>
 
 ### Variance
 
@@ -1173,7 +1173,7 @@ Variance is a statistical measure that quantifies the variability or spread of d
 
 <details>
 
-<summary>Word Embedding</summary>
+<summary> ▶️ Word Embedding</summary>
 
 ### Word Embedding
 
@@ -1183,7 +1183,7 @@ Word Embedding is a technique that represents words or text as dense vector repr
 
 <details>
 
-<summary>Word2Vec</summary>
+<summary> ▶️ Word2Vec</summary>
 
 ### Word2Vec
 
@@ -1193,7 +1193,7 @@ Word2Vec is a popular algorithm for learning word embeddings from large text cor
 
 <details>
 
-<summary>XGBoost</summary>
+<summary> ▶️ XGBoost</summary>
 
 ### XGBoost
 
@@ -1203,7 +1203,7 @@ XGBoost is an open-source software library that implements the gradient boosting
 
 <details>
 
-<summary>Yield Curve</summary>
+<summary> ▶️ Yield Curve</summary>
 
 ### Yield Curve
 
@@ -1213,7 +1213,7 @@ The Yield Curve is a graphical representation of the relationship between the in
 
 <details>
 
-<summary>Zero-Shot Learning</summary>
+<summary> ▶️ Zero-Shot Learning</summary>
 
 ### Zero-Shot Learning
 
