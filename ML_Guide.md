@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>Activation Function</summary>
+<summary> ▶️ Activation Function</summary>
 
 ### Activation Function 
 
@@ -972,58 +972,251 @@ Pooling is an operation commonly used in convolutional neural networks (CNNs) to
 
 <details>
 
-<summary>Jupyter Notebook</summary>
+<summary>Quantum Machine Learning</summary>
 
-### header
+### Quantum Machine Learning
 
-text
-  Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+Quantum Machine Learning is an emerging field that explores the intersection of quantum computing and machine learning. It aims to develop algorithms and models that leverage the unique properties of quantum systems to enhance computational power and solve complex machine learning problems more efficiently.
 
 </details>
 
 <details>
 
-<summary>Jupyter Notebook</summary>
+<summary>Recurrent Neural Network (RNN)</summary>
 
-### header
+### Recurrent Neural Network (RNN)
 
-text
+A Recurrent Neural Network is a type of neural network architecture designed to process sequential data by maintaining and utilizing hidden state information. LLMs often employ RNNs to capture temporal dependencies and model sequential patterns in tasks such as natural language processing and time series analysis.
 
 </details>
 
 <details>
 
-<summary>Jupyter Notebook</summary>
+<summary>Reinforcement Learning</summary>
 
-### header
+### Reinforcement Learning
 
-text
+Reinforcement Learning is a branch of machine learning concerned with training agents to make sequential decisions in an environment to maximize a reward signal. LLMs can be applied in reinforcement learning frameworks to learn optimal policies and value functions in various domains, such as game playing or robotics.
 
 </details>
 
 
 <details>
 
-<summary>Jupyter Notebook</summary>
+<summary>Regularization</summary>
 
-### header
+### Regularization
 
-text
+Regularization is a technique used to prevent overfitting by adding a penalty term to the loss function during model training. LLMs often utilize regularization methods like L1 regularization (Lasso) or L2 regularization (Ridge) to control the complexity of the model and encourage sparse or smooth parameter values.
 
 </details>
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+<details>
+
+<summary>Regression</summary>
+
+### Regression
+
+Regression is a type of supervised learning task that aims to predict continuous or real-valued output variables based on input features. LLMs can be used for regression tasks, such as predicting house prices or stock market trends, by learning the underlying patterns and relationships in the data.
+
+</details>
+
+<details>
+
+<summary>Random Forest</summary>
+
+### Random Forest
+
+Random Forest is an ensemble learning method that combines multiple decision trees to make predictions. LLMs can utilize random forest algorithms to improve predictive accuracy and handle high-dimensional data or complex feature interactions.
+
+</details>
+
+<details>
+
+<summary>Robotic Process Automation (RPA)</summary>
+
+### Robotic Process Automation (RPA)
+
+Robotic Process Automation involves the use of software robots or artificial intelligence to automate repetitive and rule-based tasks in business processes. LLMs can be employed in RPA systems to learn and mimic human decision-making and perform tasks such as data extraction, classification, or workflow automation.
+
+</details>
+
+<details>
+
+<summary>Sentiment Analysis</summary>
+
+### Sentiment Analysis
+
+Sentiment Analysis, also known as opinion mining, is the task of determining the sentiment or emotion expressed in a piece of text. LLMs can be used for sentiment analysis tasks, such as classifying text as positive, negative, or neutral, by learning the underlying sentiment patterns and contextual cues.
+
+</details>
+
+<details>
+
+<summary>Stochastic Gradient Descent (SGD)</summary>
+
+### Stochastic Gradient Descent (SGD)
+
+Stochastic Gradient Descent is an optimization algorithm commonly used to train machine learning models. LLMs employ SGD to iteratively update model parameters using small batches of training data, making it computationally efficient and scalable for large datasets.
+
+</details>
+
+<details>
+
+<summary>Supervised Learning</summary>
+
+### Supervised Learning
+
+Supervised Learning is a machine learning approach where the model learns from labeled data, where inputs are paired with corresponding outputs or labels. LLMs can be trained through supervised learning by optimizing a loss function that quantifies the discrepancy between predicted and true outputs.
+
+</details>
+
+<details>
+
+<summary>Support Vector Machine (SVM)</summary>
+
+### Support Vector Machine (SVM)
+
+Support Vector Machines are supervised learning models used for classification and regression tasks. LLMs can utilize SVMs, which find an optimal hyperplane to separate different classes or predict continuous values, making them effective for tasks such as text classification or image recognition.
+
+</details>
+
+<details>
+
+<summary>Transfer Learning</summary>
+
+### Transfer Learning
+
+Transfer Learning is a technique that allows knowledge gained from one task or domain to be transferred and applied to another related task or domain. LLMs can benefit from transfer learning by leveraging pre-trained models on large datasets to improve performance on new, smaller datasets or different tasks.
+
+</details>
+
+<details>
+
+<summary>Time Series Analysis</summary>
+
+### Time Series Analysis
+
+Time Series Analysis is a statistical method for analyzing and forecasting data points collected over time. LLMs can be utilized for time series analysis tasks, such as predicting stock prices or weather patterns, by capturing temporal dependencies and learning patterns in sequential data.
+
+</details>
+
+<details>
+
+<summary>Transformer</summary>
+
+### Transformer
+
+Transformer is a neural network architecture that utilizes self-attention mechanisms to capture dependencies between input and output elements. LLMs based on Transformer models have achieved significant advancements in natural language processing tasks, such as machine translation, language generation, and text understanding.
+
+</details>
+
+<details>
+
+<summary>Tokenization</summary>
+
+### Tokenization
+
+Tokenization: Tokenization is the process of breaking down text into smaller units called tokens. LLMs rely on tokenization to convert input text into meaningful and manageable units, such as words, subwords, or characters, which can be further processed and analyzed by the model.
+
+</details>
+
+<details>
+
+<summary>Tree-Based Models</summary>
+
+### Tree-Based Models
+
+Tree-Based Models, such as decision trees or random forests, are machine learning models that represent decisions or predictions as a tree-like structure. LLMs can utilize tree-based models for various tasks, including classification, regression, or feature selection, by exploiting the hierarchical and interpretable nature of trees.
+
+</details>
+
+<details>
+
+<summary>Unsupervised Learning</summary>
+
+### Unsupervised Learning
+
+Unsupervised Learning is a type of machine learning where the model learns from unlabeled data without any predefined labels or target outputs. While LLMs often rely on supervised or semi-supervised learning, they can also be used in unsupervised learning tasks, such as clustering or dimensionality reduction, to discover underlying patterns and structures in the data.
+
+</details>
+
+<details>
+
+<summary>Validation Set</summary>
+
+### Validation Set
+
+The Validation Set is a subset of data that is used to evaluate the performance of a machine learning model during the training phase. LLMs can utilize a validation set to monitor and tune the model's hyperparameters, assess generalization, and prevent overfitting.
+
+</details>
+
+<details>
+
+<summary>Vectorization</summary>
+
+### Vectorization
+
+Vectorization is the process of converting non-numeric data or operations into numerical representations that can be processed by machine learning models. LLMs often require vectorization techniques, such as word embeddings or one-hot encoding, to represent text or categorical data as numerical vectors.
+
+</details>
+
+<details>
+
+<summary>Variance</summary>
+
+### Variance
+
+Variance is a statistical measure that quantifies the variability or spread of data points around the mean. In the context of machine learning, variance refers to the sensitivity of a model's predictions to variations in the training data. LLMs aim to strike a balance between capturing complex patterns in the data while minimizing variance to ensure generalization.
+
+</details>
+
+<details>
+
+<summary>Word Embedding</summary>
+
+### Word Embedding
+
+Word Embedding is a technique that represents words or text as dense vector representations in a continuous space. LLMs often employ word embeddings to capture semantic relationships, contextual information, and meaning in textual data, enabling tasks such as language modeling or sentiment analysis.
+
+</details>
+
+<details>
+
+<summary>Word2Vec</summary>
+
+### Word2Vec
+
+Word2Vec is a popular algorithm for learning word embeddings from large text corpora. LLMs can leverage Word2Vec to generate distributed word representations, where words with similar contexts are represented by similar vectors, facilitating semantic understanding and feature extraction in natural language processing tasks.
+
+</details>
+
+<details>
+
+<summary>XGBoost</summary>
+
+### XGBoost
+
+XGBoost is an open-source software library that implements the gradient boosting framework, a powerful machine learning technique. While not directly related to LLMs, XGBoost can be used in combination with LLMs to improve predictive accuracy and handle structured or tabular data in tasks such as regression, classification, and ranking.
+
+</details>
+
+<details>
+
+<summary>Yield Curve</summary>
+
+### Yield Curve
+
+The Yield Curve is a graphical representation of the relationship between the interest rates and the time to maturity for a set of fixed-income securities. While not directly related to LLMs, yield curves can be used as economic indicators and can be considered as one of the factors in financial time series analysis, which can involve LLMs.
+
+</details>
+
+<details>
+
+<summary>Zero-Shot Learning</summary>
+
+### Zero-Shot Learning
+
+Zero-Shot Learning is a machine learning paradigm where a model is trained to recognize or classify objects or concepts it has never seen before. LLMs can be utilized in zero-shot learning tasks by learning to generalize from seen classes to unseen classes, leveraging semantic information or attributes associated with the classes.
+
+</details>
