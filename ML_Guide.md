@@ -4,7 +4,7 @@
 
 <summary>Activation Function</summary>
 
-### Activation Function
+### Activation Function 
 
 An activation function is a mathematical function applied to the output of a neuron in a neural network. 
 It determines whether the neuron should be activated or not based on its input. Common activation functions include sigmoid, ReLU, and tanh.
@@ -1019,3 +1019,11 @@ text
 text
 
 </details>
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
