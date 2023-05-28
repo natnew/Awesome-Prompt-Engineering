@@ -46,6 +46,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 ---
 ## More Awesome Lists
+* [Awesome Data Science](https://github.com/natnew/Awesome-Data-Science)
 * [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt)
 * [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
 * [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
