@@ -118,9 +118,6 @@ Link: https://aaai.org/
 >Conference on Computer Vision and Pattern Recognition (CVPR) - This is a conference focused on computer vision and image processing, covering topics such as object recognition, image segmentation, and deep learning for visual recognition.
 Link: http://cvpr2022.thecvf.com/
 
->International Conference on Machine Learning (ICML) - This is another major AI conference that covers topics in machine learning and deep learning, as well as related fields such as computer vision, natural language processing, and robotics.
-Link: https://icml.cc/
-
 >International Joint Conference on Artificial Intelligence (IJCAI) - This is one of the oldest and most prestigious AI conferences in the world, covering topics such as knowledge representation, reasoning, planning, and natural language processing.
 Link: https://www.ijcai.org/
 
