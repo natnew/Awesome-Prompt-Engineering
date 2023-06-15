@@ -23,6 +23,7 @@ A collection of resources on creating a chatbot.
 
 ## ChatBot Gallary
 * This Node.js-powered chatbot on Discord is an AI marvel, meticulously crafted to engage in natural language processing-based conversations with users on Discord servers. [DiscordAI ChatBot - Original Repo](https://github.com/ElitePete/DiscordAIChatBot) ✨
+* This Python application presents a user-friendly interface where individuals can effortlessly upload PDF files and leverage a chatbot to extract text from them. Behind the scenes, the application utilizes the robust textract library to carry out seamless text extraction from PDF files. [Custom-Knowledge-ChatGPT Chatbot-with-LangChain](https://github.com/Jaimboh/-Chat-with-PDFs---Custom-Knowledge-ChatGPT-with-LangChain)✨
 ---
 ### Notes
 Feedback and suggestions are welcome! <br>
