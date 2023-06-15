@@ -47,7 +47,8 @@
       "profile": "https://bartolomeu-rodrigues.com/",
       "contributions": [
         "ideas",
-        "doc"
+        "doc",
+        "bug"
       ]
     }
   ],
@@ -56,5 +57,6 @@
   "projectOwner": "natnew",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
