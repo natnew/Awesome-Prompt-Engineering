@@ -50,6 +50,18 @@
         "doc",
         "bug"
       ]
+    },
+    {
+      "login": "ElitePete",
+      "name": "ElitePete",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105971332?v=4",
+      "profile": "https://github.com/ElitePete",
+      "contributions": [
+        "content",
+        "ideas",
+        "question",
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,
