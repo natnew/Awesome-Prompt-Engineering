@@ -21,6 +21,8 @@ A collection of resources on creating a chatbot.
 |  Flan-T5-XXL | Fine-tuned T5 models |[URL](https://github.com/google-research/t5x)
 |  Vicuna | Finetuned from the LLaMA model on user-shared conversations |[URL](https://github.com/lm-sys/FastChat#fine-tuning)
 
+## ChatBot Gallary
+* This Node.js-powered chatbot on Discord is an AI marvel, meticulously crafted to engage in natural language processing-based conversations with users on Discord servers. [DiscordAI ChatBot - Original Repo](https://github.com/ElitePete/DiscordAIChatBot) ✨
 ---
 ### Notes
 Feedback and suggestions are welcome! <br>
