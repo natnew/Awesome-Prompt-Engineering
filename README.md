@@ -85,4 +85,8 @@ By sharing your thoughts and ideas with us, you can help shape the direction of 
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
 ##### Many thanks to our contributors. Want to contribute? Visit the Workflow documentation.  [here](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Workflow.md).
 
+## License
+
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+
 
