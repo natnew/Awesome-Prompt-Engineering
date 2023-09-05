@@ -51,23 +51,19 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ## Additional Resources
 <table>
   <tr>
-    <td width="30%">
+    <td width="100%">
          Join the <a href="https://github.com/natnew/Awesome-Data-Science">Artificial Intelligence First</a> newsletter today. You'll be kept informed about open source frameworks, carefully selected tutorials, and articles compiled by experts in artificial intelligence.
     </td>
-    <td width="70%">
-        <a href="https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Artificial%20Intelligence%20First%20Newsletter%20QR%20code.png"></a>
-    </td >
+  
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="30%">
+    <td width="100%">
       Explore <a href="https://github.com/natnew/Awesome-Data-Science">Awesome Data Science.</a> A carefully curated list of awesome Data Science resources.
     </td>
-    <td width="70%">
-      <a href="https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Awesome%20Data%20Science.png"></a>
-    </td>
+    
   </tr>
 </table>
 
