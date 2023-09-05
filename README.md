@@ -1,8 +1,9 @@
-# Awesome-Prompt-Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors) ![GitHub last commit](https://img.shields.io/github/last-commit/natnew/Awesome-Prompt-Engineering) ![GitHub Repo stars](https://img.shields.io/github/stars/natnew/Awesome-Prompt-Engineering?style=social) ![GitHub forks](https://img.shields.io/github/forks/natnew/Awesome-Prompt-Engineering?style=social)
+# Awesome-Prompt-Engineering 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors) ![GitHub last commit](https://img.shields.io/github/last-commit/natnew/Awesome-Prompt-Engineering) ![GitHub Repo stars](https://img.shields.io/github/stars/natnew/Awesome-Prompt-Engineering?style=social) ![GitHub forks](https://img.shields.io/github/forks/natnew/Awesome-Prompt-Engineering?style=social) ![Static Badge](https://img.shields.io/badge/Maintained%20-%20Yes%20-%20lightgreen) ![Static Badge](https://img.shields.io/badge/Release%20-%20PROD%20-%20lightblue) ![Static Badge](https://img.shields.io/badge/License%20-%20MIT%20-%20orange) ![Static Badge](https://img.shields.io/badge/Language%20-%20MULTI%20-%20grey)
 
 Prompt engineering is a critical component of AI development that has become increasingly important in recent years. It involves the creation of effective prompts to help AI models understand user input, enabling them to generate more accurate and useful responses. As the capabilities of AI systems continue to expand, prompt engineering has emerged as a key area of focus for developers and researchers alike.
 
-Effective, prompt engineering requires a deep understanding of natural language processing, machine learning, and user behaviour. By developing intelligent algorithms and techniques for generating relevant and informative prompts, AI developers can enhance the accuracy and usefulness of their systems. As AI continues to play an increasingly important role in our lives, the importance of prompt engineering is only set to grow, making it an area of significant interest for AI enthusiasts and professionals alike. So, if you're an AI enthusiast looking to stay at the forefront of this rapidly-evolving field, be sure to like, watch, and share this repository to stay up-to-date with the latest developments in prompt engineering and beyond.
+Effective, prompt engineering requires a deep understanding of natural language processing, machine learning, and user behaviour. By developing intelligent algorithms and techniques for generating relevant and informative prompts, AI developers can enhance the accuracy and usefulness of their systems. As AI continues to play an increasingly important role in our lives, the importance of prompt engineering is only set to grow, making it an area of significant interest for AI enthusiasts and professionals alike. So, if you're an AI enthusiast looking to stay at the forefront of this rapidly-evolving field, be sure to like, watch, and share this repository to stay up-to-date with the latest developments in prompt engineering and beyond.🔥
 
 ---
 ## Contents
@@ -29,12 +30,12 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ##### Watch this repository to keep up-to-date with the latest updates and announcements.
 |  Topic  |  Description  |  Date  | URL
 | :-----:| :------------:| :----:|:--------:
-|eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh)
-|eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
-|Website| Website is live | 2nd May 2013| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
-|New Page| Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)
-|Guide|A - Z Machine Learning Guide | 15th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)|
-|Cheat Sheet |ML CheatSheet | 16th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)|
+|📘eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh)
+|📘eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
+|💻Website| Website is live | 2nd May 2013| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
+|📄New Page| Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)
+|📚Guide|A - Z Machine Learning Guide | 15th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)|
+|🔍Cheat Sheet |ML CheatSheet | 16th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)|
 
 ---
 ## Prompt Engineering Ebooks, Guides and Cheat Sheets
@@ -45,6 +46,31 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ##### [ML CheatSheet](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)
 ##### [100 Projects For Beginners Using Python](https://medium.com/@natashanewbold/100-projects-for-beginners-using-python-8b7f55bbd1ad?sk=ff4103731ceecffa845df3e632447964)
 ##### [An Introduction to Prompt Engineering: Key Concepts & Tips For Beginners](https://medium.com/ai-vanguard/ai-prompt-engineering-tips-for-beginners-9ccb5b54243?sk=b6a83e29c3fd82496b78f8e5849512eb)
+
+---
+## Additional Resources
+<table>
+  <tr>
+    <td width="30%">
+         Join the <a href="https://github.com/natnew/Awesome-Data-Science">Artificial Intelligence First</a> newsletter today. You'll be kept informed about open source frameworks, carefully selected tutorials, and articles compiled by experts in artificial intelligence.
+    </td>
+    <td width="70%">
+        <a href="https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Artificial%20Intelligence%20First%20Newsletter%20QR%20code.png"></a>
+    </td >
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="30%">
+      Explore <a href="https://github.com/natnew/Awesome-Data-Science">Awesome Data Science.</a> A carefully curated list of awesome Data Science resources.
+    </td>
+    <td width="70%">
+      <a href="https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Awesome%20Data%20Science.png"></a>
+    </td>
+  </tr>
+</table>
+
 
 ---
 ## More Awesome Lists
