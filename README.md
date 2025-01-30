@@ -46,6 +46,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ##### [ML CheatSheet](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)
 ##### [100 Projects For Beginners Using Python](https://medium.com/@natashanewbold/100-projects-for-beginners-using-python-8b7f55bbd1ad?sk=ff4103731ceecffa845df3e632447964)
 ##### [An Introduction to Prompt Engineering: Key Concepts & Tips For Beginners](https://medium.com/ai-vanguard/ai-prompt-engineering-tips-for-beginners-9ccb5b54243?sk=b6a83e29c3fd82496b78f8e5849512eb)
+##### [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
 
 ---
 ## Additional Resources
