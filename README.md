@@ -67,6 +67,14 @@ Effective, prompt engineering requires a deep understanding of natural language 
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td width="100%">
+         Checkout <a href="https://www.godtierprompts.com/">God Tier Prompts</a> for more prompts. A community-driven leaderboard where the best prompts rise to the top.
+    </td>
+  
+  </tr>
+</table>
 
 ---
 ## More Awesome Lists
