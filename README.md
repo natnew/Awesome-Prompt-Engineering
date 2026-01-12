@@ -1,9 +1,11 @@
 # Awesome-Prompt-Engineering 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors) ![GitHub last commit](https://img.shields.io/github/last-commit/natnew/Awesome-Prompt-Engineering) ![GitHub Repo stars](https://img.shields.io/github/stars/natnew/Awesome-Prompt-Engineering?style=social) ![GitHub forks](https://img.shields.io/github/forks/natnew/Awesome-Prompt-Engineering?style=social) ![Static Badge](https://img.shields.io/badge/Maintained%20-%20Yes%20-%20lightgreen) ![Static Badge](https://img.shields.io/badge/Release%20-%20PROD%20-%20lightblue) ![Static Badge](https://img.shields.io/badge/License%20-%20MIT%20-%20orange) ![Static Badge](https://img.shields.io/badge/Language%20-%20MULTI%20-%20grey)
 
-Prompt engineering is a critical component of AI development that has become increasingly important in recent years. It involves the creation of effective prompts to help AI models understand user input, enabling them to generate more accurate and useful responses. As the capabilities of AI systems continue to expand, prompt engineering has emerged as a key area of focus for developers and researchers alike.
+**Prompt engineering** is the foundational practice of crafting effective instructions to guide AI models toward accurate, useful, and reliable outputs. As AI systems have evolved, prompt engineering has expanded into **context engineering**—the broader discipline of architecting the full information environment that shapes model behaviour, including system prompts, conversation history, retrieved knowledge, tool definitions, and memory.
 
-Effective, prompt engineering requires a deep understanding of natural language processing, machine learning, and user behaviour. By developing intelligent algorithms and techniques for generating relevant and informative prompts, AI developers can enhance the accuracy and usefulness of their systems. As AI continues to play an increasingly important role in our lives, the importance of prompt engineering is only set to grow, making it an area of significant interest for AI enthusiasts and professionals alike. So, if you're an AI enthusiast looking to stay at the forefront of this rapidly-evolving field, be sure to like, watch, and share this repository to stay up-to-date with the latest developments in prompt engineering and beyond.🔥
+Whether you're writing your first prompt or orchestrating complex multi-agent systems, understanding how to communicate effectively with AI models remains essential. This repository provides resources spanning fundamental prompting techniques through to advanced context engineering strategies for production AI applications.
+
+Effective prompt and context engineering requires understanding natural language processing, model capabilities, and user needs. As AI becomes increasingly integrated into scientific discovery, agentic systems, and enterprise applications, these skills are critical for developers, researchers, and AI practitioners. **Star, watch, and share** this repository to stay current with evolving best practices.🔥
 
 ---
 ## Contents
@@ -22,8 +24,56 @@ Effective, prompt engineering requires a deep understanding of natural language 
 | **Ethical Charter**| Ethical Charter   | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)|
 | **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Glossary.html)|
 
+---
+## Context Engineering: The Evolution of Prompt Engineering
 
+The field has evolved from crafting individual prompts to architecting complete context systems. Context engineering encompasses everything that shapes model behaviour at inference time.
 
+### Core Concepts
+
+- **System Prompts** — High-level instructions that define model behaviour, persona, and constraints
+- **Few-Shot Examples** — Demonstrating desired input-output patterns through curated examples
+- **Chain-of-Thought** — Encouraging step-by-step reasoning for complex problems
+- **Retrieved Context (RAG)** — Dynamically injecting relevant knowledge from external sources
+- **Tool Definitions** — Specifying available actions and their schemas for agentic systems
+- **Memory Management** — Handling conversation history and long-term state effectively
+
+### Recommended Reading
+
+- [Context Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide) — Comprehensive guide from DAIR.AI
+- [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic's engineering best practices
+- [Prompt Engineering Best Practices](https://claude.com/blog/best-practices-for-prompt-engineering) — Claude's official guide
+- [OpenAI Prompt Engineering Guide](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api) — OpenAI's official documentation
+---
+## Modern Tools & Frameworks
+
+### Prompt Management & Versioning
+
+- [PromptLayer](https://promptlayer.com/) — Version control, logging, and analytics for prompts
+- [Agenta](https://agenta.ai/) — Open-source platform for prompt testing with side-by-side LLM comparisons
+- [Langfuse](https://langfuse.com/) — Open-source LLM engineering platform with prompt management
+- [Helicone](https://helicone.ai/) — Lightweight prompt logging and analytics
+
+### Development Frameworks
+
+- [LangChain](https://langchain.com/) — Framework for building applications with LLMs
+- [LangSmith](https://smith.langchain.com/) — Debugging, testing, and monitoring for LLM applications
+- [Haystack](https://haystack.deepset.ai/) — Framework for building NLP and RAG pipelines
+- [DSPy](https://dspy-docs.vercel.app/) — Programmatic prompting and optimization framework
+
+### Testing & Evaluation
+
+- [Promptfoo](https://promptfoo.dev/) — Open-source prompt testing and evaluation
+- [TruLens](https://www.trulens.org/) — Feedback and evaluation for LLM applications
+- [Weave](https://wandb.ai/site/weave) — Trace-based debugging and scoring from Weights & Biases
+- [Maxim AI](https://www.getmaxim.ai/) — Systematic evaluation and benchmarking platform
+
+### Safety & Guardrails
+
+- [Guardrails AI](https://www.guardrailsai.com/) — Define schemas and constraints for model outputs
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's toolkit for LLM safety
+- [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection and prevention
+- [Lakera Guard](https://www.lakera.ai/) — Real-time protection against prompt attacks
 
 ---
 ## Announcements :eyes:
@@ -32,7 +82,7 @@ Effective, prompt engineering requires a deep understanding of natural language 
 | :-----:| :------------:| :----:|:--------:
 |📘eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh)
 |📘eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
-|💻Website| Website is live | 2nd May 2013| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
+|💻Website| Website is live | 2nd May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
 |📄New Page| Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)
 |📚Guide|A - Z Machine Learning Guide | 15th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)|
 |🔍Cheat Sheet |ML CheatSheet | 16th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)|
@@ -46,6 +96,8 @@ Effective, prompt engineering requires a deep understanding of natural language 
 ##### [ML CheatSheet](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)
 ##### [100 Projects For Beginners Using Python](https://medium.com/@natashanewbold/100-projects-for-beginners-using-python-8b7f55bbd1ad?sk=ff4103731ceecffa845df3e632447964)
 ##### [An Introduction to Prompt Engineering: Key Concepts & Tips For Beginners](https://medium.com/ai-vanguard/ai-prompt-engineering-tips-for-beginners-9ccb5b54243?sk=b6a83e29c3fd82496b78f8e5849512eb)
+##### [100 chats for veterans](https://chatgpt.com/use-cases/veterans)
+##### [100 chats for college students](https://chatgpt.com/use-cases/students)
 
 ---
 ## Additional Resources
@@ -70,10 +122,10 @@ Effective, prompt engineering requires a deep understanding of natural language 
 
 ---
 ## More Awesome Lists
-* [Awesome Data Science](https://github.com/natnew/Awesome-Data-Science)
-* [Awesome ChatGPT](https://github.com/humanloop/awesome-chatgpt)
-* [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
-* [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
+- [Awesome Data Science](https://github.com/natnew/Awesome-Data-Science) — Curated data science resources
+- [Awesome Generative AI](https://github.com/natnew/Awesome-Generative-AI) — Comprehensive generative AI resources
+- [Awesome AI Scientists](https://github.com/natnew/Awesome-AI-Scientists) — AI for scientific discovery
+- [Awesome Physical AI](https://github.com/natnew/awesome-physical-ai) — Robotics + AI resources for Physical AI / Embodied AI
 
 
 ---
