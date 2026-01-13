@@ -2,172 +2,460 @@
 
 ## Resources
 
-A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.
+A practitioner's guide to learning resources for building, deploying, evaluating, and governing AI systems. Organized by what you need to learn and why.
 
-### Online courses and tutorials:
-"Machine Learning" by Andrew Ng - This course is one of the most popular and highly recommended online courses on machine learning, offered by Coursera. It covers a wide range of topics, including supervised learning, unsupervised learning, and neural networks.<br>
-Link: https://www.coursera.org/learn/machine-learning
+**This guide answers three questions for every resource:**
+1. What skill or knowledge does this build?
+2. Who needs this in a serious organization?
+3. How does it connect to working with frontier AI systems?
 
-"Deep Learning" by Andrew Ng - This is another highly regarded course offered by Coursera, covering the principles and applications of deep learning. It includes topics such as convolutional neural networks, recurrent neural networks, and sequence models.<br>
-Link: https://www.coursera.org/specializations/deep-learning
-
-"CS231n: Convolutional Neural Networks for Visual Recognition" - This is a popular course on deep learning for computer vision, offered by Stanford University. It covers topics such as image classification, object detection, and visualizing and understanding convolutional neural networks.<br>
-Link: http://cs231n.stanford.edu/
-
-"CS224n: Natural Language Processing with Deep Learning" - This course, also offered by Stanford University, focuses on natural language processing (NLP) using deep learning. It covers topics such as word vectors, sequence models, and attention models.<br>
-Link: http://web.stanford.edu/class/cs224n/
-
-"Elements of AI" - This is a free online course on AI and machine learning, offered by the University of Helsinki and Reaktor. It provides an accessible introduction to key concepts in AI, including supervised learning, unsupervised learning, and ethics.<br>
-Link: https://www.elementsofai.com/
-
-"Introduction to Artificial Intelligence with Python" - This is a free course offered by IBM on Coursera that covers the basics of AI, machine learning, and natural language processing using Python. It's a great introduction to AI for beginners and requires no prior experience.<br>
-Link: https://www.coursera.org/learn/introduction-to-ai
-
-"Applied Data Science with Python" - This is a series of free courses offered by the University of Michigan on Coursera that covers the basics of data science, including machine learning and deep learning with Python. It includes five courses in total, and you can take them individually or as a series.<br>
-Link: https://www.coursera.org/specializations/data-science-python
-
-"Fast.ai" - This is a series of free courses offered by fast.ai that cover the basics of deep learning, including computer vision, natural language processing, and tabular data analysis. The courses use practical examples and hands-on coding exercises to help you learn.<br>
-Link: https://www.fast.ai/
-
-"AI For Everyone" - This is a free course offered by deeplearning.ai that provides a non-technical introduction to AI. It covers topics such as machine learning, deep learning, and neural networks, and is designed for managers, executives, and anyone else interested in learning about AI.<br>
-Link: https://www.coursera.org/learn/ai-for-everyone
-
-"Deep Reinforcement Learning" - This is a free course offered by the University of Alberta on Coursera that covers the basics of reinforcement learning, including Q-learning, policy gradients, and actor-critic methods. It includes practical examples and coding assignments.<br>
-Link: https://www.coursera.org/specializations/deep-reinforcement-learning
-
-### Books and publications:
-* [Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (2016) ](https://www.deeplearningbook.org/) This book is a comprehensive introduction to deep learning, covering both theoretical foundations and practical applications. It is widely regarded as one of the most authoritative and accessible texts on the subject.
-* [Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig (2010)](https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597)This is a classic textbook on AI that covers a wide range of topics, from search and optimization to machine learning and robotics. It is used in many undergraduate and graduate courses on AI.
-* [Human Compatible: Artificial Intelligence and the Problem of Control by Stuart Russell (2019)](https://www.amazon.com/Human-Compatible-Artificial-Intelligence-Control/dp/0525558616) This book explores the societal implications of AI and argues that we need to ensure that AI is aligned with human values and goals. It offers a thought-provoking perspective on the ethical and governance challenges posed by AI.
-* [Superintelligence: Paths, Dangers, Strategies by Nick Bostrom (2014)](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834) This book considers the potential risks and opportunities of advanced AI systems that surpass human intelligence. It explores scenarios such as AI takeover and offers insights into how we can ensure that AI aligns with human values.
-* [The Hundred-Page Machine Learning Book by Andriy Burkov (2019)](https://www.amazon.com/Hundred-Page-Machine-Learning-Book/dp/199957950X) This book provides a concise introduction to machine learning, covering key concepts and techniques in an accessible and intuitive manner. It is suitable for both beginners and practitioners who want to refresh their knowledge.
-* [Machine Learning Yearning by Andrew Ng (2018)](https://www.deeplearning.ai/machine-learning-yearning/) This book provides a practical guide to building and deploying machine learning systems, with a focus on addressing common challenges and pitfalls. It is based on Andrew Ng's experience building and deploying ML systems at scale.
-* [Grokking Deep Learning by Andrew Trask (2019)](https://www.manning.com/books/grokking-deep-learning) This book offers an intuitive and hands-on approach to learning deep learning, using code examples and interactive exercises. It covers key concepts such as backpropagation, convolutional neural networks, and recurrent neural networks.
-* [Reinforcement Learning: An Introduction" by Richard Sutton and Andrew Barto (2018)](http://incompleteideas.net/book/the-book-2nd.html)This is a comprehensive textbook on reinforcement learning, covering both the theory and applications of this approach to AI. It is widely regarded as a seminal work in the field.
-* [The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World by Pedro Domingos (2015)](https://www.amazon.com/Master-Algorithm-Ultimate-Learning-Machine/dp/0465094279)This book explores the potential of machine learning to transform various industries and aspects of our lives. It presents a vision of a "master algorithm" that can learn from any kind of data.
-* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron (2019) ](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)This book offers a practical guide to building and deploying machine learning models using popular Python libraries such as Scikit-Learn, Keras, and TensorFlow. It covers a wide range of topics, from data preprocessing to deep learning.
-
-### Research papers and articles:
-|  Name  |  Description  |  URL  | Year
-| :-----:| :------------:| :----:| :----:
-| Attention Is All You Need |  Introduction to the Transformer model. |  [URL](https://arxiv.org/abs/1706.03762)  | 2017
-| ImageNet Classification with Deep Convolutional Neural Networks | Introduction to the concept of deep learning and convolutional neural networks| [URL](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | 2012
-| Generative Adversarial Networks | Introduction to the concept of generative adversarial networks  | [URL](https://arxiv.org/abs/1406.2661)  | 2014
-| Playing Atari with Deep Reinforcement Learning | Demonstrates that deep reinforcement learning can be used to learn to play Atari games                                    | [URL](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) | 2013
-|  BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | Introduction to the BERT model | [URL](https://arxiv.org/abs/1810.04805)| 2018
-|  Deep Residual Learning for Image Recognition | Introduction to ResNet | [URL](https://arxiv.org/abs/1512.03385)  | 2016
-| AlphaGo: Mastering the game of Go with deep neural networks and tree search  | Introduction to the AlphaGo system | [URL](https://www.nature.com/articles/nature16961) | 2016
-| Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks| Introduction to the attention mechanism for neural machine translation                                   |  [URL](https://arxiv.org/abs/1511.06434)   | 2016
-| DeepFace: Closing the Gap to Human-Level Performance in Face Verification | Introduction to the DeepFace model|  [URL](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)   | 2014
-|  Neural Ordinary Differential Equations | Introduction to the concept of neural ordinary differential equations |  [URL](https://arxiv.org/abs/1806.07366)   | 2018
-|  The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks |  Introduction to the idea that large neural networks contain smaller "winning tickets"  |  [URL](https://arxiv.org/abs/1803.03635)   |2019
-
-### AI communities and forums:
-* [Kaggle:](https://www.kaggle.com/)
-> A community of data scientists and machine learning enthusiasts
-* [Hugging Face:](https://huggingface.co/)
-> The AI community building the future
-* [Stack Overflow:](https://stackoverflow.com/)
-> A Q&A forum for developers to ask and answer technical questions, including those related to AI.
-* [Reddit Machine Learning:](https://www.reddit.com/r/MachineLearning/)
-> A subreddit dedicated to discussion and news related to machine learning and artificial intelligence.
-* [TensorFlow:](https://www.tensorflow.org/community)
-> A popular machine learning library from Google, with an active community of users and contributors.
-* [PyTorch:](https://discuss.pytorch.org/)
-> Another popular machine learning library with an active community of users and contributors.
-* [OpenAI:](https://community.openai.com/)
-> A research organization dedicated to advancing AI in a safe and beneficial way
-* [AI Stack Exchange:](https://ai.stackexchange.com/)
-> A Q&A forum for AI-related questions, similar to Stack Overflow.
-* [Data Science Central:](https://www.datasciencecentral.com/)
-> A community of data scientists and machine learning practitioners sharing knowledge and resources.
-* [Learn prompting:](https://learnprompting.org/)
-> A community of AI enthusiasts dedicated to exploring and advancing the field of GPT-based natural language processing
-* [DataCamp:](https://www.datacamp.com/)
-> Leading online learning platform
-* [Code Academy:](https://www.codecademy.com/)
-> Online community of coders, developers, and tech enthusiasts
-* [FreeCodeCamp:](https://www.freecodecamp.org/)
-> A community dedicated to teaching people to code for free
-* [Zero to Mastery:](https://zerotomastery.io/)
-> Anonline community offering a range of courses
-* [DeepLearning.AI:](https://www.deeplearning.ai/blog/category/community/)
-> A hub for AI enthusiasts to learn, connect, and grow
-* [Google AI:](https://ai.google/)
-> A community of researchers, engineers, and developers working on Google’s AI initiatives.
-* [NVIDIA Developer Zone:](https://developer.nvidia.com/)
-> A community of developers using NVIDIA GPUs for AI and machine learning projects.
-* [Machine Learning Mastery:](https://machinelearningmastery.com/start-here/)
-> A community of machine learning practitioners and learners, with a focus on practical tutorials and projects.
-* [MidJourney:](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
-> Stay updated on the latest trends and techniques in AI, machine learning, and data science
-
-### AI conferences and workshops:
->Conference on Neural Information Processing Systems (NeurIPS) - This is one of the largest and most prestigious AI conferences in the world, covering a wide range of topics in machine learning, deep learning, and artificial intelligence.
-Link: https://neurips.cc/
-
->International Conference on Machine Learning (ICML) - This is another major AI conference that covers topics in machine learning and deep learning, as well as related fields such as computer vision, natural language processing, and robotics.
-Link: https://icml.cc/
-
->International Conference on Learning Representations (ICLR) - This is a conference focused on representation learning, a key area of research in machine learning and deep learning. It covers topics such as unsupervised learning, generative models, and reinforcement learning.
-Link: https://iclr.cc/
-
->AAAI Conference on Artificial Intelligence (AAAI) - This is a conference that covers a wide range of topics in artificial intelligence, including natural language processing, computer vision, robotics, and decision making.
-Link: https://aaai.org/
-
->Conference on Computer Vision and Pattern Recognition (CVPR) - This is a conference focused on computer vision and image processing, covering topics such as object recognition, image segmentation, and deep learning for visual recognition.
-Link: http://cvpr2022.thecvf.com/
-
->International Joint Conference on Artificial Intelligence (IJCAI) - This is one of the oldest and most prestigious AI conferences in the world, covering topics such as knowledge representation, reasoning, planning, and natural language processing.
-Link: https://www.ijcai.org/
-
->Association for Computational Linguistics (ACL) - This is a conference focused on natural language processing and computational linguistics, covering topics such as machine translation, text classification, sentiment analysis, and dialogue systems.
-Link: https://aclweb.org/aclwiki/Conference_portal
-
-### Open-source software and tools:
->[TensorFlow](https://www.tensorflow.org/) - This is an open source machine learning library developed by Google, which allows developers to create and deploy machine learning models at scale.
-
-
->[PyTorch](https://pytorch.org/) - This is another open source machine learning library that is growing in popularity, due to its ease of use and flexibility.
-
-
->[Keras](https://keras.io/) - This is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, Theano, or CNTK.
-
-
->[OpenCV](https://opencv.org/) - This is an open source computer vision library that is widely used in the industry and academia for image and video processing.
-
-
->[scikit-learn](https://scikit-learn.org/) - This is a popular machine learning library in Python that provides a range of supervised and unsupervised learning algorithms.
-
-
->[Hugging Face](https://huggingface.co/) - This is a popular open source library for natural language processing, which provides state-of-the-art pre-trained models for a variety of NLP tasks.
-
-
->[Jupyter Notebook](https://jupyter.org/) - This is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
-
-
->[Apache MXNet](https://mxnet.apache.org/) - This is an open source deep learning framework that supports multiple programming languages, including Python, R, and C++. It is known for its scalability and efficiency.
-
-
->[Microsoft Cognitive Toolkit (CNTK)](https://github.com/Microsoft/CNTK) - This is a deep learning framework developed by Microsoft, which allows developers to train and deploy machine learning models on a variety of platforms.
-
-
->[NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) - This is a software development kit that allows developers to utilize the power of NVIDIA GPUs for parallel computing, including deep learning applications.
-
-
->[Google Cloud AI Platform](https://developer.nvidia.com/cuda-toolkit) - This is a cloud-based platform that allows developers to build and deploy machine learning models at scale, using TensorFlow or PyTorch.
-
-
->[FastAPI](https://fastapi.tiangolo.com/) - This is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.
-
-
->[Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) - This is an open source toolkit developed by Unity Technologies, which allows developers to train and test intelligent agents in the Unity environment.
-
-
->[Caffe](http://caffe.berkeleyvision.org/) - This is a deep learning framework that is particularly well-suited for image and video processing tasks.<br>
+> **Note:** For tools and software, see [AI Tools](AI_Tools.md). This page focuses on learning resources.
 
 ---
+
+### Contents
+
+- [Learning Paths by Role](#learning-paths-by-role)
+- [Prompt Engineering & Context Design](#prompt-engineering--context-design)
+- [Agent Development & Orchestration](#agent-development--orchestration)
+- [RAG & Knowledge Systems](#rag--knowledge-systems)
+- [Evaluation & Testing](#evaluation--testing)
+- [AI Safety & Alignment](#ai-safety--alignment)
+- [AI Governance & Ethics](#ai-governance--ethics)
+- [LLM Foundations](#llm-foundations)
+- [Classical ML & Deep Learning](#classical-ml--deep-learning)
+- [Landmark Research Papers](#landmark-research-papers)
+- [Communities & Discussion](#communities--discussion)
+- [Podcasts & Video Channels](#podcasts--video-channels)
+- [Conferences & Events](#conferences--events)
+- [Newsletters & Blogs](#newsletters--blogs)
+
+---
+
+## Learning Paths by Role
+
+*Where to start based on what you're trying to accomplish.*
+
+| Role | Core Skills Needed | Start Here |
+|:-----|:-------------------|:-----------|
+| **AI Product Manager** | Prompt design, evaluation, user research, cost modeling | [Prompt Engineering](#prompt-engineering--context-design) → [Evaluation](#evaluation--testing) |
+| **Software Engineer (adding AI)** | API integration, prompt engineering, error handling | [LLM Foundations](#llm-foundations) → [Prompt Engineering](#prompt-engineering--context-design) |
+| **AI/ML Engineer** | Agent architecture, RAG systems, evaluation, deployment | [Agent Development](#agent-development--orchestration) → [RAG](#rag--knowledge-systems) |
+| **Data Scientist** | Fine-tuning, embeddings, evaluation metrics | [LLM Foundations](#llm-foundations) → [Evaluation](#evaluation--testing) |
+| **Security Engineer** | Prompt injection, guardrails, red teaming | [AI Safety](#ai-safety--alignment) → [Evaluation](#evaluation--testing) |
+| **Compliance/Legal** | AI governance frameworks, risk assessment, audit | [AI Governance](#ai-governance--ethics) |
+| **Executive/Decision Maker** | AI strategy, risk, organizational change | [AI Governance](#ai-governance--ethics) → AI for Everyone course |
+| **Researcher** | Architecture, training, alignment theory | [Landmark Papers](#landmark-research-papers) → [Classical ML](#classical-ml--deep-learning) |
+
+---
+
+## Prompt Engineering & Context Design
+
+*The core skill for working with LLMs. How to communicate effectively with AI systems.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **Anthropic Prompt Engineering Guide** | Claude-specific best practices, system prompts, XML tags | Developers using Claude | [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) |
+| **OpenAI Prompt Engineering Guide** | GPT best practices, few-shot, chain-of-thought | Developers using OpenAI | [platform.openai.com/docs](https://platform.openai.com/docs/guides/prompt-engineering) |
+| **Prompt Engineering Guide (DAIR.AI)** | Comprehensive techniques across models | All practitioners | [promptingguide.ai](https://www.promptingguide.ai/) |
+| **Learn Prompting** | Structured course from basics to advanced | Beginners to intermediate | [learnprompting.org](https://learnprompting.org/) |
+| **DeepLearning.AI: ChatGPT Prompt Engineering** | Practical prompt engineering with Andrew Ng | Developers, data scientists | [deeplearning.ai](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) |
+| **Google Prompt Design Guide** | Gemini-specific prompting strategies | Developers using Google AI | [ai.google.dev](https://ai.google.dev/gemini-api/docs/prompting-intro) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **"Prompt Engineering" (Lilian Weng)** | Deep technical overview of prompting techniques | [lilianweng.github.io](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) |
+| **"What We Learned from a Year of Building with LLMs"** | Production lessons from practitioners | [oreilly.com](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) |
+| **Anthropic's Claude Character** | How Claude is designed to behave and why | [anthropic.com](https://www.anthropic.com/research/claude-character) |
+
+---
+
+## Agent Development & Orchestration
+
+*Building AI systems that reason, plan, and take actions. The frontier of applied AI.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **DeepLearning.AI: AI Agents in LangGraph** | Multi-step agents with state and cycles | AI engineers | [deeplearning.ai](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) |
+| **DeepLearning.AI: Multi AI Agent Systems with CrewAI** | Role-based multi-agent collaboration | Teams building agent teams | [deeplearning.ai](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/) |
+| **LangChain Academy** | Comprehensive LangChain/LangGraph training | LangChain users | [academy.langchain.com](https://academy.langchain.com/) |
+| **Anthropic MCP Documentation** | Building tool-using agents with Model Context Protocol | Agent developers | [modelcontextprotocol.io](https://modelcontextprotocol.io/introduction) |
+| **AutoGen Tutorial** | Microsoft's multi-agent framework | Enterprise teams | [microsoft.github.io/autogen](https://microsoft.github.io/autogen/docs/tutorial/) |
+| **OpenAI Function Calling Guide** | Tool use and structured outputs | OpenAI API users | [platform.openai.com](https://platform.openai.com/docs/guides/function-calling) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **"The Shift from Models to Compound AI Systems"** | Why agents and pipelines matter more than models | [bair.berkeley.edu](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) |
+| **"Building Effective Agents" (Anthropic)** | Practical patterns for agent development | [anthropic.com](https://www.anthropic.com/research/building-effective-agents) |
+| **"Cognitive Architectures for Language Agents"** | Academic framework for agent design | [arxiv.org](https://arxiv.org/abs/2309.02427) |
+| **LangGraph Conceptual Guide** | When and how to use agentic patterns | [langchain-ai.github.io](https://langchain-ai.github.io/langgraph/concepts/) |
+
+---
+
+## RAG & Knowledge Systems
+
+*Connecting AI to your organization's data. Essential for enterprise AI.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **DeepLearning.AI: Building and Evaluating Advanced RAG** | Production RAG with evaluation | ML engineers | [deeplearning.ai](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/) |
+| **LlamaIndex Documentation** | Data connectors, indexing, retrieval | RAG developers | [docs.llamaindex.ai](https://docs.llamaindex.ai/) |
+| **Pinecone Learning Center** | Vector search fundamentals and best practices | Teams implementing RAG | [pinecone.io/learn](https://www.pinecone.io/learn/) |
+| **DeepLearning.AI: Vector Databases** | Embeddings and similarity search | Data engineers | [deeplearning.ai](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/) |
+| **Weaviate Academy** | Hands-on vector database training | Weaviate users | [weaviate.io/developers/academy](https://weaviate.io/developers/academy) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **"Patterns for Building LLM-based Systems"** | RAG, agents, and production patterns | [eugeneyan.com](https://eugeneyan.com/writing/llm-patterns/) |
+| **"Chunking Strategies for LLM Applications"** | How to split documents for retrieval | [pinecone.io](https://www.pinecone.io/learn/chunking-strategies/) |
+| **"A Survey on RAG for LLMs"** | Comprehensive academic overview | [arxiv.org](https://arxiv.org/abs/2312.10997) |
+| **"Retrieval Augmented Generation: A Practical Guide"** | End-to-end RAG implementation | [docs.cohere.com](https://docs.cohere.com/docs/retrieval-augmented-generation-rag) |
+
+---
+
+## Evaluation & Testing
+
+*Measuring AI quality. The difference between demos and production systems.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **DeepLearning.AI: Evaluating and Debugging Generative AI** | Systematic evaluation methods | ML engineers | [deeplearning.ai](https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/) |
+| **Promptfoo Documentation** | Automated prompt testing and red teaming | Developers testing prompts | [promptfoo.dev/docs](https://www.promptfoo.dev/docs/intro/) |
+| **Inspect AI Documentation** | UK AISI's evaluation framework | Safety researchers, evaluators | [inspect.ai-safety-institute.org.uk](https://inspect.ai-safety-institute.org.uk/docs/) |
+| **Ragas Documentation** | RAG-specific evaluation metrics | RAG developers | [docs.ragas.io](https://docs.ragas.io/) |
+| **Braintrust Documentation** | Building evaluation pipelines | Production ML teams | [braintrust.dev/docs](https://www.braintrust.dev/docs) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **"Your AI Product Needs Evals"** | Why and how to evaluate LLM applications | [hamel.dev](https://hamel.dev/blog/posts/evals/) |
+| **"How to Evaluate LLMs"** | Practical evaluation strategies | [oreilly.com](https://www.oreilly.com/radar/how-to-evaluate-llms-a-complete-metric-framework/) |
+| **"LLM-as-Judge"** | Using LLMs to evaluate LLM outputs | [arxiv.org](https://arxiv.org/abs/2306.05685) |
+| **Anthropic's Evaluation Documentation** | How Anthropic thinks about evals | [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/develop-tests) |
+
+---
+
+## AI Safety & Alignment
+
+*Building AI systems that are robust, secure, and aligned with human values.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **AISF Fundamentals Course** | AI safety foundations | Researchers, engineers | [aisafetyfundamentals.com](https://www.aisafetyfundamentals.com/) |
+| **DeepLearning.AI: Red Teaming LLM Applications** | Adversarial testing techniques | Security engineers | [deeplearning.ai](https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/) |
+| **Center for AI Safety Course** | Technical AI safety concepts | Researchers | [course.mlsafety.org](https://course.mlsafety.org/) |
+| **Guardrails AI Documentation** | Implementing input/output validation | Developers adding safety | [guardrailsai.com/docs](https://www.guardrailsai.com/docs) |
+| **NeMo Guardrails Guide** | NVIDIA's conversational safety toolkit | Chatbot developers | [docs.nvidia.com](https://docs.nvidia.com/nemo/guardrails/) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **Anthropic Core Views on AI Safety** | How Anthropic approaches safety | [anthropic.com](https://www.anthropic.com/news/core-views-on-ai-safety) |
+| **"Constitutional AI" (Anthropic)** | Self-correction against principles | [anthropic.com](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) |
+| **"Prompt Injection Primer"** | Understanding prompt injection attacks | [simonwillison.net](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/) |
+| **OWASP Top 10 for LLM Applications** | Security risks in LLM systems | [owasp.org](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
+| **"Sleeper Agents"** | Research on deceptive AI behavior | [arxiv.org](https://arxiv.org/abs/2401.05566) |
+| **UK AISI Evaluations** | Government AI safety assessment approach | [aisi.gov.uk](https://www.aisi.gov.uk/our-work) |
+
+---
+
+## AI Governance & Ethics
+
+*Managing AI at the organizational level. Policy, risk, compliance, and accountability.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **AI for Everyone (Andrew Ng)** | Non-technical AI literacy for leaders | Executives, managers | [coursera.org](https://www.coursera.org/learn/ai-for-everyone) |
+| **Responsible AI (Google)** | Principles for ethical AI development | All practitioners | [ai.google/responsibility](https://ai.google/responsibility/responsible-ai-practices/) |
+| **Microsoft Responsible AI** | Enterprise responsible AI framework | Enterprise teams | [microsoft.com/ai/responsible-ai](https://www.microsoft.com/en-us/ai/responsible-ai) |
+| **AI Ethics (MIT)** | Technical and philosophical foundations | Researchers, policy makers | [mitsloan.mit.edu](https://exec.mit.edu/s/artificial-intelligence-implications-for-business-strategy) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **NIST AI Risk Management Framework** | US government AI risk framework | [nist.gov](https://www.nist.gov/itl/ai-risk-management-framework) |
+| **EU AI Act Summary** | European AI regulation overview | [artificialintelligenceact.eu](https://artificialintelligenceact.eu/) |
+| **"Model Cards for Model Reporting"** | Standardized model documentation | [arxiv.org](https://arxiv.org/abs/1810.03993) |
+| **Anthropic's Responsible Scaling Policy** | How to scale AI development responsibly | [anthropic.com](https://www.anthropic.com/news/anthropics-responsible-scaling-policy) |
+| **"On the Dangers of Stochastic Parrots"** | Critical perspective on large language models | [dl.acm.org](https://dl.acm.org/doi/10.1145/3442188.3445922) |
+
+---
+
+## LLM Foundations
+
+*Understanding how large language models work. Essential context for practitioners.*
+
+### Courses & Tutorials
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **Andrej Karpathy: Neural Networks - Zero to Hero** | Build GPT from scratch | Engineers wanting deep understanding | [youtube.com](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) |
+| **Stanford CS324: Large Language Models** | Academic LLM foundations | Researchers, advanced engineers | [stanford-cs324.github.io](https://stanford-cs324.github.io/winter2022/) |
+| **Hugging Face NLP Course** | Transformers, fine-tuning, deployment | ML engineers | [huggingface.co/course](https://huggingface.co/learn/nlp-course) |
+| **DeepLearning.AI: Generative AI with LLMs** | LLM architecture, training, fine-tuning | ML practitioners | [coursera.org](https://www.coursera.org/learn/generative-ai-with-llms) |
+| **Full Stack LLM Bootcamp** | End-to-end LLM application development | Full-stack developers | [fullstackdeeplearning.com](https://fullstackdeeplearning.com/llm-bootcamp/) |
+| **LLM University (Cohere)** | Embeddings, RAG, fine-tuning fundamentals | All practitioners | [cohere.com/llmu](https://cohere.com/llmu) |
+
+### Key Reading
+
+| Resource | What You'll Learn | Link |
+|:---------|:------------------|:-----|
+| **"The Illustrated Transformer"** | Visual guide to transformer architecture | [jalammar.github.io](https://jalammar.github.io/illustrated-transformer/) |
+| **"Attention Is All You Need" Annotated** | The foundational paper, explained | [nlp.seas.harvard.edu](https://nlp.seas.harvard.edu/annotated-transformer/) |
+| **"A Survey of Large Language Models"** | Comprehensive LLM overview | [arxiv.org](https://arxiv.org/abs/2303.18223) |
+| **State of GPT (Andrej Karpathy)** | How GPT models are trained and used | [youtube.com](https://www.youtube.com/watch?v=bZQun8Y4L2A) |
+
+---
+
+## Classical ML & Deep Learning
+
+*Foundational knowledge. Still relevant for understanding and when LLMs aren't the right tool.*
+
+### Courses
+
+| Resource | What You'll Learn | Who It's For | Link |
+|:---------|:------------------|:-------------|:-----|
+| **Machine Learning (Andrew Ng)** | ML fundamentals: regression, classification, neural nets | Beginners | [coursera.org](https://www.coursera.org/learn/machine-learning) |
+| **Deep Learning Specialization** | Neural networks, CNNs, RNNs, sequence models | Engineers building models | [coursera.org](https://www.coursera.org/specializations/deep-learning) |
+| **Fast.ai Practical Deep Learning** | Hands-on deep learning with code | Practitioners wanting fast results | [fast.ai](https://course.fast.ai/) |
+| **CS231n: CNNs for Visual Recognition** | Computer vision foundations | Vision ML engineers | [cs231n.stanford.edu](http://cs231n.stanford.edu/) |
+| **CS224n: NLP with Deep Learning** | NLP foundations (pre-LLM techniques still useful) | NLP engineers | [web.stanford.edu/class/cs224n](http://web.stanford.edu/class/cs224n/) |
+| **Elements of AI** | Non-technical AI introduction | Everyone | [elementsofai.com](https://www.elementsofai.com/) |
+| **StatQuest (Josh Starmer)** | Intuitive statistics and ML explanations | Visual learners | [youtube.com/statquest](https://www.youtube.com/@statquest) |
+
+### Books
+
+| Book | What You'll Learn | Who It's For | Link |
+|:-----|:------------------|:-------------|:-----|
+| **Deep Learning (Goodfellow et al.)** | Comprehensive deep learning theory | Researchers, advanced practitioners | [deeplearningbook.org](https://www.deeplearningbook.org/) |
+| **Hands-On Machine Learning (Géron)** | Practical ML with scikit-learn, Keras, TensorFlow | Practitioners | [oreilly.com](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) |
+| **The Hundred-Page Machine Learning Book** | Concise ML overview | Everyone needing quick reference | [themlbook.com](http://themlbook.com/) |
+| **Designing Machine Learning Systems (Huyen)** | Production ML system design | ML engineers | [oreilly.com](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) |
+| **AI Engineering (Huyen)** | Building AI products and systems | AI/ML engineers | [oreilly.com](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) |
+| **Build a Large Language Model (From Scratch)** | Implement an LLM step by step | Engineers wanting deep understanding | [manning.com](https://www.manning.com/books/build-a-large-language-model-from-scratch) |
+
+---
+
+## Landmark Research Papers
+
+*Essential papers for understanding how we got here and where we're going.*
+
+### Foundational (Pre-2020)
+
+| Paper | Year | Significance | Link |
+|:------|:-----|:-------------|:-----|
+| **Attention Is All You Need** | 2017 | Introduced the Transformer architecture | [arxiv.org](https://arxiv.org/abs/1706.03762) |
+| **BERT** | 2018 | Bidirectional pre-training for NLP | [arxiv.org](https://arxiv.org/abs/1810.04805) |
+| **GPT-2 (Language Models are Unsupervised Multitask Learners)** | 2019 | Scaling and emergence in language models | [openai.com](https://openai.com/research/better-language-models) |
+| **ImageNet Classification with Deep CNNs (AlexNet)** | 2012 | Launched the deep learning revolution | [papers.nips.cc](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) |
+| **Deep Residual Learning (ResNet)** | 2016 | Enabled very deep networks | [arxiv.org](https://arxiv.org/abs/1512.03385) |
+| **Generative Adversarial Networks** | 2014 | Generative modeling breakthrough | [arxiv.org](https://arxiv.org/abs/1406.2661) |
+| **Playing Atari with Deep RL** | 2013 | Deep reinforcement learning | [arxiv.org](https://arxiv.org/abs/1312.5602) |
+
+### LLM Era (2020-2023)
+
+| Paper | Year | Significance | Link |
+|:------|:-----|:-------------|:-----|
+| **GPT-3 (Language Models are Few-Shot Learners)** | 2020 | In-context learning at scale | [arxiv.org](https://arxiv.org/abs/2005.14165) |
+| **Scaling Laws for Neural Language Models** | 2020 | Predictable scaling behavior | [arxiv.org](https://arxiv.org/abs/2001.08361) |
+| **Training Compute-Optimal LLMs (Chinchilla)** | 2022 | Optimal data/compute tradeoffs | [arxiv.org](https://arxiv.org/abs/2203.15556) |
+| **Chain-of-Thought Prompting** | 2022 | Reasoning through intermediate steps | [arxiv.org](https://arxiv.org/abs/2201.11903) |
+| **Constitutional AI** | 2022 | AI self-improvement with principles | [arxiv.org](https://arxiv.org/abs/2212.08073) |
+| **RLHF (Training Language Models to Follow Instructions)** | 2022 | Human feedback for alignment | [arxiv.org](https://arxiv.org/abs/2203.02155) |
+| **LLaMA** | 2023 | Open-weight foundation models | [arxiv.org](https://arxiv.org/abs/2302.13971) |
+| **GPT-4 Technical Report** | 2023 | Multimodal frontier model | [arxiv.org](https://arxiv.org/abs/2303.08774) |
+| **Retrieval-Augmented Generation (RAG)** | 2020 | Grounding LLMs with retrieval | [arxiv.org](https://arxiv.org/abs/2005.11401) |
+| **LoRA: Low-Rank Adaptation** | 2021 | Efficient fine-tuning | [arxiv.org](https://arxiv.org/abs/2106.09685) |
+
+### Agents & Reasoning (2023-2025)
+
+| Paper | Year | Significance | Link |
+|:------|:-----|:-------------|:-----|
+| **ReAct: Reasoning and Acting in LLMs** | 2023 | Foundation for LLM agents | [arxiv.org](https://arxiv.org/abs/2210.03629) |
+| **Toolformer** | 2023 | LLMs learning to use tools | [arxiv.org](https://arxiv.org/abs/2302.04761) |
+| **Tree of Thoughts** | 2023 | Structured reasoning exploration | [arxiv.org](https://arxiv.org/abs/2305.10601) |
+| **Self-Consistency** | 2023 | Multiple reasoning paths for reliability | [arxiv.org](https://arxiv.org/abs/2203.11171) |
+| **Voyager: Minecraft Agent** | 2023 | Lifelong learning agent | [arxiv.org](https://arxiv.org/abs/2305.16291) |
+| **DSPy** | 2023 | Programming (not prompting) LLMs | [arxiv.org](https://arxiv.org/abs/2310.03714) |
+| **GAIA Benchmark** | 2023 | Evaluating general AI assistants | [arxiv.org](https://arxiv.org/abs/2311.12983) |
+| **Let's Verify Step by Step** | 2023 | Process reward models for reasoning | [arxiv.org](https://arxiv.org/abs/2305.20050) |
+| **The Claude 3 Model Family** | 2024 | Frontier model capabilities and safety | [anthropic.com](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) |
+
+### Safety & Alignment
+
+| Paper | Year | Significance | Link |
+|:------|:-----|:-------------|:-----|
+| **Concrete Problems in AI Safety** | 2016 | Foundational safety research agenda | [arxiv.org](https://arxiv.org/abs/1606.06565) |
+| **Scaling Monosemanticity** | 2023 | Interpreting neural network features | [anthropic.com](https://transformer-circuits.pub/2023/monosemantic-features/) |
+| **Sleeper Agents** | 2024 | Deceptive behavior in AI systems | [arxiv.org](https://arxiv.org/abs/2401.05566) |
+| **Many-Shot Jailbreaking** | 2024 | Long-context safety vulnerabilities | [anthropic.com](https://www.anthropic.com/research/many-shot-jailbreaking) |
+| **Towards Monosemanticity** | 2023 | Understanding neural network internals | [anthropic.com](https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning) |
+
+---
+
+## Communities & Discussion
+
+*Where practitioners share knowledge, debug problems, and stay current.*
+
+### Technical Communities
+
+| Community | Focus | Who It's For | Link |
+|:----------|:------|:-------------|:-----|
+| **Hugging Face Hub** | Model sharing, datasets, discussions | ML practitioners | [huggingface.co](https://huggingface.co/) |
+| **LangChain Discord** | LangChain/LangGraph development | LangChain users | [discord.gg/langchain](https://discord.gg/langchain) |
+| **r/LocalLLaMA** | Running LLMs locally | Self-hosting enthusiasts | [reddit.com/r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) |
+| **r/MachineLearning** | ML research and news | Researchers, practitioners | [reddit.com/r/MachineLearning](https://www.reddit.com/r/MachineLearning/) |
+| **Anthropic Discord** | Claude development and usage | Claude users | [discord.gg/anthropic](https://discord.gg/anthropic) |
+| **OpenAI Developer Forum** | OpenAI API development | OpenAI API users | [community.openai.com](https://community.openai.com/) |
+| **AI Stack Exchange** | Technical Q&A | All practitioners | [ai.stackexchange.com](https://ai.stackexchange.com/) |
+| **MLOps Community** | Production ML systems | MLOps engineers | [mlops.community](https://mlops.community/) |
+| **Eleuther AI Discord** | Open-source AI research | Researchers, open-source contributors | [discord.gg/eleutherai](https://discord.gg/eleutherai) |
+
+### Professional Networks
+
+| Community | Focus | Who It's For | Link |
+|:----------|:------|:-------------|:-----|
+| **AI Engineer Foundation** | Applied AI engineering | Professional AI engineers | [ai.engineer](https://www.ai.engineer/) |
+| **Weights & Biases Community** | ML experiment tracking | W&B users | [wandb.ai/community](https://wandb.ai/site/community) |
+| **dbt Community** | Data transformation (AI-adjacent) | Data engineers | [getdbt.com/community](https://www.getdbt.com/community/) |
+
+---
+
+## Podcasts & Video Channels
+
+*Stay current with developments and learn from practitioners.*
+
+### Podcasts
+
+| Podcast | Focus | Who It's For | Link |
+|:--------|:------|:-------------|:-----|
+| **Latent Space** | AI engineering deep dives | AI engineers, technical practitioners | [latent.space](https://www.latent.space/) |
+| **Practical AI** | Applied AI and ML | Practitioners | [changelog.com/practicalai](https://changelog.com/practicalai) |
+| **The Gradient Podcast** | AI research interviews | Researchers, curious practitioners | [thegradientpub.substack.com](https://thegradientpub.substack.com/) |
+| **Machine Learning Street Talk** | Technical ML discussions | Advanced practitioners | [youtube.com/@MachineLearningStreetTalk](https://www.youtube.com/@MachineLearningStreetTalk) |
+| **Lex Fridman Podcast** | Long-form AI researcher interviews | General audience | [lexfridman.com/podcast](https://lexfridman.com/podcast/) |
+| **TWIML AI Podcast** | ML industry interviews | ML practitioners | [twimlai.com](https://twimlai.com/) |
+| **Cognitive Revolution** | AI implications and applications | Leaders, strategists | [theaibreakdown.com](https://www.cognitiverevolution.ai/) |
+| **High Agency** | AI product development | Product managers, founders | [highagency.substack.com](https://www.highagency.com/) |
+
+### YouTube Channels
+
+| Channel | Focus | Who It's For | Link |
+|:--------|:------|:-------------|:-----|
+| **Andrej Karpathy** | Deep understanding of neural networks | Engineers wanting fundamentals | [youtube.com/@AndrejKarpathy](https://www.youtube.com/@AndrejKarpathy) |
+| **3Blue1Brown** | Visual math and ML explanations | Visual learners | [youtube.com/@3blue1brown](https://www.youtube.com/@3blue1brown) |
+| **Yannic Kilcher** | Paper explanations and ML news | Researchers, practitioners | [youtube.com/@YannicKilcher](https://www.youtube.com/@YannicKilcher) |
+| **Two Minute Papers** | Research paper summaries | Everyone | [youtube.com/@TwoMinutePapers](https://www.youtube.com/@TwoMinutePapers) |
+| **AI Explained** | AI developments explained | General technical audience | [youtube.com/@AIExplained](https://www.youtube.com/@aiaboratorium7168) |
+| **StatQuest** | Statistics and ML fundamentals | Beginners, visual learners | [youtube.com/@statquest](https://www.youtube.com/@statquest) |
+
+---
+
+## Conferences & Events
+
+*Where the field advances and practitioners connect.*
+
+### Major Research Conferences
+
+| Conference | Focus | Link |
+|:-----------|:------|:-----|
+| **NeurIPS** | Machine learning and AI research | [neurips.cc](https://neurips.cc/) |
+| **ICML** | Machine learning | [icml.cc](https://icml.cc/) |
+| **ICLR** | Representation learning | [iclr.cc](https://iclr.cc/) |
+| **ACL** | Natural language processing | [aclweb.org](https://aclweb.org/) |
+| **CVPR** | Computer vision | [cvpr.thecvf.com](https://cvpr.thecvf.com/) |
+| **AAAI** | Artificial intelligence | [aaai.org](https://aaai.org/) |
+| **IJCAI** | Artificial intelligence | [ijcai.org](https://www.ijcai.org/) |
+
+### Applied AI Events
+
+| Event | Focus | Link |
+|:------|:------|:-----|
+| **AI Engineer World's Fair** | Applied AI engineering | [ai.engineer](https://www.ai.engineer/) |
+| **AI Summit** | Enterprise AI | [theaisummit.com](https://theaisummit.com/) |
+| **MLOps Community Events** | Production ML | [mlops.community/events](https://mlops.community/events/) |
+| **LangChain Events** | LLM application development | [langchain.com/events](https://www.langchain.com/events) |
+
+---
+
+## Newsletters & Blogs
+
+*Curated updates and analysis.*
+
+### Newsletters
+
+| Newsletter | Focus | Link |
+|:-----------|:------|:-----|
+| **The Batch (DeepLearning.AI)** | Weekly AI news digest | [deeplearning.ai/the-batch](https://www.deeplearning.ai/the-batch/) |
+| **Import AI** | AI research and policy | [jack-clark.net](https://jack-clark.net/) |
+| **The Gradient** | AI research summaries | [thegradient.pub](https://thegradient.pub/) |
+| **AI Tidbits** | Curated AI developments | [aitechtidbits.substack.com](https://aitidbits.substack.com/) |
+| **Ahead of AI** | LLM research and applications | [magazine.sebastianraschka.com](https://magazine.sebastianraschka.com/) |
+| **Interconnects** | AI research analysis | [interconnects.ai](https://www.interconnects.ai/) |
+| **Simon Willison's Weblog** | LLM applications and tools | [simonwillison.net](https://simonwillison.net/) |
+
+### Company Research Blogs
+
+| Blog | Focus | Link |
+|:-----|:------|:-----|
+| **Anthropic Research** | Claude and AI safety research | [anthropic.com/research](https://www.anthropic.com/research) |
+| **OpenAI Research** | GPT and capabilities research | [openai.com/research](https://openai.com/research) |
+| **Google DeepMind** | Frontier AI research | [deepmind.google/research](https://deepmind.google/research/) |
+| **Meta AI Research** | Open AI research | [ai.meta.com/research](https://ai.meta.com/research/) |
+| **Hugging Face Blog** | Open-source ML | [huggingface.co/blog](https://huggingface.co/blog) |
+
+### Individual Blogs
+
+| Blog | Focus | Link |
+|:-----|:------|:-----|
+| **Lilian Weng** | Technical AI explainers | [lilianweng.github.io](https://lilianweng.github.io/) |
+| **Jay Alammar** | Visual ML explanations | [jalammar.github.io](https://jalammar.github.io/) |
+| **Eugene Yan** | Applied ML systems | [eugeneyan.com](https://eugeneyan.com/) |
+| **Chip Huyen** | ML systems and engineering | [huyenchip.com](https://huyenchip.com/blog/) |
+| **Hamel Husain** | LLM applications and evals | [hamel.dev](https://hamel.dev/) |
+| **Sebastian Raschka** | ML fundamentals and LLMs | [sebastianraschka.com](https://sebastianraschka.com/blog/) |
+
+---
+
+## The Integration Challenge
+
+> **Companies will not struggle to access AI.**  
+> **They will struggle to integrate, trust, measure, and govern it under pressure.**
+
+This is why resources on **Evaluation**, **Safety**, and **Governance** matter as much as resources on building. The practitioners who succeed will be those who invest in:
+
+1. **Systematic evaluation** before deployment
+2. **Safety engineering** as a core competency
+3. **Governance frameworks** that scale with AI adoption
+4. **Continuous learning** as the field evolves rapidly
+
+---
+
 ### Notes
-Feedback and suggestions are welcome! <br>
-Create your prompts today.
-Go to https://chat.openai.com and sign up/in <br>
+
+Feedback and suggestions are welcome!
+
+This list is maintained as part of the [Awesome Prompt Engineering](https://natnew.github.io/Awesome-Prompt-Engineering/) collection. For tools and software, see [AI Tools](AI_Tools.md).
+
+*Last updated: January 2026*
