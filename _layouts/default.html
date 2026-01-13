@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.excerpt | default: site.description | default: "" }}">
-    <title>{{ page.title | default: site.title }}</title>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  </head>
-  <body>
-    <header>
-      <div class="inner">
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Site Title" }}</a></h1>
-        <h2>{{ site.description | default: "Site Description" }}</h2>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.excerpt | default: site.description | default: "" }}">
+  <title>{{ page.title | default: site.title }}</title>
 
-    <main>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Site Title" }}</a></h1>
+      <h2>{{ site.description | default: "Site Description" }}</h2>
+    </div>
+  </header>
+
+  <main>
+    <div class="inner">
       {{ content }}
-    </main>
+    </div>
+  </main>
 
-    <footer>
-      <div class="inner">
-        <p>{{ site.title | default: "Site Title" }}</p>
-        <p>&copy; {{ site.time | date: "%Y" }}</p>
-      </div>
-    </footer>
+  <footer>
+    <div class="inner">
+      <p>{{ site.title | default: "Site Title" }}</p>
+      <p>&copy; {{ site.time | date: "%Y" }}</p>
+    </div>
+  </footer>
 
-    <!-- Include the Tidio script -->
-    {% include tidio.html %}
-  </body>
+  <!-- Include the Tidio script -->
+  {% include tidio.html %}
+</body>
+
 </html>
