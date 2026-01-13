@@ -5,17 +5,23 @@ relative_links:
 include:
   - README.md
   - AI Glossary.csv
+  - AI_CheatSheet.md
+  - AI_Glossary.md
   - AI_Tools.md
   - Advanced_Prompting.md
+  - Agents.md
   - Articles.md
   - Basic_Prompting.md
   - Contributing.md
-  - Image_Prompting.md
-  - Intermediate_Prompting.md
+  - Deep_Learning_Guide.md
+  - FAQ.md
   - Introduction.md
+  - Intermediate_Prompting.md
+  - Multi_Modal_Prompting.md
   - Resources.md
   - Talks_Slides.md
   - code-of-conduct.md
+  - ethical_charter.md
   - license.md
   
 remote_theme: pages-themes/architect@v0.2.0

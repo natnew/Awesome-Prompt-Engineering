@@ -9,20 +9,24 @@ Effective prompt and context engineering requires understanding natural language
 
 ---
 ## Contents
+
 |  Name  |  Description  |  URL  |
 | :-----:| :------------:| :----:|
-| **Introduction**|  An Introduction to designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.  | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Introduction.html)|
-| **Basic Prompting**|   Beginner-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Basic_Prompting.html)|
-| **Intermediate Prompting**| Intermediate-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.     | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Intermediate_Prompting.html)|
-| **Advanced Prompting**| Advanced-level material about designing and optimizing textual prompts used to generate or influence the output of Artificial Intelligence models.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Advanced_Prompting.html)|
-| **Image Prompting**| Material about a technique in which a machine learning model is used to generate images based on a given textual prompt.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Image_Prompting.html)|
-|**Chatbot** | Provides resources on creating a chatbot. | [GITHub](https://natnew.github.io/Awesome-Prompt-Engineering/Chatbot.html)
-| **AI Tools**| A collection of software, applications, frameworks, and libraries designed to support the development and implementation of Artificial Intelligence algorithms and applications.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Tools.html)|
-| **Talks/Slides**| Presentations, speeches, or discussions that revolve around topics related to Artificial Intelligence.     | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Talks_Slides.html)|
-| **Articles**| AI articles are written pieces of content that explore topics related to Artificial Intelligence. These articles cover various subjects such as AI technologies, applications, research, trends, challenges, and ethical considerations.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Articles.html)|
-| **Resources**| A collection of resources that provide information, guidance, and tools related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Resources.html)|
-| **Ethical Charter**| Ethical Charter   | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)|
-| **Glossary**| A collection of terms and definitions related to the field of Artificial Intelligence.    | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Glossary.html)|
+| **Introduction** | Timeline of AI from foundations to frontier models. Context for how we got here. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Introduction.html) |
+| **Basic Prompting** | Core techniques: prompt structure, roles, delimiters, output formatting, constraints. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Basic_Prompting.html) |
+| **Intermediate Prompting** | Reasoning techniques: few-shot, chain-of-thought, self-consistency, structured reasoning. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Intermediate_Prompting.html) |
+| **Advanced Prompting** | Agentic patterns: ReAct, tool use, prompt chaining, self-reflection, meta-prompting. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Advanced_Prompting.html) |
+| **Multi-Modal Prompting** | Visual AI: text-to-image, image analysis, video generation, model-specific syntax. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Multi_Modal_Prompting.html) |
+| **AI Agents** | Building autonomous systems: patterns, orchestration frameworks, tools, memory, debugging. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Agents.html) |
+| **AI Tools** | Comprehensive guide to tools for building, deploying, evaluating, and governing AI. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Tools.html) |
+| **Deep Learning Guide** | LLM-relevant concepts: transformers, attention, training, tokenization, inference. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Deep_Learning_Guide.html) |
+| **Articles** | Curated reading list organized by topic: agents, RAG, evaluation, safety, production. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Articles.html) |
+| **Resources** | Learning resources: courses, papers, communities, podcasts, newsletters by role. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Resources.html) |
+| **Talks/Slides** | Presentations and discussions on AI topics from researchers and practitioners. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Talks_Slides.html) |
+| **FAQ** | Answers to common questions about LLMs, prompting, agents, RAG, and production. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/FAQ.html) |
+| **AI Cheat Sheet** | Quick reference: prompt patterns, API parameters, token estimation, cost optimization. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_CheatSheet.html) |
+| **Glossary** | 148 terms and definitions covering LLMs, agents, safety, and context engineering. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Glossary.html) |
+| **Ethical Charter** | Community values: human-centeredness, fairness, transparency, safety, accountability. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html) |
 
 ---
 ## Context Engineering: The Evolution of Prompt Engineering
@@ -44,6 +48,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic's engineering best practices
 - [Prompt Engineering Best Practices](https://claude.com/blog/best-practices-for-prompt-engineering) — Claude's official guide
 - [OpenAI Prompt Engineering Guide](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api) — OpenAI's official documentation
+
 ---
 ## Modern Tools & Frameworks
 
@@ -78,36 +83,42 @@ The field has evolved from crafting individual prompts to architecting complete 
 ---
 ## Announcements :eyes:
 ##### Watch this repository to keep up-to-date with the latest updates and announcements.
-|  Topic  |  Description  |  Date  | URL
-| :-----:| :------------:| :----:|:--------:
-|📘eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh)
-|📘eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip)
-|💻Website| Website is live | 2nd May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/)
-|📄New Page| Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html)
-|📚Guide|A - Z Machine Learning Guide | 15th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)|
-|🔍Cheat Sheet |ML CheatSheet | 16th May 2023| [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)|
+
+|  Topic  |  Description  |  Date  | URL |
+| :-----:| :------------:| :----:| :----: |
+| 📘eBook | eBook published | 17th April 2023 | [URL](https://natashanewbold.gumroad.com/l/zctxdh) |
+| 📘eBook | eBook published | 28th April 2023 | [URL](https://natashanewbold.gumroad.com/l/kjxpip) |
+| 💻Website | Website is live | 2nd May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/) |
+| 📄New Page | Ethical Charter | 14th May 2023 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/ethical_charter.html) |
+| 🔄Update | Context Engineering section added | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/) |
+| 🤖New Page | AI Agents guide | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/Agents.html) |
+| 🧠New Page | Deep Learning for LLMs guide | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/Deep_Learning_Guide.html) |
+| 📚Update | Glossary expanded to 148 terms | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Glossary.html) |
+| 📋New Page | AI Cheat Sheet | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/AI_CheatSheet.html) |
+| ❓New Page | FAQ updated with modern questions | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/FAQ.html) |
+| 🎤Update | Talks/Slides updated with LLM-era content | January 2026 | [URL](https://natnew.github.io/Awesome-Prompt-Engineering/Talks_Slides.html) |
 
 ---
-## Prompt Engineering Ebooks, Guides and Cheat Sheets
+## Guides and Learning Resources
 
 ##### [EBook: The Creative Side of AI: Mastering the Art of Prompt Engineering](https://natashanewbold.gumroad.com/l/zctxdh)
 ##### [Mastering Prompt Engineering: A Free eBook](https://natashanewbold.gumroad.com/l/kjxpip)
-##### [A - Z Machine Learning Guide](https://natnew.github.io/Awesome-Prompt-Engineering/ML_Guide.html)
-##### [ML CheatSheet](https://natnew.github.io/Awesome-Prompt-Engineering/ML_CheatSheet.html)
-##### [100 Projects For Beginners Using Python](https://medium.com/@natashanewbold/100-projects-for-beginners-using-python-8b7f55bbd1ad?sk=ff4103731ceecffa845df3e632447964)
-##### [An Introduction to Prompt Engineering: Key Concepts & Tips For Beginners](https://medium.com/ai-vanguard/ai-prompt-engineering-tips-for-beginners-9ccb5b54243?sk=b6a83e29c3fd82496b78f8e5849512eb)
+##### [AI Cheat Sheet](https://natnew.github.io/Awesome-Prompt-Engineering/AI_CheatSheet.html)
+##### [Deep Learning for LLMs Guide](https://natnew.github.io/Awesome-Prompt-Engineering/Deep_Learning_Guide.html)
+##### [AI Agents Guide](https://natnew.github.io/Awesome-Prompt-Engineering/Agents.html)
 ##### [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
-##### [100 chats for veterans](https://chatgpt.com/use-cases/veterans)
-##### [100 chats for college students](https://chatgpt.com/use-cases/students)
+##### [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/)
+##### [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
+##### [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 
 ---
 ## Additional Resources
+
 <table>
   <tr>
     <td width="100%">
          Join the <a href="https://github.com/natnew/Awesome-Data-Science">Artificial Intelligence First</a> newsletter today. You'll be kept informed about open source frameworks, carefully selected tutorials, and articles compiled by experts in artificial intelligence.
     </td>
-  
   </tr>
 </table>
 
@@ -116,18 +127,19 @@ The field has evolved from crafting individual prompts to architecting complete 
     <td width="100%">
       Explore <a href="https://github.com/natnew/Awesome-Data-Science">Awesome Data Science.</a> A carefully curated list of awesome Data Science resources.
     </td>
-    
   </tr>
 </table>
 
-
 ---
 ## More Awesome Lists
+
 - [Awesome Data Science](https://github.com/natnew/Awesome-Data-Science) — Curated data science resources
 - [Awesome Generative AI](https://github.com/natnew/Awesome-Generative-AI) — Comprehensive generative AI resources
 - [Awesome AI Scientists](https://github.com/natnew/Awesome-AI-Scientists) — AI for scientific discovery
 - [Awesome Physical AI](https://github.com/natnew/awesome-physical-ai) — Robotics + AI resources for Physical AI / Embodied AI
-
+- [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) — ChatGPT prompt examples
+- [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) — Large language model resources
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — DAIR.AI's comprehensive guide
 
 ---
 ## Contributors
@@ -154,6 +166,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Contributions ⭐
+
 We believe that feedback and suggestions are crucial to improving our content and making it more useful for our readers. That's why we encourage you to share your thoughts with us and let us know what you think about our content.
 
 Your feedback can help us identify areas where we can improve and provide more value to our readers. Whether you have suggestions for new topics, ideas for interactive elements, or feedback on our existing content, we would love to hear from you.
@@ -161,7 +174,8 @@ Your feedback can help us identify areas where we can improve and provide more v
 By sharing your thoughts and ideas with us, you can help shape the direction of our GitHub repo page and make it a more valuable resource for the prompt engineering community. So please don't hesitate to reach out and let us know what you think. We're looking forward to hearing from you!
 
 This project follows the [all-contributors](https://allcontributors.org/) specification. Contributions of any kind are welcome!
-##### Many thanks to our contributors. Want to contribute? Visit the Workflow documentation.  [here](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Workflow.md).
+
+##### Many thanks to our contributors. Want to contribute? Visit the Workflow documentation [here](https://github.com/natnew/Awesome-Prompt-Engineering/blob/main/Workflow.md).
 
 ## License
 
