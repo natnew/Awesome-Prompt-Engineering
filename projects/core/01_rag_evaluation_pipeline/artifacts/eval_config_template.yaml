@@ -1,0 +1,243 @@
+# RAG Evaluation Configuration
+# Complete this file to define your evaluation pipeline
+
+# =============================================================================
+# METADATA
+# =============================================================================
+metadata:
+  project_name: "Documentation Assistant RAG"
+  version: "1.0.0"
+  created_at: "YYYY-MM-DD"
+  author: "[Your name]"
+  description: "Evaluation configuration for customer support RAG system"
+
+# =============================================================================
+# GOLDEN DATASET
+# =============================================================================
+golden_dataset:
+  path: "./golden_dataset.yaml"
+  
+  # Minimum requirements
+  min_examples: 20
+  
+  # Required category distribution
+  categories:
+    simple_factual:
+      min_count: 4
+      description: "Basic factual questions with single correct answers"
+    how_to:
+      min_count: 4
+      description: "Step-by-step procedural questions"
+    troubleshooting:
+      min_count: 4
+      description: "Error resolution and debugging questions"
+    comparison:
+      min_count: 2
+      description: "Questions requiring synthesis across sources"
+    complex:
+      min_count: 2
+      description: "Multi-step or nuanced questions"
+    out_of_scope:
+      min_count: 2
+      description: "Questions the system should gracefully decline"
+    ambiguous:
+      min_count: 2
+      description: "Unclear questions requiring clarification"
+
+# =============================================================================
+# RETRIEVAL EVALUATION
+# =============================================================================
+retrieval:
+  # Number of documents to retrieve
+  top_k: 5
+  
+  # Metrics to compute
+  metrics:
+    - name: "precision"
+      description: "Fraction of retrieved documents that are relevant"
+      target: 0.80          # Your target (e.g., 80%)
+      minimum: 0.60         # Minimum acceptable
+      
+    - name: "recall"
+      description: "Fraction of relevant documents that were retrieved"
+      target: 0.70
+      minimum: 0.50
+      
+    - name: "mrr"
+      description: "Mean Reciprocal Rank - how high is first relevant doc"
+      target: 0.65
+      minimum: 0.40
+  
+  # How relevance is determined
+  relevance_criteria:
+    # Options: binary (relevant/not), graded (high/medium/low)
+    type: "binary"
+    
+    # For graded relevance:
+    # high_weight: 1.0
+    # medium_weight: 0.5
+    # low_weight: 0.25
+
+# =============================================================================
+# GENERATION EVALUATION
+# =============================================================================
+generation:
+  # Model used for LLM-as-judge evaluation
+  evaluator:
+    model: "gpt-4o-mini"        # Or: claude-3-haiku, etc.
+    temperature: 0.0            # Keep deterministic for evaluation
+    max_tokens: 500
+  
+  # Evaluation criteria
+  criteria:
+    - name: "relevance"
+      description: "Does the response address the query?"
+      weight: 0.20
+      scale: [1, 5]
+      
+    - name: "accuracy"
+      description: "Is the information correct based on retrieved context?"
+      weight: 0.30
+      scale: [1, 5]
+      
+    - name: "completeness"
+      description: "Does it cover what the user needs to know?"
+      weight: 0.20
+      scale: [1, 5]
+      
+    - name: "groundedness"
+      description: "Is it based on context, not hallucinated?"
+      weight: 0.20
+      scale: [1, 5]
+      
+    - name: "helpfulness"
+      description: "Would this actually help a user?"
+      weight: 0.10
+      scale: [1, 5]
+  
+  # Targets
+  targets:
+    overall_score: 4.0          # Weighted average target
+    minimum_score: 3.0          # Below this is failing
+    
+    # Per-criterion minimums (optional)
+    accuracy_minimum: 3.5       # Accuracy is critical
+    groundedness_minimum: 3.5   # Hallucination is dangerous
+
+  # Calibration requirements
+  calibration:
+    required: true
+    min_human_examples: 20
+    min_correlation: 0.70
+
+# =============================================================================
+# SYSTEM METRICS
+# =============================================================================
+system:
+  latency:
+    p50_target: 2.0             # seconds
+    p50_minimum: 3.0
+    p95_target: 5.0
+    p95_minimum: 8.0
+    p99_target: 10.0
+    
+  cost:
+    per_query_target: 0.02      # dollars
+    per_query_maximum: 0.05
+    
+  availability:
+    target: 0.995               # 99.5% uptime
+
+# =============================================================================
+# DRIFT DETECTION
+# =============================================================================
+monitoring:
+  # How often to run evaluation
+  schedule:
+    full_eval: "daily"          # Options: hourly, daily, weekly
+    quick_check: "hourly"       # Subset of golden dataset
+  
+  # Drift detection thresholds
+  drift:
+    # Alert if metric drops by more than this percentage
+    threshold: 0.10             # 10% degradation triggers alert
+    
+    # Which metrics to monitor
+    metrics:
+      - "retrieval.precision"
+      - "retrieval.recall"
+      - "generation.overall_score"
+      - "system.latency.p95"
+  
+  # Alerting
+  alerts:
+    enabled: true
+    channels:
+      - type: "email"
+        recipients: ["team@example.com"]
+      - type: "slack"
+        webhook: "${SLACK_WEBHOOK_URL}"
+    
+    # Alert severity levels
+    severity:
+      critical: 0.20            # 20% degradation
+      warning: 0.10             # 10% degradation
+
+# =============================================================================
+# BASELINE
+# =============================================================================
+baseline:
+  # Store baseline metrics for comparison
+  path: "./baseline_metrics.json"
+  
+  # When to update baseline
+  update_policy: "manual"       # Options: manual, on_deploy, weekly
+  
+  # Initial baseline (update after first evaluation)
+  metrics:
+    retrieval:
+      precision: null           # Fill after first run
+      recall: null
+      mrr: null
+    generation:
+      overall_score: null
+    system:
+      latency_p50: null
+      latency_p95: null
+      cost_per_query: null
+
+# =============================================================================
+# REPORTING
+# =============================================================================
+reporting:
+  # Output formats
+  formats:
+    - "json"                    # Machine-readable
+    - "markdown"                # Human-readable
+    
+  # Output location
+  output_dir: "./eval_results"
+  
+  # What to include
+  include:
+    summary: true
+    detailed_results: true
+    failure_analysis: true
+    trend_charts: true
+    
+  # Retention
+  retention_days: 90
+
+# =============================================================================
+# NOTES
+# =============================================================================
+# 
+# To run evaluation:
+#   python run_eval.py --config eval_config.yaml
+#
+# To update baseline:
+#   python run_eval.py --config eval_config.yaml --update-baseline
+#
+# To run quick check only:
+#   python run_eval.py --config eval_config.yaml --quick
+#
