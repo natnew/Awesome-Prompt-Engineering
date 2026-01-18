@@ -4,6 +4,14 @@ Please note that this project is released with a [Code of Conduct](code-of-condu
 
 ---
 
+### Accessibility Guidelines
+
+We are committed to making this repository accessible to everyone.
+- **Images:** All images and diagrams must include descriptive `alt` text. Complex diagrams should have a text description immediately following them.
+- **Code:** Ensure code blocks have language identifiers for screen readers.
+
+---
+
 Ensure your pull request adheres to the following guidelines:
 
 - **The submitted project should be more than 30 days old and the repo should have at least 60 stars.**

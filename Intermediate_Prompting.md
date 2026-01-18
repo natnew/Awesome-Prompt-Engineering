@@ -11,6 +11,8 @@ nav_order: 3
 
 Intermediate prompting techniques enable language models to tackle more complex tasks that require reasoning, examples, and structured thinking. These methods bridge the gap between simple instructions and advanced agentic patterns, and are essential for building reliable AI applications.
 
+> **Interactive Code:** 🚀 [Run these examples in our Intermediate Prompting Notebook](templates/notebooks/intermediate_prompting.ipynb)
+
 The techniques covered here focus on improving accuracy, consistency, and reasoning quality through strategic prompt design.
 
 ---

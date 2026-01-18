@@ -11,6 +11,8 @@ nav_order: 4
 
 Advanced prompting techniques enable language models to tackle complex, multi-step tasks that require planning, tool use, self-correction, and autonomous decision-making. These patterns form the foundation of agentic AI systems and production-grade applications.
 
+> **Interactive Code:** 🚀 [Run the ReAct Agent in our Advanced Prompting Notebook](templates/notebooks/advanced_prompting.ipynb)
+
 This guide covers techniques essential for building AI systems that can reason, act, and improve their own outputs.
 
 ---

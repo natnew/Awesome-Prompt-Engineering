@@ -13,6 +13,8 @@ Basic prompting is the foundation of effective communication with large language
 
 At its core, prompting is about providing clear context, specific instructions, and well-defined constraints. The techniques covered here apply across all major LLMs, though each model may have slight preferences in formatting and structure.
 
+> **Interactive Code:** 🚀 [Run these examples in our Basic Prompting Notebook](templates/notebooks/basic_prompting.ipynb)
+
 ---
 
 ### The Prompt Structure Formula
