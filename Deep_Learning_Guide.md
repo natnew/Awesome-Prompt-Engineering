@@ -517,6 +517,8 @@ Caching key-value pairs from previous tokens to avoid recomputation during autor
 
 Efficient fine-tuning method that adds small trainable matrices to frozen model weights. Dramatically reduces compute and memory.
 
+> **Interactive Code:** 🚀 [Run our LoRA Fine-tuning Tutorial in Google Colab](templates/notebooks/finetuning_tutorial.ipynb)
+
 **LLM relevance:** Makes fine-tuning accessible without massive GPU clusters. Can create custom models affordably.
 
 </details>

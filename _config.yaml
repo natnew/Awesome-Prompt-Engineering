@@ -1,30 +1,26 @@
+title: Awesome Prompt Engineering
+description: The ultimate guide to prompt engineering, context engineering, and AI agents.
+remote_theme: just-the-docs/just-the-docs
+
+# Theme Settings
+color_scheme: dark
+search_enabled: true
+aux_links:
+  "GitHub Repository": https://github.com/natnew/Awesome-Prompt-Engineering
+
+# Build settings
 markdown: GFM
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - README.md
-  - AI Glossary.csv
-  - AI_CheatSheet.md
-  - AI_Glossary.md
-  - AI_Tools.md
-  - Advanced_Prompting.md
-  - Agents.md
-  - Articles.md
-  - Basic_Prompting.md
-  - Contributing.md
-  - Deep_Learning_Guide.md
-  - FAQ.md
-  - Introduction.md
-  - Intermediate_Prompting.md
-  - Multi_Modal_Prompting.md
-  - Resources.md
-  - Talks_Slides.md
-  - code-of-conduct.md
-  - ethical_charter.md
-  - license.md
-  
-remote_theme: pages-themes/architect@v0.2.0
 plugins:
-- jekyll-remote-theme
-- jemoji
+  - jekyll-remote-theme
+  - jemoji
+  - jekyll-include-cache
+
+# Exclude unnecessary files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .github/
+  - tests/
+  - projects/core/01_rag_evaluation_pipeline/tests/

@@ -114,6 +114,8 @@ A practitioner's guide to tools for building, deploying, evaluating, monitoring,
 
 *Connect AI to your organization's data. Vector databases, embeddings, and retrieval.*
 
+> **Interactive Code:** 🚀 [Learn how RAG works in our RAG Tutorial Notebook](templates/notebooks/rag_tutorial.ipynb)
+
 | Tool | Problem Solved | Primary Users | URL |
 |:-----|:---------------|:--------------|:----|
 | **Pinecone** | Managed vector database for production RAG | Teams needing managed vector search | [pinecone.io](https://www.pinecone.io/) |
