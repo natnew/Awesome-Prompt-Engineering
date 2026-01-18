@@ -1,3 +1,10 @@
+---
+layout: default
+title: Articles
+description: Curated reading on context engineering and building with LLMs.
+nav_order: 9
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Articles

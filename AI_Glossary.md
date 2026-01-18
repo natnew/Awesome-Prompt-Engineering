@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Glossary
+description: Definitions of key AI and prompt engineering terms.
+nav_order: 14
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 # AI Glossary

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Basic Prompting
+description: Core techniques including prompt structure, roles, and formatting.
+nav_order: 2
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Basic Prompting

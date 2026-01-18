@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ethical Charter
+description: Guiding principles for responsible AI development.
+nav_order: 15
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Ethical Charter

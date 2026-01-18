@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Cheat Sheet
+description: Quick reference for prompts, parameters, and patterns.
+nav_order: 13
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## AI Cheat Sheet

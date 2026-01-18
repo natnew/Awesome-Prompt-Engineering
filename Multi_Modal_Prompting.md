@@ -1,3 +1,10 @@
+---
+layout: default
+title: Multi-Modal Prompting
+description: Techniques for image, video, and cross-modal AI systems.
+nav_order: 5
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Multi-Modal Prompting

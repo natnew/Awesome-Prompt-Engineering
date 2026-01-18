@@ -1,3 +1,10 @@
+---
+layout: default
+title: Advanced Prompting
+description: Agentic patterns, ReAct, and autonomous decision making.
+nav_order: 4
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Advanced Prompting

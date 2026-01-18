@@ -1,3 +1,10 @@
+---
+layout: default
+title: Intermediate Prompting
+description: Reasoning techniques including Chain-of-Thought and Few-Shot.
+nav_order: 3
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Intermediate Prompting

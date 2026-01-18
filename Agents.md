@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Agents
+description: Building autonomous systems with tools, memory, and planning.
+nav_order: 6
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## AI Agents

@@ -1,5 +1,12 @@
+---
+layout: default
+title: Home
+description: The ultimate guide to prompt engineering, context engineering, and AI agents.
+nav_order: 1
+---
+
 # Awesome-Prompt-Engineering 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors) ![GitHub last commit](https://img.shields.io/github/last-commit/natnew/Awesome-Prompt-Engineering) ![GitHub Repo stars](https://img.shields.io/github/stars/natnew/Awesome-Prompt-Engineering?style=social) ![GitHub forks](https://img.shields.io/github/forks/natnew/Awesome-Prompt-Engineering?style=social) ![Static Badge](https://img.shields.io/badge/Maintained%20-%20Yes%20-%20lightgreen) ![Static Badge](https://img.shields.io/badge/Release%20-%20PROD%20-%20lightblue) ![Static Badge](https://img.shields.io/badge/License%20-%20MIT%20-%20orange) ![Static Badge](https://img.shields.io/badge/Language%20-%20MULTI%20-%20grey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors) ![GitHub last commit](https://img.shields.io/github/last-commit/natnew/Awesome-Prompt-Engineering) ![GitHub Repo stars](https://img.shields.io/github/stars/natnew/Awesome-Prompt-Engineering?style=social) ![GitHub forks](https://img.shields.io/github/forks/natnew/Awesome-Prompt-Engineering?style=social) ![Maintained Status](https://img.shields.io/badge/Maintained%20-%20Yes%20-%20lightgreen) ![Release Status](https://img.shields.io/badge/Release%20-%20PROD%20-%20lightblue) ![License](https://img.shields.io/badge/License%20-%20MIT%20-%20orange) ![Language](https://img.shields.io/badge/Language%20-%20MULTI%20-%20grey)
 
 **Prompt engineering** is the foundational practice of crafting effective instructions to guide AI models toward accurate, useful, and reliable outputs. As AI systems have evolved, prompt engineering has expanded into **context engineering**—the broader discipline of architecting the full information environment that shapes model behaviour, including system prompts, conversation history, retrieved knowledge, tool definitions, and memory.
 

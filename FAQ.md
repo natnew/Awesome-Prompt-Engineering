@@ -1,3 +1,10 @@
+---
+layout: default
+title: FAQ
+description: Answers to common questions about prompt engineering and LLMs.
+nav_order: 12
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Frequently Asked Questions

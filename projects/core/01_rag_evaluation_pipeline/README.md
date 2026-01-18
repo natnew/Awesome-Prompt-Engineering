@@ -120,6 +120,51 @@ The `reference/` directory contains an optional working implementation.
 
 ---
 
+## Competency Assessment
+
+This project develops the following competencies. Use these criteria to self-assess your work.
+
+### Primary: Evaluation & Measurement — Proficient Level
+
+| Indicator | Evidence Location | Self-Assessment |
+|:----------|:------------------|:----------------|
+| Define success metrics for an AI task | `artifacts/eval_config.yaml` | ☐ Not yet ☐ Developing ☐ Met |
+| Implement basic evaluation harness | `reference/` or your implementation | ☐ Not yet ☐ Developing ☐ Met |
+| Design multi-dimensional evaluation suites | Evaluation suite covers retrieval + generation + cost | ☐ Not yet ☐ Developing ☐ Met |
+| Distinguish evaluation metrics from business metrics | ADR maps technical metrics to business outcomes | ☐ Not yet ☐ Developing ☐ Met |
+| Identify failure modes from evaluation data | Written analysis categorizes error types | ☐ Not yet ☐ Developing ☐ Met |
+
+### Secondary: Systems Design — Developing Level
+
+| Indicator | Evidence Location | Self-Assessment |
+|:----------|:------------------|:----------------|
+| Document system components | `artifacts/adr.md` | ☐ Not yet ☐ Developing ☐ Met |
+| Justify architectural choices with trade-off analysis | ADR includes alternatives considered | ☐ Not yet ☐ Developing ☐ Met |
+| Select appropriate model for task | Model choice justified (not just "GPT-4 is best") | ☐ Not yet ☐ Developing ☐ Met |
+
+### Mastery Checkpoint
+
+Before considering this project complete, verify:
+
+**Artifact Quality**
+- [ ] Success metrics defined *before* implementation began
+- [ ] Evaluation suite runs without errors on golden dataset
+- [ ] Cost model includes hidden costs (maintenance, opportunity cost)
+
+**Decision Documentation**
+- [ ] ADR includes at least 2 alternatives considered and rejected
+- [ ] Trade-offs are explicit (not just "we chose X because it's good")
+- [ ] Someone unfamiliar could run your evaluation suite
+
+**Portfolio Readiness**
+- [ ] You can explain your metric choices in a 5-minute summary
+- [ ] You can articulate what "good enough" means for this system
+- [ ] You can describe what the evaluation would catch vs. miss
+
+→ See [RUBRICS.md](../../../RUBRICS.md) for detailed indicator definitions.
+
+
+
 ## Start Here
 
 → [01 — Problem Framing](01_problem_framing.md)

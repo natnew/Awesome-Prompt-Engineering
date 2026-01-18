@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deep Learning Guide
+description: Conceptual guide to how LLMs actually work.
+nav_order: 8
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Deep Learning for LLMs

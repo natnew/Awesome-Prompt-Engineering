@@ -1,3 +1,10 @@
+---
+layout: default
+title: Learning Resources
+description: Guide to courses, books, and papers for AI practitioners.
+nav_order: 10
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Resources

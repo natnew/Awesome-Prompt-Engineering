@@ -1,3 +1,10 @@
+---
+layout: default
+title: Talks & Slides
+description: Curated talks on LLMs, agents, and AI systems.
+nav_order: 11
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## Talks & Presentations

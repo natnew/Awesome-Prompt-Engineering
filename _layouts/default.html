@@ -12,20 +12,20 @@
 </head>
 
 <body>
-  <header>
+  <header role="banner">
     <div class="inner">
       <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Site Title" }}</a></h1>
       <h2>{{ site.description | default: "Site Description" }}</h2>
     </div>
   </header>
 
-  <main>
+  <main role="main">
     <div class="inner">
       {{ content }}
     </div>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="inner">
       <p>{{ site.title | default: "Site Title" }}</p>
       <p>&copy; {{ site.time | date: "%Y" }}</p>

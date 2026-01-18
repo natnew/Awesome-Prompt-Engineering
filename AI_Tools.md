@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI Tools Information
+description: Comprehensive guide to the AI tooling landscape.
+nav_order: 7
+---
+
 [Home](https://natnew.github.io/Awesome-Prompt-Engineering/)
 
 ## AI Tools
