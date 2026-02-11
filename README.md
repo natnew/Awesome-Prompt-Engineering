@@ -64,6 +64,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [PromptLayer](https://promptlayer.com/) — Version control, logging, and analytics for prompts
 - [Agenta](https://agenta.ai/) — Open-source platform for prompt testing with side-by-side LLM comparisons
 - [Langfuse](https://langfuse.com/) — Open-source LLM engineering platform with prompt management
+- [Opik](https://github.com/comet-ml/opik) — Open-source platform for LLM observability, evaluations, and prompt optimization
 - [Helicone](https://helicone.ai/) — Lightweight prompt logging and analytics
 
 ### Development Frameworks
