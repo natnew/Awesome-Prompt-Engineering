@@ -166,6 +166,9 @@ The field has evolved from crafting individual prompts to architecting complete 
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kkahadze"><img src="https://avatars.githubusercontent.com/u/85003299?v=4?s=100" width="100px;" alt="Konstantine"/><br /><sub><b>Konstantine</b></sub></a><br /><a href="#content-kkahadze" title="Content">🖋</a> <a href="#ideas-kkahadze" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/vincentkoc"><img src="https://github.com/vincentkoc.png?size=100" width="100px;" alt="Vincent Koc"/><br /><sub><b>Vincent Koc</b></sub></a><br /><a href="#content-vincentkoc" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/onestardao"><img src="https://avatars.githubusercontent.com/u/158162232?v=4?s=100" width="100px;" alt="onestardao"/><br /><sub><b>onestardao</b></sub></a><br /><a href="#content-onestardao" title="Content">🖋</a></td>
+    </tr>
   </tbody>
 </table>
 

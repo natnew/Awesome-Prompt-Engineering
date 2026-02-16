@@ -73,6 +73,15 @@
         "question",
         "content"
       ]
+    },
+    {
+      "login": "onestardao",
+      "name": "onestardao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158162232?v=4",
+      "profile": "https://github.com/onestardao",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
