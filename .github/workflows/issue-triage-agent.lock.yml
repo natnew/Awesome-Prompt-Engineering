@@ -21,28 +21,33 @@
 #
 # For more information: https://github.github.com/gh-aw/introduction/overview/
 #
+# Automatically triages incoming issues by analyzing content and assigning labels.
 #
 # Resolved workflow manifest:
 #   Imports:
 #     - shared/reporting.md
 #
-# frontmatter-hash: d5f09399a2c3ae1c2480c736a80493844c060d0bdeed6aacb01105b41ff7a1b2
+# frontmatter-hash: d531fa4f95fdb8572fb8f286175d5ee807024bf8c17acfaacca7c50307c5ddab
 
 name: "Issue Triage Agent"
 "on":
-  schedule:
-  - cron: "0 14 * * 1-5"
+  issues:
+    types:
+    - opened
+    - reopened
   workflow_dispatch:
 
 permissions: {}
 
 concurrency:
-  group: "gh-aw-${{ github.workflow }}"
+  group: "gh-aw-${{ github.workflow }}-${{ github.event.issue.number }}"
 
 run-name: "Issue Triage Agent"
 
 jobs:
   activation:
+    needs: pre_activation
+    if: needs.pre_activation.outputs.activated == 'true'
     runs-on: ubuntu-slim
     permissions:
       contents: read
@@ -71,8 +76,6 @@ jobs:
     permissions:
           contents: read
           issues: read
-    concurrency:
-      group: "gh-aw-claude-${{ github.workflow }}"
     env:
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
       GH_AW_ASSETS_ALLOWED_EXTS: ""
@@ -171,16 +174,6 @@ jobs:
         run: bash /opt/gh-aw/actions/install_awf_binary.sh v0.18.0
       - name: Install Claude Code CLI
         run: npm install -g --silent @anthropic-ai/claude-code@2.1.42
-      - name: Determine automatic lockdown mode for GitHub MCP Server
-        id: determine-automatic-lockdown
-        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
-        env:
-          GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
-          GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
-        with:
-          script: |
-            const determineAutomaticLockdown = require('/opt/gh-aw/actions/determine_automatic_lockdown.cjs');
-            await determineAutomaticLockdown(github, context, core);
       - name: Download container images
         run: bash /opt/gh-aw/actions/download_docker_images.sh ghcr.io/github/gh-aw-firewall/agent:0.18.0 ghcr.io/github/gh-aw-firewall/api-proxy:0.18.0 ghcr.io/github/gh-aw-firewall/squid:0.18.0 ghcr.io/github/gh-aw-mcpg:v0.1.4 ghcr.io/github/github-mcp-server:v0.30.3 node:lts-alpine
       - name: Write Safe Outputs Config
@@ -189,7 +182,7 @@ jobs:
           mkdir -p /tmp/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/mcp-logs/safeoutputs
           cat > /opt/gh-aw/safeoutputs/config.json << 'GH_AW_SAFE_OUTPUTS_CONFIG_EOF'
-          {"add_comment":{"max":1},"add_labels":{"allowed":["bug","feature","enhancement","documentation","question","help-wanted","good-first-issue","submission"],"max":3},"missing_data":{},"missing_tool":{},"noop":{"max":1}}
+          {"add_comment":{"max":1},"add_labels":{"allowed":["bug","enhancement","documentation","question","help-wanted","good-first-issue","prompt-engineering","tool","submission","feature"],"max":3},"missing_data":{},"missing_tool":{},"noop":{"max":1}}
           GH_AW_SAFE_OUTPUTS_CONFIG_EOF
           cat > /opt/gh-aw/safeoutputs/tools.json << 'GH_AW_SAFE_OUTPUTS_TOOLS_EOF'
           [
@@ -215,7 +208,7 @@ jobs:
               "name": "add_comment"
             },
             {
-              "description": "Add labels to an existing GitHub issue or pull request for categorization and filtering. Labels must already exist in the repository. For creating new issues with labels, use create_issue with the labels property instead. CONSTRAINTS: Only these labels are allowed: [bug feature enhancement documentation question help-wanted good-first-issue submission].",
+              "description": "Add labels to an existing GitHub issue or pull request for categorization and filtering. Labels must already exist in the repository. For creating new issues with labels, use create_issue with the labels property instead. CONSTRAINTS: Only these labels are allowed: [bug enhancement documentation question help-wanted good-first-issue prompt-engineering tool submission feature].",
               "inputSchema": {
                 "additionalProperties": false,
                 "properties": {
@@ -415,7 +408,6 @@ jobs:
           GH_AW_SAFE_OUTPUTS: ${{ env.GH_AW_SAFE_OUTPUTS }}
           GH_AW_SAFE_OUTPUTS_API_KEY: ${{ steps.safe-outputs-start.outputs.api_key }}
           GH_AW_SAFE_OUTPUTS_PORT: ${{ steps.safe-outputs-start.outputs.port }}
-          GITHUB_MCP_LOCKDOWN: ${{ steps.determine-automatic-lockdown.outputs.lockdown == 'true' && '1' || '0' }}
           GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN || secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           set -eo pipefail
@@ -440,7 +432,6 @@ jobs:
               "github": {
                 "container": "ghcr.io/github/github-mcp-server:v0.30.3",
                 "env": {
-                  "GITHUB_LOCKDOWN_MODE": "$GITHUB_MCP_LOCKDOWN",
                   "GITHUB_PERSONAL_ACCESS_TOKEN": "$GITHUB_MCP_SERVER_TOKEN",
                   "GITHUB_READ_ONLY": "1",
                   "GITHUB_TOOLSETS": "issues,labels"
@@ -589,6 +580,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_PROMPT: /tmp/gh-aw/aw-prompts/prompt.txt
+          GH_AW_GITHUB_EVENT_ISSUE_NUMBER: ${{ github.event.issue.number }}
           GH_AW_GITHUB_REPOSITORY: ${{ github.repository }}
         with:
           script: |
@@ -911,8 +903,6 @@ jobs:
     if: needs.agent.outputs.output_types != '' || needs.agent.outputs.has_patch == 'true'
     runs-on: ubuntu-latest
     permissions: {}
-    concurrency:
-      group: "gh-aw-claude-${{ github.workflow }}"
     timeout-minutes: 10
     outputs:
       success: ${{ steps.parse_results.outputs.success }}
@@ -942,7 +932,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           WORKFLOW_NAME: "Issue Triage Agent"
-          WORKFLOW_DESCRIPTION: "No description provided"
+          WORKFLOW_DESCRIPTION: "Automatically triages incoming issues by analyzing content and assigning labels."
           HAS_PATCH: ${{ needs.agent.outputs.has_patch }}
         with:
           script: |
@@ -1022,6 +1012,28 @@ jobs:
           path: /tmp/gh-aw/threat-detection/detection.log
           if-no-files-found: ignore
 
+  pre_activation:
+    runs-on: ubuntu-slim
+    outputs:
+      activated: ${{ steps.check_membership.outputs.is_team_member == 'true' }}
+    steps:
+      - name: Setup Scripts
+        uses: github/gh-aw/actions/setup@58d1d157fbac0f1204798500faefc4f7461ebe28 # v0.45.0
+        with:
+          destination: /opt/gh-aw/actions
+      - name: Check team membership for workflow
+        id: check_membership
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        env:
+          GH_AW_REQUIRED_ROLES: admin,maintainer,write
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { setupGlobals } = require('/opt/gh-aw/actions/setup_globals.cjs');
+            setupGlobals(core, github, context, exec, io);
+            const { main } = require('/opt/gh-aw/actions/check_membership.cjs');
+            await main();
+
   safe_outputs:
     needs:
       - agent
@@ -1064,7 +1076,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1},\"add_labels\":{\"allowed\":[\"bug\",\"feature\",\"enhancement\",\"documentation\",\"question\",\"help-wanted\",\"good-first-issue\",\"submission\"]},\"missing_data\":{},\"missing_tool\":{}}"
+          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1},\"add_labels\":{\"allowed\":[\"bug\",\"enhancement\",\"documentation\",\"question\",\"help-wanted\",\"good-first-issue\",\"prompt-engineering\",\"tool\",\"submission\",\"feature\"]},\"missing_data\":{},\"missing_tool\":{}}"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
