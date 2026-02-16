@@ -21,13 +21,8 @@
 #
 # For more information: https://github.github.com/gh-aw/introduction/overview/
 #
-# Automatically triages incoming issues by analyzing content and assigning labels.
 #
-# Resolved workflow manifest:
-#   Imports:
-#     - shared/reporting.md
-#
-# frontmatter-hash: 3c1768c4366ca22713d5d9b95378b4d3497a232d1ccfa9f31d29cd567743ae75
+# frontmatter-hash: 37819aafe15b8380a2b65f2cf4d90b350cd0d754be22f456678f084b7cd6013c
 
 name: "Issue Triage Agent"
 "on":
@@ -35,7 +30,6 @@ name: "Issue Triage Agent"
     types:
     - opened
     - reopened
-  workflow_dispatch:
 
 permissions: {}
 
@@ -168,6 +162,16 @@ jobs:
         run: /opt/gh-aw/actions/install_copilot_cli.sh 0.0.410
       - name: Install awf binary
         run: bash /opt/gh-aw/actions/install_awf_binary.sh v0.18.0
+      - name: Determine automatic lockdown mode for GitHub MCP Server
+        id: determine-automatic-lockdown
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        env:
+          GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
+          GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
+        with:
+          script: |
+            const determineAutomaticLockdown = require('/opt/gh-aw/actions/determine_automatic_lockdown.cjs');
+            await determineAutomaticLockdown(github, context, core);
       - name: Download container images
         run: bash /opt/gh-aw/actions/download_docker_images.sh ghcr.io/github/gh-aw-firewall/agent:0.18.0 ghcr.io/github/gh-aw-firewall/squid:0.18.0 ghcr.io/github/gh-aw-mcpg:v0.1.4 ghcr.io/github/github-mcp-server:v0.30.3 node:lts-alpine
       - name: Write Safe Outputs Config
@@ -176,7 +180,7 @@ jobs:
           mkdir -p /tmp/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/mcp-logs/safeoutputs
           cat > /opt/gh-aw/safeoutputs/config.json << 'GH_AW_SAFE_OUTPUTS_CONFIG_EOF'
-          {"add_comment":{"max":1},"add_labels":{"allowed":["bug","enhancement","documentation","question","help-wanted","good-first-issue","prompt-engineering","tool","submission","feature"],"max":3},"missing_data":{},"missing_tool":{},"noop":{"max":1}}
+          {"add_comment":{"max":1},"add_labels":{"allowed":["bug","feature","enhancement","documentation","question","help-wanted","good-first-issue"],"max":3},"missing_data":{},"missing_tool":{},"noop":{"max":1}}
           GH_AW_SAFE_OUTPUTS_CONFIG_EOF
           cat > /opt/gh-aw/safeoutputs/tools.json << 'GH_AW_SAFE_OUTPUTS_TOOLS_EOF'
           [
@@ -202,7 +206,7 @@ jobs:
               "name": "add_comment"
             },
             {
-              "description": "Add labels to an existing GitHub issue or pull request for categorization and filtering. Labels must already exist in the repository. For creating new issues with labels, use create_issue with the labels property instead. CONSTRAINTS: Only these labels are allowed: [bug enhancement documentation question help-wanted good-first-issue prompt-engineering tool submission feature].",
+              "description": "Add labels to an existing GitHub issue or pull request for categorization and filtering. Labels must already exist in the repository. For creating new issues with labels, use create_issue with the labels property instead. CONSTRAINTS: Only these labels are allowed: [bug feature enhancement documentation question help-wanted good-first-issue].",
               "inputSchema": {
                 "additionalProperties": false,
                 "properties": {
@@ -402,6 +406,7 @@ jobs:
           GH_AW_SAFE_OUTPUTS: ${{ env.GH_AW_SAFE_OUTPUTS }}
           GH_AW_SAFE_OUTPUTS_API_KEY: ${{ steps.safe-outputs-start.outputs.api_key }}
           GH_AW_SAFE_OUTPUTS_PORT: ${{ steps.safe-outputs-start.outputs.port }}
+          GITHUB_MCP_LOCKDOWN: ${{ steps.determine-automatic-lockdown.outputs.lockdown == 'true' && '1' || '0' }}
           GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN || secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           set -eo pipefail
@@ -428,6 +433,7 @@ jobs:
                 "type": "stdio",
                 "container": "ghcr.io/github/github-mcp-server:v0.30.3",
                 "env": {
+                  "GITHUB_LOCKDOWN_MODE": "$GITHUB_MCP_LOCKDOWN",
                   "GITHUB_PERSONAL_ACCESS_TOKEN": "\${GITHUB_MCP_SERVER_TOKEN}",
                   "GITHUB_READ_ONLY": "1",
                   "GITHUB_TOOLSETS": "issues,labels"
@@ -537,9 +543,6 @@ jobs:
           </system>
           GH_AW_PROMPT_EOF
           cat << 'GH_AW_PROMPT_EOF' >> "$GH_AW_PROMPT"
-          {{#runtime-import shared/reporting.md}}
-          GH_AW_PROMPT_EOF
-          cat << 'GH_AW_PROMPT_EOF' >> "$GH_AW_PROMPT"
           {{#runtime-import .github/workflows/issue-triage-agent.md}}
           GH_AW_PROMPT_EOF
       - name: Substitute placeholders
@@ -576,7 +579,6 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_PROMPT: /tmp/gh-aw/aw-prompts/prompt.txt
-          GH_AW_GITHUB_EVENT_ISSUE_NUMBER: ${{ github.event.issue.number }}
           GH_AW_GITHUB_REPOSITORY: ${{ github.repository }}
         with:
           script: |
@@ -882,7 +884,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           WORKFLOW_NAME: "Issue Triage Agent"
-          WORKFLOW_DESCRIPTION: "Automatically triages incoming issues by analyzing content and assigning labels."
+          WORKFLOW_DESCRIPTION: "No description provided"
           HAS_PATCH: ${{ needs.agent.outputs.has_patch }}
         with:
           script: |
@@ -1011,7 +1013,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1},\"add_labels\":{\"allowed\":[\"bug\",\"enhancement\",\"documentation\",\"question\",\"help-wanted\",\"good-first-issue\",\"prompt-engineering\",\"tool\",\"submission\",\"feature\"]},\"missing_data\":{},\"missing_tool\":{}}"
+          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1},\"add_labels\":{\"allowed\":[\"bug\",\"feature\",\"enhancement\",\"documentation\",\"question\",\"help-wanted\",\"good-first-issue\"]},\"missing_data\":{},\"missing_tool\":{}}"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
