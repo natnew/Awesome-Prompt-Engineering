@@ -73,6 +73,15 @@
         "question",
         "content"
       ]
+    },
+    {
+      "login": "vincentkoc",
+      "name": "Vincent Koc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25068?v=4",
+      "profile": "https://github.com/vincentkoc",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
