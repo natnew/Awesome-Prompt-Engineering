@@ -153,6 +153,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Your AI Product Needs Evals"** | Why and how to evaluate LLM applications | [hamel.dev](https://hamel.dev/blog/posts/evals/) |
 | **"How to Evaluate LLMs"** | Practical evaluation strategies | [oreilly.com](https://www.oreilly.com/radar/how-to-evaluate-llms-a-complete-metric-framework/) |
 | **"LLM-as-Judge"** | Using LLMs to evaluate LLM outputs | [arxiv.org](https://arxiv.org/abs/2306.05685) |
+| **"WFGY 16 Problem Map"** | Troubleshooting guide for RAG and LLM pipelines | [github.com](https://github.com/onestardao/WFGY/tree/main/ProblemMap/README.md) |
 | **Anthropic's Evaluation Documentation** | How Anthropic thinks about evals | [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/develop-tests) |
 
 ---
