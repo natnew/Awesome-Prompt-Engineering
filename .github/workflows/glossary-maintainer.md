@@ -14,7 +14,7 @@ permissions:
   actions: read
 
 engine:
-  id: copilot
+  id: claude
   agent: technical-doc-writer
 
 network:
