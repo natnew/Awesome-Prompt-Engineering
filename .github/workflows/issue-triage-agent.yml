@@ -20,4 +20,4 @@ jobs:
           files: .github/workflows/issue-triage-agent.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COPILOT_API_KEY: ${{ secrets.COPILOT_API_KEY }}

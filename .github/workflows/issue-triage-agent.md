@@ -1,7 +1,7 @@
 ---
 name: Issue Triage Agent
 description: Automatically triages incoming issues by analyzing content and assigning labels.
-engine: claude
+engine: copilot
 timeout-minutes: 5
 strict: true
 on:
