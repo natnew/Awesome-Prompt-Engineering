@@ -1,0 +1,33 @@
+name: Glossary Maintainer
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+      - '!AI_Glossary.md'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '**.md'
+      - '!AI_Glossary.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Agent
+        uses: github/gh-aw@v0.42.13
+        with:
+          files: .github/workflows/glossary-maintainer.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
