@@ -141,6 +141,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) — ChatGPT prompt examples
 - [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM) — Large language model resources
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — DAIR.AI's comprehensive guide
+- [Awesome AI Startups](https://github.com/nowork-studio/awesome-ai-startups) — Bootstrapped, pre-seed, and angel-funded AI products by independent founders
 
 ---
 ## Contributors
