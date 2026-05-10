@@ -80,6 +80,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's toolkit for LLM safety
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection and prevention
 - [Lakera Guard](https://www.lakera.ai/) — Real-time protection against prompt attacks
+- [TinyTools Prompt Injection Tester](https://tinytools-smoky.vercel.app/prompt-injection-tester/) — Free browser-based tester that runs prompts against a library of common injection attacks (instruction overrides, role hijacks, data exfiltration). Client-side, no signup.
 
 ---
 ## Announcements :eyes:
