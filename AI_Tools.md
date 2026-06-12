@@ -249,6 +249,7 @@ A practitioner's guide to tools for building, deploying, evaluating, monitoring,
 | **n8n** | Workflow automation with AI nodes | Technical operations teams | [n8n.io](https://n8n.io/) |
 | **Relevance AI** | No-code AI agent builder | Business users building agents | [relevanceai.com](https://relevanceai.com/) |
 | **Voiceflow** | Build conversational AI without code | Product teams building chatbots | [voiceflow.com](https://www.voiceflow.com/) |
+| **CreatorSkills** | Marketplace of downloadable AI skills for content creators (YouTube scripting, sponsorship analysis, audience growth) | Content creators, YouTubers | [creatorskills.co](https://creatorskills.co/) |
 
 ---
 
