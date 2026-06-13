@@ -70,6 +70,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 ### Testing & Evaluation
 
 - [Promptfoo](https://promptfoo.dev/) — Open-source prompt testing and evaluation
+- [PromptEval](https://prompt-eval.com/en) — Prompt scoring, optimisation, A/B testing, versioning, and CI regression checks.
 - [TruLens](https://www.trulens.org/) — Feedback and evaluation for LLM applications
 - [Weave](https://wandb.ai/site/weave) — Trace-based debugging and scoring from Weights & Biases
 - [Maxim AI](https://www.getmaxim.ai/) — Systematic evaluation and benchmarking platform
