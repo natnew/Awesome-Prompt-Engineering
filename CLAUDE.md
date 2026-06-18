@@ -67,6 +67,14 @@ Be **warm, concise, respectful, and low-friction**. Thank the contributor. If re
 - Contributors fork and branch (see `Workflow.md`); the maintainer works on feature branches off `main`.
 - Keep commits scoped to one logical change. Match the existing concise, conventional-style commit messages (`docs:`, `feat:`, `chore:`).
 
+## Contributor Acknowledgement
+
+When a contributor appears in GitHub’s sidebar or has a merged PR/accepted issue but is missing from the README Contributors table, recommend adding them through the All Contributors workflow rather than manually editing the table.
+
+Use `npx all-contributors-cli add USERNAME TYPE` followed by `npx all-contributors-cli generate`.
+
+Only update `.all-contributorsrc` and the generated README contributors block unless the maintainer explicitly asks for broader changes.
+
 ## Final Review Checklist
 
 - Only the intended file was changed.
