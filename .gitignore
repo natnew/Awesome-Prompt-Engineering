@@ -23,3 +23,18 @@ build/
 # Python
 __pycache__/
 *.pyc
+
+# ai-readiness
+/agents
+/hooks
+/instructions
+/plugins
+/skills
+/workflows
+
+# reports
+/reports
+
+#agentds.md
+AGENTS.md
+
