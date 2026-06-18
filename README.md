@@ -74,6 +74,8 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [TruLens](https://www.trulens.org/) — Feedback and evaluation for LLM applications
 - [Weave](https://wandb.ai/site/weave) — Trace-based debugging and scoring from Weights & Biases
 - [Maxim AI](https://www.getmaxim.ai/) — Systematic evaluation and benchmarking platform
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) — Open-source LLM evaluation SDK with local metrics, LLM-as-judge support, guardrail scanners, and AutoEval pipelines
+- [agent-opt](https://github.com/future-agi/agent-opt) — Evaluation-driven prompt and agent workflow optimisation using search, meta-prompting, PromptWizard, and GEPA
 
 ### Safety & Guardrails
 
