@@ -80,7 +80,56 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/158162232?v=4",
       "profile": "https://github.com/onestardao",
       "contributions": [
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "NirDiamant",
+      "name": "NirDiamant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28316913?v=4",
+      "profile": "https://diamantai.substack.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vincentkoc",
+      "name": "Vincent Koc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25068?v=4",
+      "profile": "https://linktr.ee/vincentkoc",
+      "contributions": [
+        "code",
         "content"
+      ]
+    },
+    {
+      "login": "kkahadze",
+      "name": "Konstantine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85003299?v=4",
+      "profile": "https://github.com/kkahadze",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    },
+    {
+      "login": "impulse301",
+      "name": "impulse301",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11787737?v=4",
+      "profile": "https://github.com/impulse301",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "FranciscoFerreiraff",
+      "name": "FranciscoFerreiraff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81922499?v=4",
+      "profile": "https://github.com/FranciscoFerreiraff",
+      "contributions": [
+        "code"
       ]
     }
   ],
