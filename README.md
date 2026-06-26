@@ -80,6 +80,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 ### Safety & Guardrails
 
 - [Guardrails AI](https://www.guardrailsai.com/) — Define schemas and constraints for model outputs
+[Auferet](https://auferet.com) - AI game master with persistent memory for your characters and uploaded lore; solo or multiplayer, with 5e and Pathfinder 2e modes.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) — NVIDIA's toolkit for LLM safety
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection and prevention
 - [Lakera Guard](https://www.lakera.ai/) — Real-time protection against prompt attacks
