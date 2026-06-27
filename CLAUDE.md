@@ -1,84 +1,160 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code when assisting with this content repository.
 
-## Repository Purpose & Scope
+This is **Awesome-Prompt-Engineering** — a curated awesome list 
+for prompt engineering, and context engineering for AI agents. It is **content, not
+an application**: the deliverable is high-signal Markdown published to GitHub
+Pages via Jekyll (`https://natnew.github.io/Awesome-Prompt-Engineering/`). There
+is no build, test, or runtime to reason about beyond Markdown rendering. Each
+`Foo.md` renders to `Foo.html`, which is why Contents links point to `.html`.
 
-This is **Awesome-Prompt-Engineering** — a curated awesome list and learning hub for prompt engineering, context engineering, and AI agents. It is **content, not an application**. The deliverable is high-quality, well-organized Markdown.
+`AGENTS.md` is the tool-agnostic operating protocol. **Read it for the full
+rules** (scope, link quality, decision matrix, protected areas). This file is the
+Claude-specific maintainer assistant: concise, practical, optimised for repeated
+use. Where the two overlap, `AGENTS.md` is canonical — do not duplicate it here.
 
-- Content lives in top-level Markdown files (`Basic_Prompting.md`, `Advanced_Prompting.md`, `AGENTS.md`, `AI_Tools.md`, `Resources.md`, `Articles.md`, etc.). `README.md` is the index/table of contents.
-- The site is published via **Jekyll + just-the-docs theme** to GitHub Pages at `https://natnew.github.io/Awesome-Prompt-Engineering/`. Each `Foo.md` renders to `Foo.html` — that is why internal links in the Contents table point to `.html`, not `.md`.
-- `_config.yaml`, `_layouts/`, `_includes/` are theme machinery. Don't touch unless a task is explicitly about site rendering.
-- Linting is `markdownlint-cli2` with a deliberately lenient config (`.markdownlint-cli2.jsonc`) — most rules are disabled. Don't reformat existing content to satisfy rules that are turned off.
+## North Star
 
-## What Qualifies as a Good Resource
+- Preserve `README.md` as the canonical public artefact.
+- Prefer selective curation over accumulation.
+- Keep entries technically useful, neutral, durable, and easy to scan.
+- Help the maintainer make fast, consistent, low-friction decisions.
+- Do not broaden the repository beyond its stated scope.
 
-A submission should be **unique, broadly useful, and durable**. The bar is high — the list is mature. Prioritise resources that strengthen the technical signal of the list; relevance alone is not enough.
+## Claude's Role
 
-- For tools/projects: tested, documented, and generally useful (not niche). Per `Contributing.md`, projects should be **>30 days old with ≥60 stars**.
-- Prefer canonical sources: official docs, the GitHub repo (not npm/marketing site), the primary paper or guide.
-- Reject: boilerplates, thin wrappers, low-quality or abandoned repos, and anything that duplicates an existing entry without being demonstrably better.
+May assist with: README entry review, PR and issue triage, broken-link
+investigation, duplicate detection, section placement, neutral description
+rewrites, contributor response drafts, small safe maintainer edits when asked,
+and repository instruction improvements when asked.
 
-## Link & Description Rules
+Must not: add an entry without checking scope, link, duplicates, and placement;
+invent facts about a resource; preserve promotional claims; add ranking, pricing,
+novelty, or performance claims without strong evidence; rewrite the taxonomy
+without explicit instruction; edit unrelated files; or touch protected/generated
+areas unless instructed.
 
-- **HTTPS only.** Prefer the project's GitHub repo over its marketing site where one exists.
-- Descriptions are **neutral and factual** — not marketing taglines, not title-case. Start with a capital, end with a period. Don't begin with "A" or "An".
-- **Avoid time-sensitive claims** ("new", "latest", "now supports", "just released") in descriptions — they rot. The dated **Announcements** table in `README.md` is the only place for time-stamped entries.
-- Match the link style of the **surrounding section**: `Contributing.md` specifies `[name](link) - Description.` (hyphen), but several `README.md` sections use an em dash (`—`). Follow the local convention rather than imposing one.
-- Code blocks need language identifiers; images need descriptive `alt` text (accessibility, per `Contributing.md`).
+## Claude Behaviour Rule
 
-### Protected / Generated README Areas
+- When the requested action is clear, make the smallest safe edit.
+- When scope, placement, credibility, or maintainer intent is uncertain, produce
+  a recommendation before editing.
+- Never close issues, merge PRs, restructure the README, or edit protected areas
+  on your own initiative.
+- Keep maintainer comments concise, warm, and decision-oriented; prefer a small
+  safe fix over asking a contributor to re-push a trivial change.
 
-- Do not casually edit badges, announcements, additional resource callouts, cross-list links, contributor tables, or all-contributors markers.
-- Never modify content between `<!-- ALL-CONTRIBUTORS-LIST:START -->` and `<!-- ALL-CONTRIBUTORS-LIST:END -->` manually unless the maintainer explicitly asks.
-- Treat generated or semi-structured README sections as protected unless the task specifically targets them.
+## Always-Loaded Context
 
-## Placement & Duplicate Checking
+Keep this file a short orientation, not a manual. Load detail on demand:
 
-- **Before adding anything, search the whole repo** for the URL and the tool/resource name — duplicates are the most common problem. Check both `README.md` and the relevant topic page.
-- Place each entry in the single best-fit section. New entries go to the **bottom of the relevant category** unless the section is alphabetized or otherwise ordered.
-- Creating or restructuring categories should be a **separate PR** from adding entries.
-- Avoid creating new sections unless the maintainer explicitly approves a taxonomy change.
-- One suggestion = one logical change. If a PR bundles unrelated additions, that is a request-changes signal.
+- Concise rules → here.
+- Full operating protocol → `AGENTS.md`.
+- Detailed contribution process → `Contributing.md` and `Workflow.md`.
+- Public contributor expectations → `.github/` PR and issue templates.
+- Style examples → `README.md` itself.
 
-## Evaluating PRs & Issues — Decision Guide
+Do not duplicate long sections from those files.
 
-Default to **manual review** (see workflow note below). Use this ladder:
+## First-Pass Workflow
 
-- **Accept as-is** — link works, HTTPS, correct section, description follows the rules, no duplicate, passes the quality bar.
-- **Edit as maintainer** — content is worth including but has small issues (wording, casing, trailing whitespace, wrong em dash/hyphen, slightly-off placement). Fix it on merge rather than bouncing it back; keep friction low.
-- **Request changes** — good intent but needs the contributor's input: broken/duplicate link, missing context on why it beats an existing entry, bundled unrelated changes, or fails an objective rule they should fix.
-- **Close** — out of scope, promotional/self-promotion only, fails the quality/maturity bar, or duplicate with no added value. Close warmly with a one-line reason.
-- **Park** — borderline or promising-but-premature (e.g. a young project that may clear the 60-star bar later). Label and leave a short note rather than a hard close.
+For any issue, PR, or README task:
 
-When in doubt about scope, quality, or whether to close, **flag for the human maintainer rather than auto-deciding.**
+1. Read the relevant diff or issue.
+2. Check repository scope in `README.md`.
+3. Check contribution guidance (`Contributing.md`).
+4. Check existing entries in the target section.
+5. Search the whole repo for duplicates (URL **and** name).
+6. Verify the link where tools allow.
+7. Inspect the resource enough to understand what it is.
+8. Decide the smallest useful action.
+9. Produce a concise recommendation or edit.
 
-## Contributor Response Style
+## Entry Checklist
 
-Be **warm, concise, respectful, and low-friction**. Thank the contributor. If requesting changes, name the specific rule and link the relevant guide (`Contributing.md`, `Workflow.md`). Prefer fixing trivial issues yourself over making someone re-push. Never gatekeep harshly — this is a community list.
+Before accepting or adding: in scope · technically useful · durable source ·
+canonical HTTPS URL · no duplicate · correct section · matches local formatting ·
+neutral one-line description · no hype · no unsupported claims · no avoidable
+tracking parameters · no unnecessary new section. Projects should be **>30 days
+old with ≥60 stars** (`Contributing.md`).
 
-## Workflow: Manual-First
+## Common Claude Tasks
 
-- Maintenance is **manual-first today**: a human reviews and merges. When asked to help with a PR or issue, produce a recommendation and (if approved) the concrete edit — do not merge or close on your own initiative.
-- Agent-assisted triage infrastructure exists under `.github/workflows/` and `agents/`, but treat it as **future/opt-in** automation. Don't invoke or rely on it unless the maintainer explicitly asks.
+| Task | Claude should do |
+| --- | --- |
+| PR review | Check scope, link, duplicate, placement, formatting, description; return decision and maintainer comment. |
+| Suggestion issue | Assess fit, verify canonical source where possible, draft a neutral entry if useful. |
+| Broken link | Find a canonical replacement first; recommend removal only if no durable source exists. |
+| Entry rewrite | Remove hype, unsupported claims, pricing/ranking language; make the description factual. |
+| Section placement | Compare against similar entries and recommend the narrowest accurate section. |
+| Maintainer edit | Make only small safe changes when asked; otherwise recommend. |
+| Contributor acknowledgement | Use the All Contributors workflow; do not manually edit generated tables. |
 
-## Commit & PR Conventions
+Entry format: `- [Name](URL) - Factual description of what it is and who it
+helps.` Use the hyphen, or an em dash where the surrounding section already does;
+start with a capital, end with a full stop, not title-case, not "A"/"An". See
+`AGENTS.md` for full scope, source, and description rules.
 
-- Contributors fork and branch (see `Workflow.md`); the maintainer works on feature branches off `main`.
-- Keep commits scoped to one logical change. Match the existing concise, conventional-style commit messages (`docs:`, `feat:`, `chore:`).
+## PR Triage
 
-## Contributor Acknowledgement
+| Decision | When |
+| --- | --- |
+| **Accept as-is** | Scope, link, placement, format, and description all sound. |
+| **Edit as maintainer** | Strong resource, only small fixes (neutralise wording, swap to canonical link, correct placement) — without changing intent. |
+| **Request changes** | Contributor must clarify relevance; resource unverifiable; needs substantive repositioning; PR mixes useful and unsuitable changes. |
+| **Close** | Out of scope; promotional; duplicate; broken with no replacement; low technical value; mostly marketing/self-promotion. |
+| **Park** | Useful but immature; needs a taxonomy decision; needs maintainer judgement; could fit a future section but not yet. |
 
-When a contributor appears in GitHub’s sidebar or has a merged PR/accepted issue but is missing from the README Contributors table, recommend adding them through the All Contributors workflow rather than manually editing the table.
+## Issue Triage
 
-Use `npx all-contributors-cli add USERNAME TYPE` followed by `npx all-contributors-cli generate`.
+**Suggestions:** strong + in-scope + canonical → draft entry, recommend accept ·
+strong but wording/placement unclear → recommend maintainer edit · missing
+evidence → ask for minimal clarification · duplicate → close with pointer ·
+out of scope → close politely · interesting but premature → park.
 
-Only update `.all-contributorsrc` and the generated README contributors block unless the maintainer explicitly asks for broader changes.
+**Broken links:** find a canonical replacement first · prefer official over
+mirrors · remove only when no durable replacement exists · leave a concise note.
 
-## Final Review Checklist
+## Protected Areas
 
-- Only the intended file was changed.
-- No protected README areas touched.
-- No duplicate URL or resource name introduced.
-- Description is neutral, durable, and consistent with the local section style.
-- Human maintainer approval required before merge/close actions.
+Do not edit unless explicitly instructed: badges; generated table of contents;
+the Announcements block; cross-list navigation; contributor tables and everything
+between `<!-- ALL-CONTRIBUTORS-LIST:START -->` and `<!-- ...:END -->`; licence
+text; generated indexes; funding/sponsor files; theme machinery (`_config.yaml`,
+`_layouts/`, `_includes/`); lint config; private notes, scratch, or local-only
+files. For contributor acknowledgement use the All Contributors workflow
+(`npx all-contributors-cli add USERNAME TYPE`, then `generate`); only update
+`.all-contributorsrc` and the generated block unless asked for more.
+
+## Maintainer Comment Templates
+
+- **Accept:** "Thank you — this looks relevant, the link is canonical, and the placement works. I would accept this."
+- **Maintainer edit:** "Thank you — I would accept this with a small maintainer edit to tighten the description and keep the wording neutral."
+- **Request changes:** "Thank you for the suggestion. I think this could fit, but I would ask for a little more context on why this is the canonical source and where it belongs in the list."
+- **Close (duplicate):** "Thank you — I would close this as a duplicate, since the resource already appears under [section]."
+- **Close (scope):** "Thank you for sharing this. I would close it as it sits outside the current scope of the list."
+- **Park:** "Thank you — this may be worth revisiting, but I would park it for now until the list has a clearer section for this category."
+
+## Output Format
+
+When reviewing a PR or issue, respond with:
+
+- **Decision:** accept / maintainer edit / request changes / close / park
+- **Reason:** 1–3 bullets
+- **Suggested README entry**, if useful
+- **Suggested maintainer comment**
+- **Files changed**, if any
+- **Remaining uncertainty**, if any
+
+## Conventions & Editing Rule
+
+Commits and PRs are scoped to one logical change, with concise conventional-style
+messages (`docs:`, `feat:`, `chore:`). The maintainer works on feature branches
+off `main`; contributors fork and branch (see `Workflow.md`).
+
+Maintenance is **manual-first**: a human reviews and merges. Produce a
+recommendation and, if approved, the concrete edit — do not merge or close on
+your own initiative. Do not modify `README.md`, `Contributing.md`, `.github/`
+templates, or other files unless explicitly asked. For this kind of task, only
+create or refine the instruction file requested.
