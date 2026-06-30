@@ -4,6 +4,28 @@ Please note that this project is released with a [Code of Conduct](code-of-condu
 
 ---
 
+## Quickstart
+
+Follow these minimal steps to make a valid suggestion quickly:
+
+1. Confirm the project is >30 days old and has >=60 stars (per Contributing rules).
+2. Search the repo for duplicates (URL and name).
+3. Open a single PR that edits README.md or the relevant topic page only.
+4. Add one entry at the BOTTOM of the matching section using the format:
+   `[name](https://github.com/owner/repo) - neutral, factual one-line description.`
+5. Include a short PR description: where you added it, why it fits, and a canonical link.
+
+Example PR title: "Add ExampleProject to AI Tools"
+Example PR body:
+
+- Adds: `[ExampleProject](https://github.com/owner/example) - Open-source tool for X and Y.`
+- Placement: AI Tools → Observability (bottom).
+- Validation: link resolves and project is >30d, >=60 stars.
+
+Maintainers will suggest small edits if needed; keep PR ready for review (no draft).
+
+---
+
 ### Accessibility Guidelines
 
 We are committed to making this repository accessible to everyone.
