@@ -1,0 +1,14 @@
+# Lychee Link Checker Configuration
+
+This file tells lychee which URLs to skip. Use it for:
+- Internal anchors that may not resolve in the checker
+- Legitimate URLs that are temporarily blocked
+- Links that require authentication
+- Social media links that rate-limit the checker
+
+See: https://github.com/lycheeverse/lychee#ignoring-links
+
+# Example patterns (uncomment as needed):
+# github.com/*/issues/new
+# linkedin.com/.*
+# instagram.com/.*

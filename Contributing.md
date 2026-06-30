@@ -6,23 +6,76 @@ Please note that this project is released with a [Code of Conduct](code-of-condu
 
 ## Quickstart
 
-Follow these minimal steps to make a valid suggestion quickly:
+Follow these steps to make a valid suggestion in under 5 minutes:
 
-1. Confirm the project is >30 days old and has >=60 stars (per Contributing rules).
-2. Search the repo for duplicates (URL and name).
-3. Open a single PR that edits README.md or the relevant topic page only.
-4. Add one entry at the BOTTOM of the matching section using the format:
-   `[name](https://github.com/owner/repo) - neutral, factual one-line description.`
-5. Include a short PR description: where you added it, why it fits, and a canonical link.
+### Step 1: Verify the resource
+- ✅ Project is **>30 days old** and has **≥60 stars** (for projects only)
+- ✅ Link is **canonical** (official repo, docs, or paper — not a mirror or marketing site)
+- ✅ Link uses **HTTPS**
 
-Example PR title: "Add ExampleProject to AI Tools"
-Example PR body:
+### Step 2: Search for duplicates
+- Search `README.md` and the relevant topic page for the URL and project name
+- Look for similar entries that might already cover the same resource
 
-- Adds: `[ExampleProject](https://github.com/owner/example) - Open-source tool for X and Y.`
-- Placement: AI Tools → Observability (bottom).
-- Validation: link resolves and project is >30d, >=60 stars.
+### Step 3: Fork, edit, and commit
+```bash
+# Clone your fork
+git clone https://github.com/YourUsername/Awesome-Prompt-Engineering.git
+cd Awesome-Prompt-Engineering
 
-Maintainers will suggest small edits if needed; keep PR ready for review (no draft).
+# Create a feature branch
+git checkout -b add-example-resource
+
+# Edit the file: find the right section and add at the bottom
+# Use this format: [Name](URL) - Description.
+```
+
+### Step 4: Craft your PR
+
+**Title:** "Add [Name] to [Section]"
+
+**Description:**
+```
+- Adds: `[ExampleTool](https://github.com/org/example) - Open-source platform for prompt optimization and evaluation.`
+- Section: AI Tools → Prompt Management & Versioning (bottom)
+- Validated: link resolves, project >30d, ≥60 stars
+```
+
+### Step 5: Keep it ready
+- ✅ Do **not** open a Draft PR; open it ready for review
+- ✅ Do **not** reformat unrelated content
+- ✅ One logical change per PR
+
+**GitHub Actions will automatically check:**
+- ✅ All links resolve and are not redirected
+- ✅ Markdown formatting is valid
+
+Maintainers may suggest small edits; we merge quickly for quality submissions.
+
+---
+
+## Check Links Locally (Optional)
+
+To catch link issues *before* pushing, install and run **lychee**:
+
+```bash
+# macOS (Homebrew)
+brew install lychee
+
+# Linux (Homebrew)
+brew install lychee
+
+# Debian/Ubuntu
+apt-get install lychee
+
+# Cargo
+cargo install lychee
+
+# Then check your changes
+lychee **/*.md
+```
+
+If links are valid and the checker complains about a transient issue, add the URL to `.lychee-ignore` and mention it in your PR.
 
 ---
 
