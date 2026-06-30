@@ -195,7 +195,7 @@ Building production AI systems.
 | Resource | Type | Time | Notes |
 |:---------|:-----|:-----|:------|
 | [LLMOps](https://fullstackdeeplearning.com/llm-bootcamp/) | Course | 10 hr | Full Stack Deep Learning |
-| [Monitoring LLM Applications](https://www.honeycomb.io/blog/monitoring-llm-applications) | Article | 20 min | Observability guidance |
+| [Honeycomb](https://www.honeycomb.io/) | Article | 20 min | Observability guidance |
 
 ---
 
@@ -237,7 +237,7 @@ Practical tools for building AI systems.
 | [LangSmith](https://smith.langchain.com/) | LLM tracing | LangChain ecosystem |
 | [Weights & Biases Prompts](https://wandb.ai/site/prompts) | Prompt tracking | Experiment management |
 | [Helicone](https://www.helicone.ai/) | LLM observability | Request logging |
-| [Arize Phoenix](https://phoenix.arize.com/) | LLM observability | Open source |
+| [Arize Phoenix](https://arize.com/) | LLM observability | Open source |
 
 ### Security
 

@@ -211,7 +211,7 @@ Use different models for different query types:
 Model capabilities change rapidly. To stay informed:
 
 1. **Follow provider blogs** — Announcements of new capabilities
-2. **Track benchmarks** — [LMSYS Chatbot Arena](https://chat.lmsys.org/), [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+2. **Track benchmarks** — [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 3. **Test regularly** — Re-evaluate when new models release
 4. **Monitor costs** — Pricing changes, new tiers appear
 

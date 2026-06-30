@@ -148,7 +148,7 @@ A practitioner's guide to tools for building, deploying, evaluating, monitoring,
 | **Patronus AI** | Automated LLM testing for hallucination and safety | Enterprise compliance teams | [patronus.ai](https://www.patronus.ai/) |
 | **Maxim AI** | Evaluation platform for production LLM quality | Product teams tracking quality | [getmaxim.ai](https://www.getmaxim.ai/) |
 | **Galileo** | LLM debugging, evaluation, and fine-tuning | ML engineers diagnosing issues | [rungalileo.io](https://www.rungalileo.io/) |
-| **Arize Phoenix** | Open-source LLM observability and evaluation | Teams wanting free tracing | [phoenix.arize.com](https://phoenix.arize.com/) |
+| **Arize Phoenix** | Open-source LLM observability and evaluation | Teams wanting free tracing | [arize.com](https://arize.com/) |
 
 ---
 
