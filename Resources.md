@@ -309,6 +309,8 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **GAIA Benchmark** | 2023 | Evaluating general AI assistants | [arxiv.org](https://arxiv.org/abs/2311.12983) |
 | **Let's Verify Step by Step** | 2023 | Process reward models for reasoning | [arxiv.org](https://arxiv.org/abs/2305.20050) |
 | **The Claude 3 Model Family** | 2024 | Frontier model capabilities and safety | [anthropic.com](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) |
+| **Agon** | 2026 | Omnidisciplinary AI Scientist built on Prompt Economy | [arxiv.org](https://arxiv.org/abs/2606.24177) |
+| **PerspectiveGap** | 2026 | First benchmark for multi-agent orchestration prompt writing | [arxiv.org](https://arxiv.org/abs/2606.08878) |
 
 ### Safety & Alignment
 
@@ -319,6 +321,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **Sleeper Agents** | 2024 | Deceptive behavior in AI systems | [arxiv.org](https://arxiv.org/abs/2401.05566) |
 | **Many-Shot Jailbreaking** | 2024 | Long-context safety vulnerabilities | [anthropic.com](https://www.anthropic.com/research/many-shot-jailbreaking) |
 | **Towards Monosemanticity** | 2023 | Understanding neural network internals | [anthropic.com](https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning) |
+| **Universal Magic Words** | 2025 | Universal suffix bypasses safety guardrails via embedding manipulation | [arxiv.org](https://arxiv.org/abs/2501.18280) |
 
 ---
 
