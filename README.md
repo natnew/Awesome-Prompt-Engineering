@@ -48,6 +48,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic's engineering best practices
 - [Prompt Engineering Best Practices](https://claude.com/blog/best-practices-for-prompt-engineering) — Claude's official guide
 - [OpenAI Prompt Engineering Guide](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api) — OpenAI's official documentation
+- [The context window is a cache, not a memory](https://loopandretry.github.io/posts/context-window-is-a-cache/?ref=awesome-prompt-eng) — Why treating an agent's context window as durable memory quietly breaks long runs, and how to design context that survives eviction.
 
 ---
 ## Modern Tools & Frameworks
