@@ -1,0 +1,469 @@
+/* ==========================================================================
+   Awesome Prompt Engineering — site stylesheet
+   --------------------------------------------------------------------------
+   Targets the structure in _layouts/default.html: header[role=banner] > .inner,
+   main[role=main] > .inner, footer[role=contentinfo] > .inner.
+
+   The repository's Markdown carries no CSS classes, so the content rules below
+   select structurally with :has() rather than relying on markup changes:
+
+     h1 + p:has(img)                          the README badge row
+     table:has(th)                            Markdown data tables
+     table:not(:has(th)):not(:has(img))       single-cell <td> callouts
+     table:has(td img)                        the generated contributor grid
+     h5:has(> a:only-child)                   link-only H5s used as a list
+
+   Those five shapes are unambiguous in this repo: no data table contains an
+   image, and no prose paragraph carries an inline image. Where :has() is
+   unsupported the content stays fully readable — it simply loses the tailored
+   treatment, so this degrades rather than breaks.
+
+   Maintainer overrides belong in custom.css, which loads after this file.
+   ========================================================================== */
+
+/* --- Tokens -------------------------------------------------------------- */
+
+:root {
+  --bg: #16161a;
+  --bg-sunk: #101013;
+  --surface: #1e1e24;
+  --surface-hi: #26262e;
+  --rule: #32323c;
+  --rule-soft: #26262e;
+  --ink: #e8e6ec;
+  --ink-mid: #b4b0be;
+  --ink-quiet: #8b8797;
+  --accent: #7ca8ff;
+  --accent-hi: #a6c4ff;
+  --accent-sunk: rgba(124, 168, 255, 0.12);
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Charter, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", "Cascadia Mono", Consolas, monospace;
+
+  --measure: 46rem;
+  --wide: 66rem;
+  --radius: 7px;
+}
+
+/* Dark-first, with an explicit toggle that wins in both directions. */
+:root[data-theme="light"] {
+  --bg: #fbfaf8;
+  --bg-sunk: #f2f0ec;
+  --surface: #ffffff;
+  --surface-hi: #f6f4f1;
+  --rule: #ddd9d2;
+  --rule-soft: #eae7e1;
+  --ink: #1b1a19;
+  --ink-mid: #4a4844;
+  --ink-quiet: #6f6c66;
+  --accent: #1f5fd0;
+  --accent-hi: #14459c;
+  --accent-sunk: rgba(31, 95, 208, 0.08);
+}
+
+/* --- Base ---------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 17px/1.68 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.inner {
+  width: 100%;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent-hi); }
+
+img { max-width: 100%; height: auto; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.skip { position: absolute; left: -9999px; }
+.skip:focus {
+  left: 1rem; top: 1rem; z-index: 10;
+  padding: 0.6rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+}
+
+/* --- Header -------------------------------------------------------------- */
+
+header[role="banner"] {
+  background: var(--bg-sunk);
+  border-bottom: 1px solid var(--rule);
+}
+header[role="banner"] .inner { max-width: var(--wide); }
+
+.masthead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 2.5rem 0 1.75rem;
+}
+
+header[role="banner"] h1 {
+  margin: 0;
+  font: 400 1.9rem/1.15 var(--serif);
+  letter-spacing: -0.01em;
+}
+header[role="banner"] h1 a { color: var(--ink); text-decoration: none; }
+header[role="banner"] h1 a:hover { color: var(--accent); }
+
+header[role="banner"] h2 {
+  margin: 0.5rem 0 0;
+  max-width: 34rem;
+  font: 400 1rem/1.5 var(--sans);
+  color: var(--ink-quiet);
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  padding: 0.45rem 0.85rem;
+  font: 500 0.8rem/1 var(--sans);
+  color: var(--ink-mid);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 100px;
+  cursor: pointer;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--ink-quiet); }
+.theme-toggle [data-when="light"] { display: none; }
+:root[data-theme="light"] .theme-toggle [data-when="light"] { display: inline; }
+:root[data-theme="light"] .theme-toggle [data-when="dark"] { display: none; }
+
+/* Section rail — scrolls sideways rather than wrapping to several lines. */
+.topnav {
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-top: 1px solid var(--rule-soft);
+}
+.topnav::-webkit-scrollbar { display: none; }
+.topnav ul {
+  display: flex;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topnav a {
+  display: block;
+  padding: 0.8rem 0.7rem;
+  font-size: 0.855rem;
+  white-space: nowrap;
+  color: var(--ink-quiet);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.topnav a:hover { color: var(--ink); }
+.topnav .current a {
+  color: var(--ink);
+  font-weight: 500;
+  border-bottom-color: var(--accent);
+}
+
+/* --- Main / typography --------------------------------------------------- */
+
+main[role="main"] { display: block; padding: 3rem 0 4.5rem; }
+
+main h1, main h2, main h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+main h1 { margin: 0 0 1.25rem; font-size: 2.5rem; }
+main h2 {
+  margin: 3rem 0 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.65rem;
+  border-bottom: 1px solid var(--rule);
+}
+main h3 { margin: 2.25rem 0 0.75rem; font-size: 1.28rem; }
+main h4 { margin: 1.75rem 0 0.6rem; font: 600 1rem/1.4 var(--sans); }
+main h6 {
+  margin: 1.5rem 0 0.5rem;
+  font: 600 0.78rem/1.4 var(--sans);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+}
+
+main p { margin: 0 0 1.15rem; }
+main strong { font-weight: 600; color: var(--ink); }
+
+main ul, main ol { margin: 0 0 1.15rem; padding-left: 1.35rem; }
+main li { margin-bottom: 0.4rem; }
+main li::marker { color: var(--ink-quiet); }
+
+main blockquote {
+  margin: 1.5rem 0;
+  padding: 0.15rem 0 0.15rem 1.15rem;
+  border-left: 3px solid var(--rule);
+  color: var(--ink-mid);
+  font-style: italic;
+}
+
+main hr { margin: 3rem 0; border: 0; border-top: 1px solid var(--rule-soft); }
+
+code {
+  padding: 0.14em 0.4em;
+  font: 0.86em/1.4 var(--mono);
+  background: var(--surface-hi);
+  border: 1px solid var(--rule-soft);
+  border-radius: 4px;
+}
+pre {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  overflow-x: auto;
+  background: var(--bg-sunk);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font: 0.86rem/1.6 var(--mono);
+}
+pre code { padding: 0; background: none; border: 0; font-size: inherit; }
+
+/* --- Badge row ----------------------------------------------------------- */
+/* README's first paragraph after the H1: nine shields on one source line.
+   Scoped to `h1 + p` so no other image-bearing paragraph is affected. */
+
+main .inner > h1 + p:has(img) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.45rem;
+  margin: 0 0 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule-soft);
+}
+main .inner > h1 + p:has(img) a,
+main .inner > h1 + p:has(img) img { display: block; margin: 0; }
+main .inner > h1 + p:has(img) img { height: 20px; width: auto; }
+
+/* --- Data tables --------------------------------------------------------- */
+/* Contents (3-col) and Announcements (4-col) carry most of this site's value.
+   At desktop they are ordinary full-width tables; below 52rem they become
+   scrollable blocks so a phone never scrolls the whole page sideways. */
+
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.925rem;
+}
+main table:has(th) {
+  margin: 1.75rem 0;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;             /* clips child backgrounds to the radius */
+}
+main thead th {
+  padding: 0.7rem 0.9rem;
+  font: 600 0.72rem/1.3 var(--sans);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--ink-quiet);
+  background: var(--surface-hi);
+  border-bottom: 1px solid var(--rule);
+  white-space: nowrap;
+}
+main tbody td {
+  padding: 0.75rem 0.9rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rule-soft);
+}
+/* Scoped to data tables on purpose. An unscoped `tbody td:last-child
+   { white-space: nowrap }` outranks the callout rules below on specificity,
+   which stretches callout prose past the viewport and makes the page scroll
+   sideways. Keep these selectors narrower than the callout ones. */
+main table:has(th) tbody tr:last-child td { border-bottom: 0; }
+main table:has(th) tbody tr:hover td { background: var(--surface-hi); }
+main table:has(th) tbody td:first-child { color: var(--ink); }
+main table:has(th) tbody td:last-child { white-space: nowrap; }
+
+@media (max-width: 52rem) {
+  main table:has(th) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* Force the inner table wider than its scroll container so it scrolls
+     sideways instead of squeezing descriptions into 8-line-tall cells (at 375px
+     the Contents rows were otherwise 174-224px tall).
+
+     The min-widths go on the CELLS, not on the table box. The table is the
+     scroll container here, so a min-width on it would make the container itself
+     wider than the viewport and scroll the whole page — the exact failure this
+     stylesheet avoids elsewhere. Cell min-widths grow the *contents* of the
+     container, which is what produces a local scrollbar. */
+  main table:has(th) th,
+  main table:has(th) td { min-width: 7rem; }
+  main table:has(th) th:nth-child(2),
+  main table:has(th) td:nth-child(2) { min-width: 15rem; }
+}
+
+/* Wide-viewport treat: tables and the contributor grid get the full column
+   while prose stays at a readable measure. Achieved by WIDENING the container
+   and capping the prose — not by negative-margining the tables outwards, which
+   cannot self-limit and pushes past the viewport. */
+@media (min-width: 62rem) {
+  main .inner { max-width: var(--wide); }
+  main .inner > :not(table:has(th)):not(table:has(td img)) {
+    max-width: var(--measure);
+    margin-inline: auto;
+  }
+}
+
+/* --- Callouts ------------------------------------------------------------ */
+/* Two raw <table> blocks in README.md are a single 100%-width <td> used as a
+   banner. Strip the table affordances and present them as callouts. */
+
+main table:not(:has(th)):not(:has(img)) {
+  margin: 1.75rem 0;
+  background: var(--accent-sunk);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+}
+main table:not(:has(th)):not(:has(img)),
+main table:not(:has(th)):not(:has(img)) tbody,
+main table:not(:has(th)):not(:has(img)) tr,
+main table:not(:has(th)):not(:has(img)) td {
+  display: block;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+}
+main table:not(:has(th)):not(:has(img)) {
+  background: var(--accent-sunk);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+}
+main table:not(:has(th)):not(:has(img)) td {
+  padding: 1rem 1.2rem;
+  white-space: normal;
+}
+main table:not(:has(th)):not(:has(img)) :last-child { margin-bottom: 0; }
+
+/* --- Contributor grid ---------------------------------------------------- */
+/* Generated by all-contributors between the ALL-CONTRIBUTORS-LIST markers —
+   never hand-edited. Row 1 has 7 cells and row 2 has 4, so this must not assume
+   a full second row: the table is flattened to a wrapping flex row and the
+   inline 14.28% widths are overridden. */
+
+main table:has(td img) { margin: 1.75rem 0; border: 0; }
+main table:has(td img),
+main table:has(td img) tbody { display: block; width: auto; }
+main table:has(td img) tr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+main table:has(td img) td {
+  width: 8.75rem !important;      /* beats the inline width="14.28%" */
+  flex: 0 0 8.75rem;
+  padding: 0.9rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  text-align: center;
+  font-size: 0.74rem;
+  line-height: 1.4;
+  white-space: normal;
+}
+main table:has(td img) td:hover { border-color: var(--accent); }
+main table:has(td img) img {
+  width: 58px !important;
+  height: 58px;
+  border-radius: 50%;
+  margin-bottom: 0.45rem;
+}
+main table:has(td img) a { text-decoration: none; color: var(--ink); }
+main table:has(td img) a:hover { color: var(--accent); }
+main table:has(td img) sub { font-size: inherit; bottom: 0; }
+
+/* --- Link-only H5s ------------------------------------------------------- */
+/* "Guides and Learning Resources" is ten consecutive H5s that each contain
+   nothing but a link. As headings they read as ten orphan sections; as a list
+   they read as the index they are. `> a:only-child` deliberately excludes the
+   prose H5s elsewhere in the README. */
+
+main h5:has(> a:only-child) {
+  display: block;
+  margin: 0;
+  padding: 0.72rem 0.5rem 0.72rem 1.55rem;
+  font: 400 0.97rem/1.45 var(--sans);
+  border-bottom: 1px solid var(--rule-soft);
+  position: relative;
+}
+main h5:has(> a:only-child):first-of-type { border-top: 1px solid var(--rule-soft); }
+main h5:has(> a:only-child)::before {
+  content: "";
+  position: absolute;
+  left: 0.35rem;
+  top: 1.2em;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+main h5:has(> a:only-child):hover { background: var(--surface); }
+main h5:has(> a:only-child) a { text-decoration: none; }
+main h5:has(> a:only-child) a:hover { text-decoration: underline; }
+
+/* --- Footer -------------------------------------------------------------- */
+
+footer[role="contentinfo"] {
+  padding: 2rem 0 2.5rem;
+  background: var(--bg-sunk);
+  border-top: 1px solid var(--rule);
+  color: var(--ink-quiet);
+  font-size: 0.855rem;
+}
+footer[role="contentinfo"] .inner { max-width: var(--wide); }
+footer[role="contentinfo"] p { margin: 0.2rem 0; }
+footer[role="contentinfo"] p:first-child { color: var(--ink-mid); font-weight: 500; }
+
+/* --- Small screens ------------------------------------------------------- */
+
+@media (max-width: 40rem) {
+  body { font-size: 16px; }
+  .inner { padding: 0 1.15rem; }
+  .masthead { padding: 1.75rem 0 1.25rem; }
+  header[role="banner"] h1 { font-size: 1.5rem; }
+  main[role="main"] { padding: 2rem 0 3rem; }
+  main h1 { font-size: 1.85rem; }
+  main h2 { font-size: 1.35rem; margin-top: 2.25rem; }
+  main table:has(td img) td {
+    width: 6.75rem !important;
+    flex: 0 0 6.75rem;
+  }
+  main table:has(td img) img { width: 44px !important; height: 44px; }
+  main .inner > h1 + p:has(img) img { height: 18px; }
+}
+
+/* --- Print --------------------------------------------------------------- */
+
+@media print {
+  .topnav, .theme-toggle, .skip { display: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  main .inner, header .inner, footer .inner { max-width: none; }
+  a { color: #000; }
+}

@@ -35,3 +35,6 @@ __pycache__/
 # reports
 /reports
 
+# Local design-preview harness (throwaway; not part of the published site)
+_preview/
+
