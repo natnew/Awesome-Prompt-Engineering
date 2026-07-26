@@ -82,3 +82,29 @@ a concrete edit — but leave the merge or close decision to a person.
 - Badges, announcements, contributor tables, and other generated or
   semi-structured README areas.
 - Repository structure, categories, or taxonomy.
+
+---
+
+## Maintenance Matrix
+
+This matrix maps content areas to the instruction files and related rules. Use this to understand what changes where, and which rules apply to each task.
+
+| When you change… | File(s) affected | Read these instructions | Key rule |
+|---|---|---|---|
+| README.md entries (add/edit/remove) | `README.md` | `.github/instructions/readme-curation.instructions.md` + `.github/instructions/link-and-source-quality.instructions.md` | Canonical HTTPS link + neutral description + bottom of section |
+| Link quality, source credibility | `README.md`, `Contributing.md`, topic pages | `.github/instructions/link-and-source-quality.instructions.md` | Prefer official repo/docs over mirrors; avoid thin landing pages |
+| PR or issue descriptions | `.github/pull_request_template.md`, `.github/ISSUE_TEMPLATE/` | `.github/instructions/contribution-review.instructions.md` | Concise, warm, respectful tone; thank contributor first |
+| General Markdown (typos, wording, small fixes) | Any `.md` file | `.github/instructions/repository-maintenance.instructions.md` | Minimal change; preserve voice and structure; keep `.html` links for Jekyll |
+| Protected areas (badges, contributor tables, theme) | `README.md`, `_config.yaml`, `_layouts/`, `_includes/`, `.markdownlint-cli2.jsonc` | `.github/instructions/repository-maintenance.instructions.md` | Do not edit without explicit maintainer direction |
+| New issue template | `.github/ISSUE_TEMPLATE/**/*.md` | `.github/instructions/contribution-review.instructions.md` | Guide reports; reduce friction; use YAML forms |
+| New topic page or section | New `.md` file | `.github/instructions/readme-curation.instructions.md` + `.github/instructions/repository-maintenance.instructions.md` | Requires maintainer agreement; do not create speculatively |
+| Contributing or Workflow guide | `Contributing.md`, `Workflow.md` | All four instruction files | Centralise contributor guidance; keep instructions DRY |
+
+### Cross-File Dependencies
+
+- **README.md** links to: Contributing.md (line 50+), Workflow.md, code-of-conduct.md, .github/EXAMPLE_PR.md
+- **Contributing.md** links to: Workflow.md, code-of-conduct.md, .github/instructions/
+- **Workflow.md** links to: Contributing.md, .github/ templates
+- **AGENTS.md** (tool-agnostic) and **CLAUDE.md** (Claude-specific) describe agent role and decision matrix
+
+When editing any of these files, verify the cross-references still resolve and make sense in context.

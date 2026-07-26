@@ -1,0 +1,47 @@
+name: Report a broken link
+description: Report a link that is broken, redirected, or no longer canonical
+labels: ["broken-link", "awaiting-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for keeping the list accurate! 🔗
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource name
+      placeholder: e.g., "LangChain"
+    validations:
+      required: true
+
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken or non-canonical URL
+      placeholder: https://example.com/old-path
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-details
+    attributes:
+      label: What is the problem?
+      description: "Is it broken (404), redirected, no longer canonical, or something else?"
+      placeholder: "The link returns 404. / It redirects to a paywalled page. / The official repo moved but we link to the old location."
+    validations:
+      required: true
+
+  - type: input
+    id: canonical-url
+    attributes:
+      label: Canonical replacement (if known)
+      description: "If you know the correct link, share it here. Leave blank if unsure."
+      placeholder: https://example.com/new-official-location
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Where did you find this link? Any other context?
+      placeholder: "Found in AI_Tools.md → Safety & Guardrails section. Tested on 2026-06-30."

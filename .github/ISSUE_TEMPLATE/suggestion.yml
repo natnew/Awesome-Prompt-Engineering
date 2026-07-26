@@ -1,0 +1,71 @@
+name: Suggest a resource
+description: Propose a new entry for the awesome list
+labels: ["suggestion", "awaiting-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the suggestion! 🙏
+        
+        Before opening, please check:
+        - ✅ Resource is **>30 days old** and has **≥60 stars** (for projects)
+        - ✅ Link is **canonical** (GitHub repo, official docs, or paper — not a mirror)
+        - ✅ Link uses **HTTPS**
+        - ✅ No duplicate in README.md or the relevant topic page
+
+  - type: input
+    id: title
+    attributes:
+      label: Resource name
+      placeholder: e.g., "LangChain" or "Anthropic's Prompt Engineering Guide"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "One sentence explaining what this resource is and who it helps. Start with capital, end with period. Do not start with 'A' or 'An'."
+      placeholder: "Open-source framework for building LLM applications with composable chains and tools."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best fit category
+      description: Where in README or topic page should this live?
+      options:
+        - Prompt Management & Versioning
+        - Development Frameworks
+        - Testing & Evaluation
+        - Safety & Guardrails
+        - AI Agents & Orchestration
+        - Observability & Debugging
+        - Educational Resources
+        - Research Papers
+        - Other (describe in details)
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this belongs in the list
+      description: "Briefly explain why this is unique, useful, and not a duplicate."
+      placeholder: "Fills a gap in X. Offers unique approach to Y. Different from the existing Z entry because..."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other details that help the maintainer review this suggestion.
+      placeholder: Related issues, links to discussions, etc.

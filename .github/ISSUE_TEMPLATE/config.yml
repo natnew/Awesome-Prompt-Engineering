@@ -1,0 +1,40 @@
+name: Report a content error
+description: Report an inaccuracy, typo, misleading description, or outdated content
+labels: ["content-error", "awaiting-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for keeping the content accurate! ✨
+
+  - type: input
+    id: location
+    attributes:
+      label: File and location
+      description: "Which file? Include section name or line number if possible."
+      placeholder: "README.md → AI Agents section, 3rd bullet / Basic_Prompting.md → line 45"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-description
+    attributes:
+      label: What is wrong?
+      description: "Describe the error: typo, inaccuracy, misleading wording, outdated info, etc."
+      placeholder: "The description says X, but the tool actually does Y. / Typo in line 5: 'recieve' should be 'receive'. / This project is now archived but we describe it as active."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested correction
+      description: "What should it say instead? (optional — maintainer can fix minor typos)"
+      placeholder: "Should read: 'Framework for building LLM pipelines with orchestration and eval support.' / Remove 'latest' from description. / Link to the archived project notice instead."
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links, evidence, or other details that help.
+      placeholder: "This changed in version 2.0 (released June 2026). See release notes at https://..."
