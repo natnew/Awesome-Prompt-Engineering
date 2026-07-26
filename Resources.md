@@ -155,6 +155,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"LLM-as-Judge"** | Using LLMs to evaluate LLM outputs | [arxiv.org](https://arxiv.org/abs/2306.05685) |
 | **"WFGY 16 Problem Map"** | Troubleshooting guide for RAG and LLM pipelines | [github.com](https://github.com/onestardao/WFGY/tree/main/ProblemMap/README.md) |
 | **Anthropic's Evaluation Documentation** | How Anthropic thinks about evals | [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/develop-tests) |
+| **"StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs"** | TMLR 2025 benchmark for structural-output generation and conversion across text and visual formats | [arxiv.org](https://arxiv.org/abs/2505.20139) |
 
 ---
 
