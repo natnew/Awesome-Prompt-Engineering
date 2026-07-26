@@ -136,6 +136,14 @@ The field has evolved from crafting individual prompts to architecting complete 
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td width="100%">
+      Try the <a href="https://prompt-engineering-strapp.streamlit.app/about">Prompt Engineering Playground.</a> Interactive app for exploring prompt engineering techniques across models including GPT-4o and GPT-4 Turbo.
+    </td>
+  </tr>
+</table>
+
 ---
 ## More Awesome Lists
 
