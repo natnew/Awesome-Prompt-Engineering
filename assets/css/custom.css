@@ -1,0 +1,20 @@
+/* ==========================================================================
+   Maintainer overrides
+   --------------------------------------------------------------------------
+   Loaded after style.css by _layouts/default.html, so anything here wins.
+
+   Keep site-wide design decisions in style.css and use this file for local
+   tweaks and experiments. The most common change is a palette adjustment, which
+   only needs the custom properties re-declared — no selector duplication:
+
+     :root {
+       --accent: #7ca8ff;
+       --accent-hi: #a6c4ff;
+     }
+     :root[data-theme="light"] {
+       --accent: #1f5fd0;
+     }
+
+   This file is intentionally rule-free. It exists so the stylesheet link in the
+   layout resolves rather than 404s, and so overrides have an obvious home.
+   ========================================================================== */

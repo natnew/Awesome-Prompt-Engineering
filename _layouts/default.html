@@ -12,14 +12,41 @@
 </head>
 
 <body>
+  <a class="skip" href="#content">Skip to content</a>
+
   <header role="banner">
     <div class="inner">
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Site Title" }}</a></h1>
-      <h2>{{ site.description | default: "Site Description" }}</h2>
+      <div class="masthead">
+        <div>
+          <h1><a href="{{ '/' | relative_url }}">{{ site.title | default: "Site Title" }}</a></h1>
+          <h2>{{ site.description | default: "Site Description" }}</h2>
+        </div>
+        <button type="button" class="theme-toggle" aria-label="Switch between light and dark">
+          <span data-when="dark">Light</span><span data-when="light">Dark</span>
+        </button>
+      </div>
+
+      {%- comment -%}
+        Section rail built from the nav_order front matter already present on the
+        content pages. Pages without nav_order are omitted, which keeps the
+        untitled and supporting documents out of the nav without needing a
+        defaults: block in _config.yaml.
+      {%- endcomment -%}
+      {%- assign nav_pages = site.html_pages | where_exp: "p", "p.nav_order" | sort: "nav_order" -%}
+      {%- if nav_pages.size > 0 -%}
+      <nav class="topnav" aria-label="Sections">
+        <ul>
+          <li{% if page.url == '/' %} class="current"{% endif %}><a href="{{ '/' | relative_url }}">Home</a></li>
+          {%- for p in nav_pages %}
+          <li{% if p.url == page.url %} class="current"{% endif %}><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      {%- endif -%}
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="content">
     <div class="inner">
       {{ content }}
     </div>
@@ -31,6 +58,25 @@
       <p>&copy; {{ site.time | date: "%Y" }}</p>
     </div>
   </footer>
+
+  <script>
+    // Dark-first with an explicit override, persisted so navigating between
+    // pages does not reset the choice. Applied to the root element, which is
+    // what the [data-theme="light"] custom-property block in style.css targets.
+    (function () {
+      var root = document.documentElement;
+      var saved = null;
+      try { saved = localStorage.getItem('ape-theme'); } catch (e) {}
+      if (saved) { root.setAttribute('data-theme', saved); }
+      var btn = document.querySelector('.theme-toggle');
+      if (!btn) { return; }
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('ape-theme', next); } catch (e) {}
+      });
+    })();
+  </script>
 
   <!-- Include the Tidio script -->
   {% include tidio.html %}
