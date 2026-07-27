@@ -1,6 +1,14 @@
 # Awesome-Prompt-Engineering 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![All Contributors](https://img.shields.io/github/all-contributors/natnew/Awesome-Prompt-Engineering?color=success=flat-square)](#contributors) ![GitHub last commit](https://img.shields.io/github/last-commit/natnew/Awesome-Prompt-Engineering) ![GitHub Repo stars](https://img.shields.io/github/stars/natnew/Awesome-Prompt-Engineering?style=social) ![GitHub forks](https://img.shields.io/github/forks/natnew/Awesome-Prompt-Engineering?style=social) ![Maintained Status](https://img.shields.io/badge/Maintained%20-%20Yes%20-%20lightgreen) ![Release Status](https://img.shields.io/badge/Release%20-%20PROD%20-%20lightblue) ![License](https://img.shields.io/badge/License%20-%20MIT%20-%20orange) ![Language](https://img.shields.io/badge/Language%20-%20MULTI%20-%20grey)
 
+<table>
+  <tr>
+    <td width="100%">
+      Explore the <a href="https://prompt-engineering-strapp.streamlit.app/concept_map">revised AI Engineering app</a>, updated from its original 2023 version to reflect how the field has evolved to the present day.
+    </td>
+  </tr>
+</table>
+
 **Prompt engineering** is the foundational practice of crafting effective instructions to guide AI models toward accurate, useful, and reliable outputs. As AI systems have evolved, prompt engineering has expanded into **context engineering**—the broader discipline of architecting the full information environment that shapes model behaviour, including system prompts, conversation history, retrieved knowledge, tool definitions, and memory.
 
 Whether you're writing your first prompt or orchestrating complex multi-agent systems, understanding how to communicate effectively with AI models remains essential. This repository provides resources spanning fundamental prompting techniques through to advanced context engineering strategies for production AI applications.
@@ -132,14 +140,6 @@ The field has evolved from crafting individual prompts to architecting complete 
   <tr>
     <td width="100%">
       Explore <a href="https://github.com/natnew/Awesome-Data-Science">Awesome Data Science.</a> A carefully curated list of awesome Data Science resources.
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="100%">
-      Try the <a href="https://prompt-engineering-strapp.streamlit.app/about">Prompt Engineering Playground.</a> Interactive app for exploring prompt engineering techniques across models including GPT-4o and GPT-4 Turbo.
     </td>
   </tr>
 </table>
