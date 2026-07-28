@@ -155,6 +155,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"LLM-as-Judge"** | Using LLMs to evaluate LLM outputs | [arxiv.org](https://arxiv.org/abs/2306.05685) |
 | **"WFGY 16 Problem Map"** | Troubleshooting guide for RAG and LLM pipelines | [github.com](https://github.com/onestardao/WFGY/tree/main/ProblemMap/README.md) |
 | **Anthropic's Evaluation Documentation** | How Anthropic thinks about evals | [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/develop-tests) |
+| **"PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting"** | Benchmarks role-fragment assignment and free-form prompt writing across 110 multi-agent orchestration scenarios and 10 topologies | [arxiv.org](https://arxiv.org/abs/2606.08878) |
 
 ---
 
