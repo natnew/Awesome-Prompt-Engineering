@@ -85,6 +85,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Maxim AI](https://www.getmaxim.ai/) — Systematic evaluation and benchmarking platform
 - [ai-evaluation](https://github.com/future-agi/ai-evaluation) — Open-source LLM evaluation SDK with local metrics, LLM-as-judge support, guardrail scanners, and AutoEval pipelines
 - [agent-opt](https://github.com/future-agi/agent-opt) — Evaluation-driven prompt and agent workflow optimisation using search, meta-prompting, PromptWizard, and GEPA
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — Records a run at the model-provider boundary and replays it offline, so a prompt change shows up as a byte-level divergence instead of a differently-worded answer
 
 ### Safety & Guardrails
 
