@@ -1,160 +1,108 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code when assisting with this content repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-This is **Awesome-Prompt-Engineering** — a curated awesome list 
-for prompt engineering, and context engineering for AI agents. It is **content, not
-an application**: the deliverable is high-signal Markdown published to GitHub
-Pages via Jekyll (`https://natnew.github.io/Awesome-Prompt-Engineering/`). There
-is no build, test, or runtime to reason about beyond Markdown rendering. Each
-`Foo.md` renders to `Foo.html`, which is why Contents links point to `.html`.
+**Awesome-Prompt-Engineering** is a curated awesome list for prompt engineering
+and context engineering for AI agents, published to GitHub Pages with Jekyll
+(`just-the-docs` remote theme) at `https://natnew.github.io/Awesome-Prompt-Engineering/`.
+`README.md` is the canonical artefact. Curation beats accumulation.
 
-`AGENTS.md` is the tool-agnostic operating protocol. **Read it for the full
-rules** (scope, link quality, decision matrix, protected areas). This file is the
-Claude-specific maintainer assistant: concise, practical, optimised for repeated
-use. Where the two overlap, `AGENTS.md` is canonical — do not duplicate it here.
+## Authority and routing
 
-## North Star
+`AGENTS.md` is the canonical operating protocol: scope, trust boundary, quality
+bar, link rules, decision matrix, review workflows, protected areas. Do not
+restate it here; read it before any review or README edit. Then load only what
+the task needs:
 
-- Preserve `README.md` as the canonical public artefact.
-- Prefer selective curation over accumulation.
-- Keep entries technically useful, neutral, durable, and easy to scan.
-- Help the maintainer make fast, consistent, low-friction decisions.
-- Do not broaden the repository beyond its stated scope.
-
-## Claude's Role
-
-May assist with: README entry review, PR and issue triage, broken-link
-investigation, duplicate detection, section placement, neutral description
-rewrites, contributor response drafts, small safe maintainer edits when asked,
-and repository instruction improvements when asked.
-
-Must not: add an entry without checking scope, link, duplicates, and placement;
-invent facts about a resource; preserve promotional claims; add ranking, pricing,
-novelty, or performance claims without strong evidence; rewrite the taxonomy
-without explicit instruction; edit unrelated files; or touch protected/generated
-areas unless instructed.
-
-## Claude Behaviour Rule
-
-- When the requested action is clear, make the smallest safe edit.
-- When scope, placement, credibility, or maintainer intent is uncertain, produce
-  a recommendation before editing.
-- Never close issues, merge PRs, restructure the README, or edit protected areas
-  on your own initiative.
-- Keep maintainer comments concise, warm, and decision-oriented; prefer a small
-  safe fix over asking a contributor to re-push a trivial change.
-
-## Always-Loaded Context
-
-Keep this file a short orientation, not a manual. Load detail on demand:
-
-- Concise rules → here.
-- Full operating protocol → `AGENTS.md`.
-- Detailed contribution process → `Contributing.md` and `Workflow.md`.
-- Public contributor expectations → `.github/` PR and issue templates.
-- Style examples → `README.md` itself.
-
-Do not duplicate long sections from those files.
-
-## First-Pass Workflow
-
-For any issue, PR, or README task:
-
-1. Read the relevant diff or issue.
-2. Check repository scope in `README.md`.
-3. Check contribution guidance (`Contributing.md`).
-4. Check existing entries in the target section.
-5. Search the whole repo for duplicates (URL **and** name).
-6. Verify the link where tools allow.
-7. Inspect the resource enough to understand what it is.
-8. Decide the smallest useful action.
-9. Produce a concise recommendation or edit.
-
-## Entry Checklist
-
-Before accepting or adding: in scope · technically useful · durable source ·
-canonical HTTPS URL · no duplicate · correct section · matches local formatting ·
-neutral one-line description · no hype · no unsupported claims · no avoidable
-tracking parameters · no unnecessary new section. Projects should be **>30 days
-old with ≥60 stars** (`Contributing.md`).
-
-## Common Claude Tasks
-
-| Task | Claude should do |
+| Task | Read |
 | --- | --- |
-| PR review | Check scope, link, duplicate, placement, formatting, description; return decision and maintainer comment. |
-| Suggestion issue | Assess fit, verify canonical source where possible, draft a neutral entry if useful. |
-| Broken link | Find a canonical replacement first; recommend removal only if no durable source exists. |
-| Entry rewrite | Remove hype, unsupported claims, pricing/ranking language; make the description factual. |
-| Section placement | Compare against similar entries and recommend the narrowest accurate section. |
-| Maintainer edit | Make only small safe changes when asked; otherwise recommend. |
-| Contributor acknowledgement | Use the All Contributors workflow; do not manually edit generated tables. |
+| README entry add/edit/remove | `.github/instructions/readme-curation.instructions.md`, `link-and-source-quality.instructions.md` |
+| PR / issue review, contributor replies | `.github/instructions/contribution-review.instructions.md` |
+| Typos, wording, small Markdown fixes | `.github/instructions/repository-maintenance.instructions.md` |
+| Contributor requirements (≥60 stars, >30 days old) | `Contributing.md`, `Workflow.md`, `.github/pull_request_template.md` |
 
-Entry format: `- [Name](URL) - Factual description of what it is and who it
-helps.` Use the hyphen, or an em dash where the surrounding section already does;
-start with a capital, end with a full stop, not title-case, not "A"/"An". See
-`AGENTS.md` for full scope, source, and description rules.
+`.github/copilot-instructions.md` mirrors these rules for Copilot. If you change
+a rule, change it in `AGENTS.md` or the relevant `.instructions.md` file, not here.
 
-## PR Triage
+## Repository layout
 
-| Decision | When |
-| --- | --- |
-| **Accept as-is** | Scope, link, placement, format, and description all sound. |
-| **Edit as maintainer** | Strong resource, only small fixes (neutralise wording, swap to canonical link, correct placement) — without changing intent. |
-| **Request changes** | Contributor must clarify relevance; resource unverifiable; needs substantive repositioning; PR mixes useful and unsuitable changes. |
-| **Close** | Out of scope; promotional; duplicate; broken with no replacement; low technical value; mostly marketing/self-promotion. |
-| **Park** | Useful but immature; needs a taxonomy decision; needs maintainer judgement; could fit a future section but not yet. |
+- Root `*.md` topic pages (`Basic_Prompting.md`, `AI_Tools.md`, `Articles.md`,
+  `Resources.md`, …) are linked from the README Contents table. Each `Foo.md`
+  renders to `Foo.html`, so internal links point to `.html`; do not change them to `.md`.
+- `foundations/`, `patterns/`, `templates/`, `resources/`: long-form learning material.
+- `projects/`: worked case studies. Some include Python reference code and pytest
+  suites (`projects/core/01_rag_evaluation_pipeline/tests/`). This is the only
+  executable code in the repository.
+- Site machinery: `_config.yaml`, `_layouts/default.html`, `assets/css/`. Protected.
+- `AI Glossary.csv` is linked from `AI_Glossary.md` as a download; keep terms in step when editing either.
 
-## Issue Triage
+## Commands
 
-**Suggestions:** strong + in-scope + canonical → draft entry, recommend accept ·
-strong but wording/placement unclear → recommend maintainer edit · missing
-evidence → ask for minimal clarification · duplicate → close with pointer ·
-out of scope → close politely · interesting but premature → park.
+```bash
+# Duplicate check: search the name AND the URL's host/path across all content
+rg -n -i "<project name>|<host/path>" --glob "*.md" --glob "*.csv"
 
-**Broken links:** find a canonical replacement first · prefer official over
-mirrors · remove only when no durable replacement exists · leave a concise note.
+# Link check (same tool CI runs on PRs that touch *.md; skips go in .lychee-ignore)
+lychee --exclude '*.png' --timeout 15 README.md
 
-## Protected Areas
+# Markdown lint (lenient config; not run in CI)
+npx markdownlint-cli2 "README.md"
 
-Do not edit unless explicitly instructed: badges; generated table of contents;
-the Announcements block; cross-list navigation; contributor tables and everything
-between `<!-- ALL-CONTRIBUTORS-LIST:START -->` and `<!-- ...:END -->`; licence
-text; generated indexes; funding/sponsor files; theme machinery (`_config.yaml`,
-`_layouts/`, `_includes/`); lint config; private notes, scratch, or local-only
-files. For contributor acknowledgement use the All Contributors workflow
-(`npx all-contributors-cli add USERNAME TYPE`, then `generate`); only update
-`.all-contributorsrc` and the generated block unless asked for more.
+# Project tests (only when projects/ Python changes)
+python -m pytest projects/core/01_rag_evaluation_pipeline/tests -q
+```
 
-## Maintainer Comment Templates
+No build step is needed to validate content. Jekyll builds on GitHub Pages.
 
-- **Accept:** "Thank you — this looks relevant, the link is canonical, and the placement works. I would accept this."
-- **Maintainer edit:** "Thank you — I would accept this with a small maintainer edit to tighten the description and keep the wording neutral."
-- **Request changes:** "Thank you for the suggestion. I think this could fit, but I would ask for a little more context on why this is the canonical source and where it belongs in the list."
-- **Close (duplicate):** "Thank you — I would close this as a duplicate, since the resource already appears under [section]."
-- **Close (scope):** "Thank you for sharing this. I would close it as it sits outside the current scope of the list."
-- **Park:** "Thank you — this may be worth revisiting, but I would park it for now until the list has a clearer section for this category."
+## Automation already in place
 
-## Output Format
+- `.github/workflows/link-check.yml`: lychee on every PR that changes `*.md`.
+- `.github/workflows/claude.yml`: runs Claude Code on `@claude` mentions in issues
+  and PRs with **read-only** repository permissions. In that context, reply with a
+  recommendation; do not attempt to push, label, merge or close.
+- `.github/workflows/issue-triage-agent.md`: GitHub Agentic Workflow that labels
+  new issues. `issue-triage-agent.lock.yml` is compiled from it; edit the `.md`
+  source and recompile with `gh aw compile`, never hand-edit the lock file.
+- All Contributors: `npx all-contributors-cli add USERNAME TYPE`, then
+  `npx all-contributors-cli generate`. Never edit the generated table by hand.
 
-When reviewing a PR or issue, respond with:
+## Invariants easy to break
+
+- **Entry format follows the local section.** README list sections use
+  `- [Name](URL) — Description` (em dash); `Contributing.md` shows a hyphen; several
+  topic pages use tables. Match neighbouring entries, including whether descriptions
+  end with a full stop. New entries go at the bottom of the section unless it is ordered.
+- **Case-insensitive checkout.** `AGENTS.md` (agent protocol) and the former
+  `Agents.md` topic page collide on Windows and macOS. Do not create a root
+  `Agents.md`; the README Contents link to `Agents.html` currently has no source page.
+- **Protected areas** are listed in `AGENTS.md` (badges, Announcements,
+  contributor block, cross-list navigation, licence, site machinery). Change
+  `.all-contributorsrc` only through the CLI.
+- **No broad sweeps.** Do not reformat, reorder or re-case content the task does
+  not touch, and do not "fix" rules disabled in `.markdownlint-cli2.jsonc`.
+- **Verify, do not infer.** Fetch the resource before describing it; check stars,
+  age and canonical URL on the source itself.
+
+## Working method
+
+1. Read the issue or diff, then the target section and its neighbours.
+2. Run the duplicate search and verify the link before judging the entry.
+3. If scope, placement, credibility or maintainer intent is uncertain, recommend
+   before editing. Otherwise make the smallest safe edit.
+4. Before finishing: review `git diff`, confirm only intended files changed, and
+   run the link check on edited files where lychee is available.
+
+Never merge, close, label or restructure on your own initiative. For batches
+(several PRs or many links), independent verification can run in parallel;
+a single entry does not need subagents.
+
+## Output for reviews
 
 - **Decision:** accept / maintainer edit / request changes / close / park
-- **Reason:** 1–3 bullets
-- **Suggested README entry**, if useful
-- **Suggested maintainer comment**
-- **Files changed**, if any
-- **Remaining uncertainty**, if any
+- **Reason:** 1–3 bullets, citing evidence checked (link, stars, duplicates)
+- **Suggested entry**, in the target section's exact format
+- **Maintainer comment:** short, warm, decision-oriented (style in `AGENTS.md`)
+- **Files changed**, and any **remaining uncertainty**
 
-## Conventions & Editing Rule
-
-Commits and PRs are scoped to one logical change, with concise conventional-style
-messages (`docs:`, `feat:`, `chore:`). The maintainer works on feature branches
-off `main`; contributors fork and branch (see `Workflow.md`).
-
-Maintenance is **manual-first**: a human reviews and merges. Produce a
-recommendation and, if approved, the concrete edit — do not merge or close on
-your own initiative. Do not modify `README.md`, `Contributing.md`, `.github/`
-templates, or other files unless explicitly asked. For this kind of task, only
-create or refine the instruction file requested.
+Commits: one logical change, conventional prefix (`docs:`, `feat:`, `chore:`),
+on a feature branch off `main`.
