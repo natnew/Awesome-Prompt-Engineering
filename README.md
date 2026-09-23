@@ -25,7 +25,7 @@ Effective prompt and context engineering requires understanding natural language
 | **Intermediate Prompting** | Reasoning techniques: few-shot, chain-of-thought, self-consistency, structured reasoning. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Intermediate_Prompting.html) |
 | **Advanced Prompting** | Agentic patterns: ReAct, tool use, prompt chaining, self-reflection, meta-prompting. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Advanced_Prompting.html) |
 | **Multi-Modal Prompting** | Visual AI: text-to-image, image analysis, video generation, model-specific syntax. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Multi_Modal_Prompting.html) |
-| **AI Agents** | Building autonomous systems: patterns, orchestration frameworks, tools, memory, debugging. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Agents.html) |
+| **AI Agents** | Building autonomous systems: patterns, orchestration frameworks, tools, memory, debugging. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Agents.html) |
 | **AI Tools** | Comprehensive guide to tools for building, deploying, evaluating, and governing AI. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Tools.html) |
 | **Deep Learning Guide** | LLM-relevant concepts: transformers, attention, training, tokenization, inference. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Deep_Learning_Guide.html) |
 | **Articles** | Curated reading list organized by topic: agents, RAG, evaluation, safety, production. | [GitHub](https://natnew.github.io/Awesome-Prompt-Engineering/Articles.html) |
@@ -119,7 +119,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 ##### [Mastering Prompt Engineering: A Free eBook](https://natashanewbold.gumroad.com/l/kjxpip)
 ##### [AI Cheat Sheet](https://natnew.github.io/Awesome-Prompt-Engineering/AI_CheatSheet.html)
 ##### [Deep Learning for LLMs Guide](https://natnew.github.io/Awesome-Prompt-Engineering/Deep_Learning_Guide.html)
-##### [AI Agents Guide](https://natnew.github.io/Awesome-Prompt-Engineering/Agents.html)
+##### [AI Agents Guide](https://natnew.github.io/Awesome-Prompt-Engineering/AI_Agents.html)
 ##### [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
 ##### [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/)
 ##### [Prompt Engineering Techniques (NirDiamant)](https://github.com/NirDiamant/Prompt_Engineering)
