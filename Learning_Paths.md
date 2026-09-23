@@ -110,7 +110,7 @@ You're building AI features into production systems. You've moved past experimen
 **Week 1: Foundations (Review or Complete)**
 
 1. [Advanced Prompting](Advanced_Prompting.md) — Ensure you understand agentic patterns
-2. [Agents](Agents.md) — Agent architectures and orchestration
+2. [Agents](AI_Agents.md) — Agent architectures and orchestration
 3. [Competencies](Competencies.md) — Understand the framework
 
 **Week 2: Evaluation & Measurement**
@@ -257,7 +257,7 @@ You use AI coding assistants (Copilot, Claude, Cursor) daily. You're productive 
 **Week 1: Understanding the Tool**
 
 1. [Advanced Prompting](Advanced_Prompting.md) — How to guide AI effectively
-2. [Agents](Agents.md) — How AI coding tools work (conceptually)
+2. [Agents](AI_Agents.md) — How AI coding tools work (conceptually)
 3. [Competencies](Competencies.md) — Focus on "AI Output Review & Oversight"
 
 **Week 2: Building Judgment**

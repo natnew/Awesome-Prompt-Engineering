@@ -199,7 +199,7 @@ The core projects assume you've read:
 ### For AI for Science Projects
 
 The AI for Science projects assume you've completed at least 2-3 core projects and have familiarity with:
-- Multi-agent architectures ([Agents Guide](../Agents.md))
+- Multi-agent architectures ([Agents Guide](../AI_Agents.md))
 - Evaluation frameworks
 - Safety and guardrails patterns
 

@@ -47,7 +47,7 @@ By the end of this project, you'll have:
 Before starting this project, you should have:
 
 - [ ] Completed [RAG Evaluation Pipeline](../01_rag_evaluation_pipeline/) or equivalent
-- [ ] Basic understanding of agent architectures (read [Agents Guide](../../Agents.md))
+- [ ] Basic understanding of agent architectures (read [Agents Guide](../../AI_Agents.md))
 - [ ] Familiarity with tool/function calling in LLMs
 - [ ] Python proficiency
 
