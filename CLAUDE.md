@@ -60,9 +60,6 @@ No build step is needed to validate content. Jekyll builds on GitHub Pages.
 - `.github/workflows/claude.yml`: runs Claude Code on `@claude` mentions in issues
   and PRs with **read-only** repository permissions. In that context, reply with a
   recommendation; do not attempt to push, label, merge or close.
-- `.github/workflows/issue-triage-agent.md`: GitHub Agentic Workflow that labels
-  new issues. `issue-triage-agent.lock.yml` is compiled from it; edit the `.md`
-  source and recompile with `gh aw compile`, never hand-edit the lock file.
 - All Contributors: `npx all-contributors-cli add USERNAME TYPE`, then
   `npx all-contributors-cli generate`. Never edit the generated table by hand.
 
