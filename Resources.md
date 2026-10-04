@@ -104,6 +104,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Building Effective Agents" (Anthropic)** | Practical patterns for agent development | [anthropic.com](https://www.anthropic.com/research/building-effective-agents) |
 | **"Cognitive Architectures for Language Agents"** | Academic framework for agent design | [arxiv.org](https://arxiv.org/abs/2309.02427) |
 | **LangGraph Conceptual Guide** | When and how to use agentic patterns | [langchain-ai.github.io](https://langchain-ai.github.io/langgraph/concepts/) |
+| **"The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents"** | How agent loops are controlled, stopped, recovered and wrapped in harnesses | [ssrn.com](https://ssrn.com/abstract=7186738) |
 
 ---
 
