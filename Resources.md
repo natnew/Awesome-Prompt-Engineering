@@ -78,6 +78,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Prompt Engineering" (Lilian Weng)** | Deep technical overview of prompting techniques | [lilianweng.github.io](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) |
 | **"What We Learned from a Year of Building with LLMs"** | Production lessons from practitioners | [oreilly.com](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) |
 | **Anthropic's Claude Character** | How Claude is designed to behave and why | [anthropic.com](https://www.anthropic.com/research/claude-character) |
+| **"Configuration, Not Conscience: A Large-Scale Empirical Study of LLM System Prompts"** | Empirical analysis of 407 published, leaked or reconstructed system prompts from 62 vendors, covering content composition, safety instructions and change across versions | [arxiv.org](https://arxiv.org/abs/2609.31575) |
 
 ---
 
