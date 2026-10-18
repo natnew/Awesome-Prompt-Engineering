@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - '**/*.md'
+      - '.github/workflows/link-check.yml'
+
+permissions:
+  contents: read
 
 jobs:
   link-check:
@@ -11,20 +15,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          fetch-depth: 0
+
+      # Only check the Markdown files this PR adds or changes, so existing
+      # link rot elsewhere in the repo does not fail unrelated PRs.
+      - name: List changed Markdown files
+        id: changed
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          files=""
+          while IFS= read -r -d '' f; do
+            files+=" $(printf '%q' "$f")"
+          done < <(git diff -z --name-only --diff-filter=AMR "$BASE_SHA...HEAD" -- '*.md')
+          echo "files=${files# }" >> "$GITHUB_OUTPUT"
 
       - name: Run lychee link checker
-        uses: lycheeverse/lychee-action@v1
+        if: steps.changed.outputs.files != ''
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
-          # check markdown files only; increase timeout for slow hosts
-          args: "--recursive --exclude '*.png' --timeout 15 '**/*.md'"
-
-      - name: Upload lychee report
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: lychee-report
-          path: lychee-report.json
+          # increase timeout for slow hosts
+          args: "--no-progress --exclude '\\.png$' --timeout 15 ${{ steps.changed.outputs.files }}"
+          failIfEmpty: false
 
 # Notes:
 # - lychee is fast and respects robots; it reports broken links and redirects.
