@@ -104,6 +104,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Building Effective Agents" (Anthropic)** | Practical patterns for agent development | [anthropic.com](https://www.anthropic.com/research/building-effective-agents) |
 | **"Cognitive Architectures for Language Agents"** | Academic framework for agent design | [arxiv.org](https://arxiv.org/abs/2309.02427) |
 | **LangGraph Conceptual Guide** | When and how to use agentic patterns | [langchain-ai.github.io](https://langchain-ai.github.io/langgraph/concepts/) |
+| **"RRSI: Regularized Recursive Self-Improvement of Agent Harnesses"** | Regularised proposal and selection for automated evolution of agent harnesses (prompts, tools, memory and context management), designed to limit overfitting to the tasks used for optimisation | [arxiv.org](https://arxiv.org/abs/2609.24972) |
 
 ---
 
