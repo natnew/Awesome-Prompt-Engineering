@@ -104,6 +104,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Building Effective Agents" (Anthropic)** | Practical patterns for agent development | [anthropic.com](https://www.anthropic.com/research/building-effective-agents) |
 | **"Cognitive Architectures for Language Agents"** | Academic framework for agent design | [arxiv.org](https://arxiv.org/abs/2309.02427) |
 | **LangGraph Conceptual Guide** | When and how to use agentic patterns | [langchain-ai.github.io](https://langchain-ai.github.io/langgraph/concepts/) |
+| **"Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents"** | Stores raw agent trajectories and uses a trained curator to build task-specific memory context at read time rather than write time | [arxiv.org](https://arxiv.org/abs/2609.27334) |
 
 ---
 
