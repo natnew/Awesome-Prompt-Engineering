@@ -106,6 +106,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Cognitive Architectures for Language Agents"** | Academic framework for agent design | [arxiv.org](https://arxiv.org/abs/2309.02427) |
 | **LangGraph Conceptual Guide** | When and how to use agentic patterns | [langchain-ai.github.io](https://langchain-ai.github.io/langgraph/concepts/) |
 | **"The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents"** | How agent loops are controlled, stopped, recovered and wrapped in harnesses | [ssrn.com](https://ssrn.com/abstract=7186738) |
+| **"RRSI: Regularized Recursive Self-Improvement of Agent Harnesses"** | Regularised proposal and selection for automated evolution of agent harnesses (prompts, tools, memory and context management), designed to limit overfitting to the tasks used for optimisation | [arxiv.org](https://arxiv.org/abs/2609.24972) |
 | **"Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents"** | Stores raw agent trajectories and uses a trained curator to build task-specific memory context at read time rather than write time | [arxiv.org](https://arxiv.org/abs/2609.27334) |
 
 ---
