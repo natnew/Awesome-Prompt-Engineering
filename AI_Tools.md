@@ -250,6 +250,7 @@ A practitioner's guide to tools for building, deploying, evaluating, monitoring,
 | **Relevance AI** | No-code AI agent builder | Business users building agents | [relevanceai.com](https://relevanceai.com/) |
 | **Voiceflow** | Build conversational AI without code | Product teams building chatbots | [voiceflow.com](https://www.voiceflow.com/) |
 | **CreatorSkills** | Marketplace of downloadable AI skills for content creators (YouTube scripting, sponsorship analysis, audience growth) | Content creators, YouTubers | [creatorskills.co](https://creatorskills.co/) |
+| **FixKit AI** | Free, no-signup recipes for everyday problems (bills, refunds, subscriptions, paperwork) with copy-paste prompts that work in ChatGPT, Claude, Gemini, or Grok | Everyone, non-technical users | [fixkitai.com](https://fixkitai.com/) |
 
 ---
 
