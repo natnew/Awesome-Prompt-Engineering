@@ -56,6 +56,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) — Anthropic's engineering best practices
 - [Prompt Engineering Best Practices](https://claude.com/blog/best-practices-for-prompt-engineering) — Claude's official guide
 - [OpenAI Prompt Engineering Guide](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api) — OpenAI's official documentation
+- [Same Probabilities, Different Advice](https://arxiv.org/abs/2610.29294) — Gain-loss framing of identical probabilities changes LLM recommendations in about a third of high-stakes cases; converting to one standard wording before the model sees it reduces the effect
 
 ---
 ## Modern Tools & Frameworks
