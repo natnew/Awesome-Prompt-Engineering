@@ -68,6 +68,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Langfuse](https://langfuse.com/) — Open-source LLM engineering platform with prompt management
 - [Opik](https://github.com/comet-ml/opik) — Open-source platform for LLM observability, evaluations, and prompt optimization
 - [Helicone](https://helicone.ai/) — Lightweight prompt logging and analytics
+- [Possible](https://possible.sh/?utm_source=natnew-awesome-prompt-engineering&utm_medium=listing) — Directory of AI-made results with the exact prompt, model and steps behind each; its CLI captures Claude Code or Codex sessions as reusable recipes
 
 ### Development Frameworks
 
