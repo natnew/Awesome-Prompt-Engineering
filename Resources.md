@@ -188,6 +188,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **OWASP Top 10 for LLM Applications** | Security risks in LLM systems | [owasp.org](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
 | **"Sleeper Agents"** | Research on deceptive AI behavior | [arxiv.org](https://arxiv.org/abs/2401.05566) |
 | **UK AISI Evaluations** | Government AI safety assessment approach | [aisi.gov.uk](https://www.aisi.gov.uk/our-work) |
+| **Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models** | How universal magic-word suffixes in embedding space jailbreak LLM safeguards, plus a training-free debiasing defense | [arxiv.org](https://arxiv.org/abs/2501.18280) |
 
 ---
 
