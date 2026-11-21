@@ -125,6 +125,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 ##### [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
 ##### [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai/)
 ##### [Prompt Engineering Techniques (NirDiamant)](https://github.com/NirDiamant/Prompt_Engineering)
+##### [Awesome AI Prompts: verification-first prompts for AI coding agents](https://github.com/shauryagangrade/awesome-ai-prompts)
 ##### [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
 ##### [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 
