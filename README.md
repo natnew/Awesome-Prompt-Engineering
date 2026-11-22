@@ -128,6 +128,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 ##### [Awesome AI Prompts: verification-first prompts for AI coding agents](https://github.com/shauryagangrade/awesome-ai-prompts)
 ##### [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
 ##### [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+##### [How to build an AI chief of staff with ChatGPT, Claude or Gemini (Opitor)](https://opitor.com/guides/how-to-build-an-ai-chief-of-staff)
 
 ---
 ## Additional Resources
