@@ -104,6 +104,7 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) — Categorised skills filtered from the OpenClaw registry; entries are curated, not audited, so review each skill's source before installing
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) — DESIGN.md files describing brand design systems, used as context so coding agents generate UI that matches a given visual style
 - [Impeccable](https://github.com/pbakaus/impeccable) — Design commands for coding agents (`polish`, `bolder`, `critique`, `audit`), with a deterministic AI-slop detector and `PRODUCT.md`/`DESIGN.md` context files
+- [REA (morluto-rea)](https://github.com/Pothome/morluto-rea) — CLI and MCP server that lets coding agents investigate how a feature in existing software works, using native analysis, website and Electron capture, and reproducible evidence records; runs locally on macOS and does not recover original source code
 
 ---
 ## Announcements :eyes:
