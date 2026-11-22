@@ -189,6 +189,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **OWASP Top 10 for LLM Applications** | Security risks in LLM systems | [owasp.org](https://owasp.org/www-project-top-10-for-large-language-model-applications/) |
 | **"Sleeper Agents"** | Research on deceptive AI behavior | [arxiv.org](https://arxiv.org/abs/2401.05566) |
 | **UK AISI Evaluations** | Government AI safety assessment approach | [aisi.gov.uk](https://www.aisi.gov.uk/our-work) |
+| **"INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems"** | Benchmark of indirect prompt injection planted in files, configs, file names and archives across 40 long-horizon agent tasks, scoring both attack success and task utility under prompt-level and guard-model defences | [arxiv.org](https://arxiv.org/abs/2610.20776) |
 
 ---
 
