@@ -96,6 +96,17 @@ The field has evolved from crafting individual prompts to architecting complete 
 - [Rebuff](https://github.com/protectai/rebuff) — Prompt injection detection and prevention
 - [Lakera Guard](https://www.lakera.ai/) — Real-time protection against prompt attacks
 
+### Agent Skills, Subagents & Design Context
+
+- [Awesome Agent Skills](https://github.com/VoltAgent/awesome-agent-skills) — Curated agent skills from official dev teams and the community, for Claude Code, Codex, Gemini CLI, Cursor, GitHub Copilot and other coding agents
+- [Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) — Specialised Claude Code subagent definitions grouped by category, from language specialists to orchestration and research
+- [Awesome Codex Subagents](https://github.com/VoltAgent/awesome-codex-subagents) — Specialised Codex subagents defined as TOML files with model, reasoning-effort, sandbox and instruction fields
+- [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) — Categorised skills filtered from the OpenClaw registry; entries are curated, not audited, so review each skill's source before installing
+- [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) — DESIGN.md files describing brand design systems, used as context so coding agents generate UI that matches a given visual style
+- [Impeccable](https://github.com/pbakaus/impeccable) — Design commands for coding agents (`polish`, `bolder`, `critique`, `audit`), with a deterministic AI-slop detector and `PRODUCT.md`/`DESIGN.md` context files
+- [REA (morluto-rea)](https://github.com/Pothome/morluto-rea) — CLI and MCP server that lets coding agents investigate how a feature in existing software works, using native analysis, website and Electron capture, and reproducible evidence records; runs locally on macOS and does not recover original source code
+- [Sharpen](https://github.com/melthond/sharpen) — Claude Code plugin that, when turned on, rewrites each eligible prompt into a specific one using the conversation, the codebase and the installed skills, agents and MCP tools, and shows it for approval before any work starts.
+
 ---
 ## Announcements :eyes:
 ##### Watch this repository to keep up-to-date with the latest updates and announcements.

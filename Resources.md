@@ -79,6 +79,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"What We Learned from a Year of Building with LLMs"** | Production lessons from practitioners | [oreilly.com](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) |
 | **Anthropic's Claude Character** | How Claude is designed to behave and why | [anthropic.com](https://www.anthropic.com/research/claude-character) |
 | **"Configuration, Not Conscience: A Large-Scale Empirical Study of LLM System Prompts"** | Empirical analysis of 407 published, leaked or reconstructed system prompts from 62 vendors, covering content composition, safety instructions and change across versions | [arxiv.org](https://arxiv.org/abs/2609.31575) |
+| **"Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents"** | Controlled study of semantic layers, multi-agent orchestration and history compaction across seven LLMs and 1,514 long-horizon data-agent tasks, showing that each technique helps only certain agent behaviours | [arxiv.org](https://arxiv.org/abs/2610.20959) |
 
 ---
 
@@ -189,6 +190,8 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **"Sleeper Agents"** | Research on deceptive AI behavior | [arxiv.org](https://arxiv.org/abs/2401.05566) |
 | **UK AISI Evaluations** | Government AI safety assessment approach | [aisi.gov.uk](https://www.aisi.gov.uk/our-work) |
 | **Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models** | How universal magic-word suffixes in embedding space jailbreak LLM safeguards, plus a training-free debiasing defense | [arxiv.org](https://arxiv.org/abs/2501.18280) |
+| **"INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems"** | Benchmark of indirect prompt injection planted in files, configs, file names and archives across 40 long-horizon agent tasks, scoring both attack success and task utility under prompt-level and guard-model defences | [arxiv.org](https://arxiv.org/abs/2610.20776) |
+
 
 ---
 
