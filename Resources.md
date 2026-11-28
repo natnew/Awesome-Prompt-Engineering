@@ -80,6 +80,7 @@ A practitioner's guide to learning resources for building, deploying, evaluating
 | **Anthropic's Claude Character** | How Claude is designed to behave and why | [anthropic.com](https://www.anthropic.com/research/claude-character) |
 | **"Configuration, Not Conscience: A Large-Scale Empirical Study of LLM System Prompts"** | Empirical analysis of 407 published, leaked or reconstructed system prompts from 62 vendors, covering content composition, safety instructions and change across versions | [arxiv.org](https://arxiv.org/abs/2609.31575) |
 | **"Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents"** | Controlled study of semantic layers, multi-agent orchestration and history compaction across seven LLMs and 1,514 long-horizon data-agent tasks, showing that each technique helps only certain agent behaviours | [arxiv.org](https://arxiv.org/abs/2610.20959) |
+| **Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy** | How Prompt Economy treats prompt engineering as an engineering discipline with reusable loops; an AI scientist with 18 roles and 230.6 KiB of prompts runs across 10+ research fields, and its longest run went 30 days unattended | [arxiv.org](https://arxiv.org/abs/2606.24177) |
 
 ---
 
